@@ -22,6 +22,9 @@
 	- One hideout-station-level has many craftable-items
 	- One hideout-station-level has many items-required
 
+	- One trader-level has many barters, through trader-barter
+	- One item has many barters, through trader-barter
+
 # Joins
 
 	items | trader-item | trader-level
@@ -33,10 +36,10 @@
 			item-id: [item-foreign-key],
 			price: 20000,
 			quests-required-to-unlock: [quest-foreign-key],
+			trades-per-reset: 3,
 		}
 
 	items | quest-item | quests
-		
 		
 		// quest-item
 		// has one item, has one quest
@@ -53,6 +56,18 @@
 			item-id: [item-foreign-key],
 			ingredients: [item-foreign-keys],
 		}
+
+	items | trader-barter | trader-level
+
+		// trader-barter
+		// has one item
+		{
+			input-items: [item-foreign-keys],
+			output-items: [item-foreign-keys],
+			trades-per-reset: 4,
+		}
+
+
 
 # Attributes
 
@@ -86,15 +101,16 @@
 		// Hideout station
 		{
 			hideout-station-name: workstation,
-			level-ids: [level-foreign-keys],
+			level-ids: [station-level-foreign-keys],
 		}
 
-		// Hideout level
+		// Station level
 		// one station level has many items-required, has many craftable-items through station-recipes
 		{
 			station-level: 1,
 			items-required: [item-foreign-keys],
 			craftable-items: [craftable-items-foreign-keys],
+			upgrade-time: 1000		// minutes
 		}
 
 	// Trader mockup
@@ -109,7 +125,8 @@
 			level: 1,
 			rating-required: 0.0,
 			sales-required: 0,
-			inventory: [trader-item-foreign-keys],
+			sales-inventory: [trader-item-foreign-keys],
+			barter-inventory: [trader-barter-foreign-keys],
 		}
 
 	// Quest mockup
