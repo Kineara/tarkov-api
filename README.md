@@ -122,7 +122,7 @@
 // items | trader-barter | trader-level
 
 // trader-barter
-// has one item
+// has one item, has one trader-level
 {
 	input-items: [item-foreign-keys],
 	output-items: [item-foreign-keys],
@@ -133,8 +133,105 @@
 
 
 # Attributes
+
 ```js
-item-types: [misc, ammunition, food, drinks, meds, weapons, armours, helmets, headsets, attachments, currency]
+// Item type attribute prototypes
+
+{
+	// misc
+	description: 'a random thing',
+
+}
+
+{
+	// ammunition
+	caliber: '7.62x39mm',
+	penetration: 60,
+	damage: 50,
+	fragmentation-chance: 'low',
+}
+
+{
+	// food
+	effect: 'does something',
+}
+
+{
+	// drinks
+	effect: 'does a thing',
+}
+
+{
+	// meds
+	effect: 'repair one limb',
+	heal-amount: 60,
+}
+
+{
+	// weapons
+	caliber: '9x39mm',
+	type: 'assault rifle',
+	fire-mode: 'single, auto, burst',
+}
+
+{
+	// tactical rigs
+	weight: 10,
+	container-size: 12
+}
+
+{
+	// armoured rigs
+	armour-points: 85,
+	level: 3,
+	material: 'ceramic',
+	protected-areas: 'thorax, stomach',
+	container-size: 12,
+}
+
+{
+	// armours
+	armour-points: 50,
+	level: 4,
+	material: 'kevlar',
+	protected-areas: 'thorax',
+}
+
+{
+	// helmets
+	armour-points: 20,
+	level: 2,
+	ricochet-chance: 'high',
+}
+
+{
+	// headsets
+	eq-bias: 'bass',
+}
+
+{
+	// magazines
+	caliber: '9x18mm',
+	capacity: 16,
+	failure-to-feed-chance: 'high',
+}
+
+{
+	// optics
+	magnification-level: '1x',
+	modes: 1,
+	reticle-color: 'red'
+	sighting-range: 800,
+	mount: 'picatinny'
+}
+
+{
+	// tactical devices
+	laser: true,
+	flashlight: true,
+	infrared-laser: false,
+	infrared-searchlight: false,
+}
 ```
 
 ```js	
@@ -145,7 +242,7 @@ item-types: [misc, ammunition, food, drinks, meds, weapons, armours, helmets, he
 	item-type: 'food',
 	// has many traders, through :trader-inventories
 	// has many quests, through :quest-items
-	item-type-attributes: {[item-type-attributes]}	
+	item-type-attributes: {[item-type-attributes]},
 }
 ```
 
