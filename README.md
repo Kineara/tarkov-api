@@ -133,6 +133,31 @@
 
 
 # Attributes
+```js	
+// Every item has an item-name, item-type, item-traders, item-quests, item-type-attributes (dependent on type)
+// Items include all useable objects in the game
+{
+	item-name: 'water',
+	item-type: 'food',
+	// has many traders, through :trader-inventories
+	// has many quests, through :quest-items
+	item-type-attributes: {[item-type-attributes]},
+}
+```
+
+```js
+// Embedded item attribute demo
+{
+	item-name: 'm856a1',
+	item-type: 'ammunition',
+	item-attributes: {
+		caliber: '5.56x45mm',
+		penetration: 60,
+		fragmentation-chance: 'low',
+		damage: 60,
+	}
+}
+```
 
 ```js
 // Item type attribute prototypes
@@ -232,31 +257,10 @@
 	infrared-laser: false,
 	infrared-searchlight: false,
 }
-```
 
-```js	
-// Every item has an item-name, item-type, item-traders, item-quests, item-type-attributes (dependent on type)
-// Items include all useable objects in the game
 {
-	item-name: 'water',
-	item-type: 'food',
-	// has many traders, through :trader-inventories
-	// has many quests, through :quest-items
-	item-type-attributes: {[item-type-attributes]},
-}
-```
-
-```js
-// Embedded item attribute demo
-{
-	item-name: 'm856a1',
-	item-type: 'ammunition',
-	item-attributes: {
-		caliber: '5.56x45mm',
-		penetration: 60,
-		fragmentation-chance: 'low',
-		damage: 60,
-	}
+	// backpacks
+	container-size: 24,
 }
 ```
 
