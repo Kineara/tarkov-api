@@ -62,16 +62,23 @@
 
 # Relations
 - One trader has many trader-levels
-- One trader-level has many items
-- One item has many trader-levels
+- One trader-level belongs_to trader
+
+- One trader-level has many items, through trader-level-items
+- One item has many trader-levels, through trader-level-items
 	
-- One quest has many items
-- One item has many quests
+- One quest has and belongs to many items
+- One item has and belongs to many quests
+
+- One hideout-station has many station-levels
+- One station-level belongs to hideout-station
 	
-- One item has many hideout-upgrades
-- One hideout-upgrade has many items
+- One item has many station-levels, through station-upgrades
+- One station-level has many items, through station-upgrades
 	
-- One hideout-station has many hideout-station-levels
+- One hideout-station has many station-levels
+- One station-level belongs to hideout-station
+
 - One hideout-station-level has many craftable-items
 - One hideout-station-level has many items-required
 
@@ -83,27 +90,17 @@
 # Joins
 
 ```js
-// items | trader-item | trader-level
+// items | trader-level-item | trader-level
 
-// trader-item
-// has one item, has one trader-level
+// trader-level-item
+// belongs to item, belongs to trader-level
 {
 	trader-level-id: [trader-foreign-key],
 		item-id: [item-foreign-key],
 		price: 20000,
+		currency: 'rouble',
 		quests-required-to-unlock: [quest-foreign-key],
 		trades-per-reset: 3,
-}
-```
-
-```js
-//items | quest-item | quests
-		
-// quest-item
-// has one item, has one quest
-{
-	item-id: [item-foreign-key],
-	quest-id: [quest-foreign-key],
 }
 ```
 
@@ -111,21 +108,35 @@
 // items | craftable-item | station-level
 
 // craftable-item
-// has one item, has one station-level
+// belongs to item, belongs to station-level, has many items
 {
 	item-id: [item-foreign-key],
-	ingredients: [item-foreign-keys],
+	input-item-ids: [item-foreign-keys],
+	output-item-id: [item-foreign-key],
 }
 ```
 
 ```js
-// items | trader-barter | trader-level
+// item | station-upgrade | station-level
+
+// station-upgrade-item
+// belongs to item, has many items, belongs to station-level
+{
+	item-id: [item-foreign-key],
+	station-level-id: [station-level-foreign-key],
+	input-item-ids: [item-foreign-keys],
+}
+```
+
+```js
+// item | trader-barter | trader-level
 
 // trader-barter
-// has one item, has one trader-level
+// belongs to item, has many items, belongs to trader-level
 {
-	input-items: [item-foreign-keys],
-	output-items: [item-foreign-keys],
+	trader-level-id: [trader-level-foreign-key],
+	input-item-ids: [item-foreign-keys],
+	output-item: [item-foreign-key],
 	trades-per-reset: 4,
 }
 ```
@@ -293,7 +304,7 @@
 	station-level: 1,
 	items-required: [item-foreign-keys],
 	craftable-items: [craftable-items-foreign-keys],
-	upgrade-time: 1000		// minutes
+	upgrade-time: 1000,		// minutes
 }
 ```
 
