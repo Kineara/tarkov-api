@@ -139,6 +139,8 @@
 {
 	item-name: 'water',
 	item-type: 'food',
+	description: 'a shiny thing',
+	weight: 8,
 	// has many traders, through :trader-inventories
 	// has many quests, through :quest-items
 	item-type-attributes: {[item-type-attributes]},
@@ -161,13 +163,6 @@
 
 ```js
 // Item type attribute prototypes
-
-{
-	// misc
-	description: 'a random thing',
-
-}
-
 {
 	// ammunition
 	caliber: '7.62x39mm',
@@ -247,7 +242,8 @@
 	modes: 1,
 	reticle-color: 'red'
 	sighting-range: 800,
-	mount: 'picatinny'
+	mount: 'picatinny',
+	ergonomics: -10,
 }
 
 {
@@ -256,11 +252,31 @@
 	flashlight: true,
 	infrared-laser: false,
 	infrared-searchlight: false,
+	ergonomics: 5,
 }
 
 {
 	// backpacks
 	container-size: 24,
+}
+
+{
+	// attachments
+	ergonomics: -5,
+	accuracy: 12,
+	recoil: -7,
+	durability-burn: -2,
+	heat: 25
+}
+
+{
+	// goggles
+	flash-resistance: 50,
+}
+
+{
+	// misc
+	null
 }
 ```
 
