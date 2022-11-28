@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
 # Endpoints
 
 ```js
@@ -364,4 +338,3 @@ Things you may want to cover:
 	item-rewards: [item-foreign-keys],
 }
 ```
->>>>>>> d0637eab9fdb5b4cf7efd695128cb4fadbf86a2f
