@@ -1,61 +1,61 @@
 # Endpoints
 
-```http
-/v1212/items/
+```js
+'/v1212/items/'
 
 // return list of all items in game
 ```
 
-```http
-/v1212/items/#
+```js
+'/v1212/items/#'
 
 // return specific item with nested item-attributes
 ```
 
-```http
-/v1212/traders/
+```js
+'/v1212/traders/'
 
 // return list of all traders in game
 ```
 
-```http
-/v1212/traders/#
+```js
+'/v1212/traders/#'
 
 // return specific trader with nested levels and quests
 ```
 
-```http
-/v1212/traders/#/#
+```js
+'/v1212/traders/#/#'
 
 // return specific trader level with nested inventory
 ```
 
-```http
-/v1212/hideout-stations/
+```js
+'/v1212/hideout-stations/'
 
 // return all hideout stations
 ```
 
-```http
-/v1212/hideout-stations/#
+```js
+'/v1212/hideout-stations/#'
 
 // return specific hideout station with nested upgrade levels
 ```
 
-```http
-/v1212/hideout-stations/#/#
+```js
+'/v1212/hideout-stations/#/#'
 
 // return specific hideout station upgrade level with nested craftable items
 ```
 
-```http
-/v1212/quests/
+```js
+'/v1212/quests/'
 
 // return list of all quests
 ```
 
-```http
-/v1212/quests/#
+```js
+'/v1212/quests/#'
 
 // return specific quest details
 ```
@@ -82,17 +82,17 @@
 - One hideout-station-level has many craftable-items
 - One hideout-station-level has many items-required
 
-- One trader-level has many barters, through trader-barter
-- One item has many barters, through trader-barter
+- One trader-level has many barters, through trader-barters
+- One item has many barters, through trader-barters
 
 
 
 # Joins
 
 ```js
-// items | trader-level-item | trader-level
+// items | trader-level-items | trader-level
 
-// trader-level-item
+// trader-level-items
 // belongs to item, belongs to trader-level
 {
 	trader-level-id: [trader-foreign-key],
@@ -105,10 +105,10 @@
 ```
 
 ```js
-// items | craftable-item | station-level
+// items | craftable-items | station-level
 
-// craftable-item
-// belongs to item, belongs to station-level, has many items
+// craftable-items
+// belongs to item, belongs to station-level, has and belongs to many items
 {
 	item-id: [item-foreign-key],
 	input-item-ids: [item-foreign-keys],
@@ -117,10 +117,10 @@
 ```
 
 ```js
-// item | station-upgrade | station-level
+// item | station-upgrades | station-level
 
-// station-upgrade-item
-// belongs to item, has many items, belongs to station-level
+// station-upgrades
+// belongs to item, has and belongs to many items, belongs to station-level
 {
 	item-id: [item-foreign-key],
 	station-level-id: [station-level-foreign-key],
@@ -129,10 +129,10 @@
 ```
 
 ```js
-// item | trader-barter | trader-level
+// item | trader-barters | trader-level
 
 // trader-barter
-// belongs to item, has many items, belongs to trader-level
+// belongs to item, has and belongs to many items, belongs to trader-level
 {
 	trader-level-id: [trader-level-foreign-key],
 	input-item-ids: [item-foreign-keys],
@@ -277,7 +277,7 @@
 	accuracy: 12,
 	recoil: -7,
 	durability-burn: -2,
-	heat: 25
+	heat-buildup: 25,
 }
 
 {
