@@ -1,8 +1,11 @@
 # Endpoints
-	```/v/items/[item-type]```
-	```/v/traders/[trader]```
-	```/v/[hideout-station]```
-	```/v/quests/[quest]```
+	/v/items/[item-type]
+
+	/v/traders/[trader]
+
+	/v/[hideout-station]
+
+	/v/quests/[quest]
 
 # Relations
 	- One trader has many items
@@ -21,8 +24,7 @@
 # Joins
 
 	items | trader-item | traders
-		
-		```
+
 		// trader-item
 		// has one item, has one trader
 		{
@@ -32,19 +34,17 @@
 			trader-level-required: 2,
 			quests-required-to-unlock: [quest-foreign-keys],	// one trader-item has many quests-required-to-unlock
 		}
-		```
-		
+
 	items | quest-item | quests
 		
-		```
+		
 		// quest-item
 		// has one item, has one quest
 		{
 			item-id: [item-foreign-key],
 			quest-id: [quest-foreign-key],
 		}
-		```
-		
+
 	items | hideout-item | hideout-station-level
 
 
@@ -52,10 +52,8 @@
 
 	item-types: [misc, ammunition, food, drinks, meds, weapons, armours, helmets, headsets, attachments, currency]
 	
-	```
 	// Every item has an item-name, item-type, item-traders, item-quests, item-type-attributes (dependent on type)
 	// Items include all useable objects in the game
-
 	{
 		item-name: water,
 		item-type: food,
@@ -64,9 +62,7 @@
 		item-type-attributes: {[item type attributes]}
 		
 	}
-	```
 
-	```
 	// Embedded item attribute demo
 
 		{
@@ -79,9 +75,7 @@
 			damage: 60,
 			}
 		}
-	```
 
-	```
 	// Hideout mockup
 		// Hideout station
 		{
@@ -91,11 +85,8 @@
 
 		// Hideout level
 		// one station level has many items-required, has many craftable-items through station-recipes
-
 		{
 		station-level: 1,
 		items-required: ,
 		craftable-items: ,
 		}
-	```
-	
