@@ -45,8 +45,14 @@
 			quest-id: [quest-foreign-key],
 		}
 
-	items | hideout-item | hideout-station-level
+	items | craftable-item | station-level
 
+		// craftable-item
+		// has one item, has one station-level
+		{
+			item-id: [item-foreign-key],
+			ingredients: [item-foreign-keys],
+		}
 
 # Attributes
 
@@ -80,22 +86,23 @@
 		// Hideout station
 		{
 			hideout-station-name: workstation,
-			level-ids: [level-foreign-keys]
+			level-ids: [level-foreign-keys],
 		}
 
 		// Hideout level
 		// one station level has many items-required, has many craftable-items through station-recipes
 		{
 			station-level: 1,
-			items-required: ,
-			craftable-items: ,
+			items-required: [item-foreign-keys],
+			craftable-items: [craftable-items-foreign-keys],
 		}
 
 	// Trader mockup
 		{
-			//Trader
+			// Trader
 			name: Mechanic,
-			levels: [level-foreign-keys]
+			levels: [level-foreign-keys],
+			quests: [quest-foreign-keys],
 		}
 
 		{
@@ -103,4 +110,14 @@
 			rating-required: 0.0,
 			sales-required: 0,
 			inventory: [trader-item-foreign-keys],
+		}
+
+	// Quest mockup
+		{
+			// Quest
+			quest-name: scrap metal,
+			min-level: 24,
+			trader: [trader-foreign-keys],
+			item-required: [item-foreign-keys],
+			item-rewards: [item-foreign-keys],
 		}
