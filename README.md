@@ -8,8 +8,9 @@
 	/v/quests/[quest]
 
 # Relations
-	- One trader has many items
-	- One item has many traders
+	- One trader has many trader-levels
+	- One trader-level has many items
+	- One item has many trader-levels
 	
 	- One quest has many items
 	- One item has many quests
@@ -23,16 +24,15 @@
 
 # Joins
 
-	items | trader-item | traders
+	items | trader-item | trader-level
 
 		// trader-item
-		// has one item, has one trader
+		// has one item, has one trader-level
 		{
-			trader-id: [trader-foreign-key],
+			trader-level-id: [trader-foreign-key],
 			item-id: [item-foreign-key],
 			price: 20000,
-			trader-level-required: 2,
-			quests-required-to-unlock: [quest-foreign-keys],	// one trader-item has many quests-required-to-unlock
+			quests-required-to-unlock: [quest-foreign-key],
 		}
 
 	items | quest-item | quests
@@ -66,27 +66,41 @@
 	// Embedded item attribute demo
 
 		{
-		item-name: m856a1,
-		item-type: ammunition,
-		item-attributes: {
-			caliber: 5.56x45mm,
-			penetration: 60,
-			fragmentation-chance: low,
-			damage: 60,
-			}
+			item-name: m856a1,
+			item-type: ammunition,
+			item-attributes: {
+					caliber: 5.56x45mm,
+					penetration: 60,
+					fragmentation-chance: low,
+					damage: 60,
+				}
 		}
 
 	// Hideout mockup
 		// Hideout station
 		{
-		hideout-station-name: workstation,
-		level-ids: [level-foreign-keys]
+			hideout-station-name: workstation,
+			level-ids: [level-foreign-keys]
 		}
 
 		// Hideout level
 		// one station level has many items-required, has many craftable-items through station-recipes
 		{
-		station-level: 1,
-		items-required: ,
-		craftable-items: ,
+			station-level: 1,
+			items-required: ,
+			craftable-items: ,
+		}
+
+	// Trader mockup
+		{
+			//Trader
+			name: Mechanic,
+			levels: [level-foreign-keys]
+		}
+
+		{
+			level: 1,
+			rating-required: 0.0,
+			sales-required: 0,
+			inventory: [trader-item-foreign-keys],
 		}
