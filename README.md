@@ -218,6 +218,8 @@ end
 	// meds
 	effect: 'repair one limb',
 	heal-amount: 60,
+	hydration: -20,
+	energy: 15,
 }
 
 {
