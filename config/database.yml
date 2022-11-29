@@ -82,6 +82,5 @@ test:
 production:
   <<: *default
   database: tarkov_api_production
-  url: <%= ENV['DATABASE_URL'] %>
-#  username: tarkov_api
-#  password: <%= ENV['TARKOV_API_DATABASE_PASSWORD'] %>
+  username: tarkov_api
+  password: <%= ENV['TARKOV_API_DATABASE_PASSWORD'] %>
