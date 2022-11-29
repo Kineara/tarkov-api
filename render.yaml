@@ -1,18 +1,18 @@
 databases:
-  - name: tarkov-api
-    databaseName: tarkov-api
-    user: tarkov-api
+  - name: tarkov_api
+    databaseName: tarkov_api
+    user: tarkov_api
 
 services:
   - type: web
-    name: tarkov-api
+    name: tarkov_api
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: mysite
+          name: tarkov_api
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
