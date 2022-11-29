@@ -63,49 +63,56 @@
 # Models / Relations
 - trader
 	- Individual trader and corresponding quests
-	- trader has many tradeLevels
-	- trader has many quests
+	- has many tradeLevels
+	- has many quests
 	
 - traderLevel
 	- Each trader's loyalty level and corresponding inventory
-	- traderLevel belongs to trader
-	- traderLevel has many traderLevelItems
-	- traderLevel has many items, through traderLevelItems
-	- traderLevel has many barters
+	- belongs to trader
+	- has many traderLevelItems
+	- has many items, through traderLevelItems
+	- has many barters
+
+- traderLevelItems
+	- Individual item from a trader's inventory with price and reset availablility
+	- belongs to traderLevel
+	- belongs to item
 
 - barter
 	- Individual barter recipe
-	- barter belongs to traderLevel
-	- barter has and belongs to many items
+	- belongs to traderLevel
+	- has and belongs to many items
 
 - item
 	- Individual item of any type
-	- item has many traderLevelItems
-	- item has many traderLevels, through traderLevelItems
-	- item has and belongs to many quests
-	- item has many stationUpgrades
-	- item has many stationLevels, through stationUpgrades
-	- item has and belongs to many barters
+	- has many traderLevelItems
+	- has many traderLevels, through traderLevelItems
+	- has and belongs to many quests
+	- has many stationUpgrades
+	- has many stationLevels, through stationLevelUpgrades
+	- has and belongs to many barters
 	
 - quest
 	- Individual quest
-	- quest belongs to trader
-	- quest has and belongs to many items
+	- belongs to trader
+	- has and belongs to many items
 
 - hideoutStation
 	- Individual crafting station
-	- hideoutStation has many stationLevels
+	- has many stationLevels
 
 - stationLevel
 	- Individual crafting station upgrade level with corresponding craftables
-	- stationLevel belongs to hideoutStation
-	- stationLevel has many craftableItems
-	- stationLevel has many items, through craftableItems
-	- stationLevel has one stationLevelUpgrade
+	- belongs to hideoutStation
+	- has many craftableItems
+	- has many items, through craftableItems
+	- has one stationLevelUpgrade
 
 - stationLevelUpgrade
 	- Items, loyalties, and prerequisites for a given crafting station level
-	- stationLevelUpgrade belongs to stationLevel
+	- belongs to stationLevel
+	- has and belongs to many traders
+	- has and belongs to many items
 
 
 
