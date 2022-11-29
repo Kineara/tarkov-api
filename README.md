@@ -111,6 +111,17 @@ class Item
 	has_many :stationUpgrades
 	has_many :stationLevels, through: :stationUpgrades
 	has_and_belongs_to_many :barters
+	has_many :craftingRecipes
+end
+```
+
+```ruby
+# Model
+# Individual crafting recipe for an item
+class craftingRecipe
+	belongs_to :item
+	belongs_to :stationLevel
+	has_many :items
 end
 ```
 	
@@ -150,62 +161,6 @@ class StationLevelUpgrade
 	has_and_belongs_to_many :items
 end
 ```
-
-
-# Joins
-
-```js
-// items | trader-level-items | trader-level
-
-// trader-level-items
-// belongs to item, belongs to trader-level
-{
-	trader-level-id: [trader-foreign-key],
-		item-id: [item-foreign-key],
-		price: 20000,
-		currency: 'rouble',
-		quests-required-to-unlock: [quest-foreign-key],
-		trades-per-reset: 3,
-}
-```
-
-```js
-// items | craftable-items | station-level
-
-// craftable-items
-// belongs to item, belongs to station-level, has and belongs to many items
-{
-	item-id: [item-foreign-key],
-	input-item-ids: [item-foreign-keys],
-	output-item-id: [item-foreign-key],
-}
-```
-
-```js
-// item | station-upgrades | station-level
-
-// station-upgrades
-// belongs to item, has and belongs to many items, belongs to station-level
-{
-	item-id: [item-foreign-key],
-	station-level-id: [station-level-foreign-key],
-	input-item-ids: [item-foreign-keys],
-}
-```
-
-```js
-// item | trader-barters | trader-level
-
-// trader-barter
-// belongs to item, has and belongs to many items, belongs to trader-level
-{
-	trader-level-id: [trader-level-foreign-key],
-	input-item-ids: [item-foreign-keys],
-	output-item: [item-foreign-key],
-	trades-per-reset: 4,
-}
-```
-
 
 
 # Attributes
