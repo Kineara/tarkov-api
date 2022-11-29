@@ -164,7 +164,7 @@ end
 
 
 # Attributes
-```js	
+```json
 // Every item has an item-name, item-type, item-traders, item-quests, item-type-attributes (dependent on type)
 // Items include all useable objects in the game
 {
