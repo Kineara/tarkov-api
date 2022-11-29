@@ -60,10 +60,14 @@
 // return specific quest details
 ```
 
-# Relations
-- One trader has many trader-levels
-- One trader-level belongs_to trader
+# Model Relations
+- trader
+	- One trader has many trader-levels
+	
+- traderLevel
+	- One trader-level belongs to trader
 
+- One trader-level has many trader-level-items
 - One trader-level has many items, through trader-level-items
 - One item has many trader-levels, through trader-level-items
 	
@@ -72,14 +76,16 @@
 
 - One hideout-station has many station-levels
 - One station-level belongs to hideout-station
-	
+
+- One item has many station-upgrades
 - One item has many station-levels, through station-upgrades
 - One station-level has many items, through station-upgrades
 	
 - One hideout-station has many station-levels
 - One station-level belongs to hideout-station
 
-- One hideout-station-level has many craftable-items
+- One station-level has many craftable-items
+
 - One hideout-station-level has many items-required
 
 - One trader-level has many barters, through trader-barters
