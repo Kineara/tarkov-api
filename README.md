@@ -60,36 +60,52 @@
 // return specific quest details
 ```
 
-# Model Relations
+# Models / Relations
 - trader
-	- One trader has many trader-levels
+	- Individual trader and corresponding quests
+	- trader has many tradeLevels
+	- trader has many quests
 	
 - traderLevel
-	- One trader-level belongs to trader
+	- Each trader's loyalty level and corresponding inventory
+	- traderLevel belongs to trader
+	- traderLevel has many traderLevelItems
+	- traderLevel has many items, through traderLevelItems
+	- traderLevel has many barters
 
-- One trader-level has many trader-level-items
-- One trader-level has many items, through trader-level-items
-- One item has many trader-levels, through trader-level-items
+- barter
+	- Individual barter recipe
+	- barter belongs to traderLevel
+	- barter has and belongs to many items
+
+- item
+	- Individual item of any type
+	- item has many traderLevelItems
+	- item has many traderLevels, through traderLevelItems
+	- item has and belongs to many quests
+	- item has many stationUpgrades
+	- item has many stationLevels, through stationUpgrades
+	- item has and belongs to many barters
 	
-- One quest has and belongs to many items
-- One item has and belongs to many quests
+- quest
+	- Individual quest
+	- quest belongs to trader
+	- quest has and belongs to many items
 
-- One hideout-station has many station-levels
-- One station-level belongs to hideout-station
+- hideoutStation
+	- Individual crafting station
+	- hideoutStation has many stationLevels
 
-- One item has many station-upgrades
-- One item has many station-levels, through station-upgrades
-- One station-level has many items, through station-upgrades
-	
-- One hideout-station has many station-levels
-- One station-level belongs to hideout-station
+- stationLevel
+	- Individual crafting station upgrade level with corresponding craftables
+	- stationLevel belongs to hideoutStation
+	- stationLevel has many craftableItems
+	- stationLevel has many items, through craftableItems
+	- stationLevel has one stationLevelUpgrade
 
-- One station-level has many craftable-items
-
-- One hideout-station-level has many items-required
-
-- One trader-level has many barters, through trader-barters
-- One item has many barters, through trader-barters
+- stationLevelUpgrade
+	- Items, loyalties, and prerequisites for a given crafting station level
+	- stationLevelUpgrade belongs to stationLevel
 
 
 
