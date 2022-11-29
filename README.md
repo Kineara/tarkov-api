@@ -61,140 +61,95 @@
 ```
 
 # Models / Relations
-- trader
-	- <em>Individual trader and corresponding quests</em>
-	- has many traderLevels
-	- has many quests
-	- has and belongs to many stationUpgrades
 	
-	```ruby
-	# Model
-	class Trader
-		has_many :traderLevels
-		has_many :quests
-		has_and_belongs_to_many stationUpgrades
-	end
-	```
+```ruby
+# Model
+# Individual trader and corresponding quests and loyalty levels
+class Trader
+	has_many :traderLevels
+	has_many :quests
+	has_and_belongs_to_many :stationUpgrades
+end
+```
 	
-- traderLevel
-	- <em>Each trader's loyalty level and corresponding inventory</em>
-	- belongs to trader
-	- has many traderLevelItems
-	- has many items, through traderLevelItems
-	- has many barters
-
-	```ruby
-	# Model
-	class TraderLevel
-		belongs_to :trader
-		has_many :traderLevelItems
-		has_many :items, through: :traderLevelItems
-		has_many :barters
-	end
-	```
-
-- traderLevelItem
-	- Individual item from a trader's inventory with price and reset availablility
-	- belongs to traderLevel
-	- belongs to item
+```ruby
+# Model
+# Individual trader loyalty level and corresponding inventory and barters
+class TraderLevel
+	belongs_to :trader
+	has_many :traderLevelItems
+	has_many :items, through: :traderLevelItems
+	has_many :barters
+end
+```
 	
-	```ruby
-	# Model
-	class TraderLevelItem
-		belongs_to :traderLevel
-		belongs_to :item
-	end
-	```
-
-- barter
-	- Individual barter recipe
-	- belongs to traderLevel
-	- has and belongs to many items
+```ruby
+# Model
+# Individual item from a trader's inventory with price and reset availability
+class TraderLevelItem
+	belongs_to :traderLevel
+	belongs_to :item
+end
+```
 	
-	```ruby
-	# Model
-	class Barter
-		belongs_to :traderLevel
-		has_and_belongs_to :items
-	end
-	```
-
-- item
-	- Individual item of any type
-	- has many traderLevelItems
-	- has many traderLevels, through traderLevelItems
-	- has and belongs to many quests
-	- has many stationUpgrades
-	- has many stationLevels, through stationLevelUpgrades
-	- has and belongs to many barters
+```ruby
+# Model
+# Individual barter recipe with required items and trader level
+class Barter
+	belongs_to :traderLevel
+	has_and_belongs_to :items
+end
+```
 	
-	```ruby
-	# Model
-	class Item
-		has_many :traderLevelItems
-		has_many :traderLevels, through: :traderLevelItems
-		has_and_belongs_to_many :quests
-		has_many :stationUpgrades
-		has_many :stationLevels, through: :stationUpgrades
-		has_and_belongs_to_many :barters
-	end
-	```
+```ruby
+# Model
+# Individual item with associated trader levels, quests, barters, station upgrades, and station levels
+class Item
+	has_many :traderLevelItems
+	has_many :traderLevels, through: :traderLevelItems
+	has_and_belongs_to_many :quests
+	has_many :stationUpgrades
+	has_many :stationLevels, through: :stationUpgrades
+	has_and_belongs_to_many :barters
+end
+```
 	
-- quest
-	- Individual quest
-	- belongs to trader
-	- has and belongs to many items
+```ruby
+# Model
+# Individual quest with corresponding trader, required items, and reward info
+class Quest
+	belongs_to :trader
+	has_and_belongs_to_many :items
+end
+```
 	
-	```ruby
-	# Model
-	class Quest
-		belongs_to :trader
-		has_and_belongs_to_many :items
-	end
-	```
-
-- hideoutStation
-	- Individual crafting station
-	- has many stationLevels
+```ruby
+# Model
+# Individual crafting station with associated upgrade levels
+class HideoutStation
+	has_many :stationLevels
+end
+```
 	
-	```ruby
-	# Model
-	class HideoutStation
-		has_many :stationLevels
-	end
-	```
-
-- stationLevel
-	- Individual crafting station upgrade level with corresponding craftables
-	- belongs to hideoutStation
-	- has many craftableItems
-	- has many items, through craftableItems
-	- has one stationLevelUpgrade
+```ruby
+# Model
+# Individual crafting station upgrade level with corresponding craftables
+class StationLevel
+	belongs_to :hideoutStation
+	has_many :craftableItems
+	has_many :items, through: :craftableItems
+	has_one :stationLevelUpgrade
+end
+```
 	
-	```ruby
-	# Model
-	class StationLevel
-		belongs_to :hideoutStation
-		has_many :craftableItems
-		has_many :items, through: :craftableItems
-		has_one :stationLevelUpgrade
-	end
-	```
-
-- stationLevelUpgrade
-	- Items, loyalties, and prerequisites for a given crafting station level
-	- belongs to stationLevel
-	- has and belongs to many traders
-	- has and belongs to many items
-	
-	```ruby
-	# Model
-	class StationLevelUpgrade
-		belongs_to :stationLevel
-		has_and_belongs_to_many :traders
-		has_and_belongs_to_many :items
-	end
-
+```ruby
+# Model
+class StationLevelUpgrade
+	belongs_to :stationLevel
+	has_and_belongs_to_many :traders
+	has_and_belongs_to_many :items
+end
+```
 
 
 # Joins
