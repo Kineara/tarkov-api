@@ -204,12 +204,14 @@ end
 
 {
 	// food
-	effect: 'does something',
+	energy: 45,
+	hydration: -20,
 }
 
 {
 	// drinks
-	effect: 'does a thing',
+	energy: 15,
+	hydration: 65,
 }
 
 {
