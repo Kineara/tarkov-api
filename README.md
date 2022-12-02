@@ -316,6 +316,43 @@ end
 ```
 
 ```js
+
+-------------------------
+## Items Structure
+
+```ruby
+class Handbook
+	has_many :categories
+end
+```
+
+```ruby
+class Category
+	has_many :subcategories
+	belongs_to :handbook
+end
+```
+
+```ruby
+class SubCategory
+	belongs_to :category
+	has_many :subsubcategories
+end
+```
+
+```ruby
+class SubSubCategory
+	belongs_to :subcategory
+	has_many :gameItems
+end
+```
+
+```ruby
+class GameItem
+	belongs_to :subcategory
+end
+```
+
 // Hideout mockup
 {
 	// hideout-station
