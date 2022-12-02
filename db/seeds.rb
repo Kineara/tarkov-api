@@ -22,5 +22,13 @@ testHandbook.categories.each do |i|
   4.times do |x|
     i.sub_categories.create(name: "TestSubCategory ##{x}")
   end
+  i.sub_categories.each do |y|
+    4.times do |z|
+      y.sub_sub_categories.create(name: "TestSubSubCategory ##{z}")
+      
+    end
+  end
 end
+
+
 
