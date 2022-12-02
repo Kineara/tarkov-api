@@ -347,14 +347,14 @@ end
 
 ```ruby
 class SubSubCategory
-	belongs_to :subcategory
+	belongs_to :sub_category
 	has_many :gameItems
 end
 ```
 
 ```ruby
 class GameItem
-	belongs_to :subcategory
+	belongs_to :sub_sub_category
 end
 ```
 

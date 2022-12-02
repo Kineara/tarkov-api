@@ -25,7 +25,11 @@ testHandbook.categories.each do |i|
   i.sub_categories.each do |y|
     4.times do |z|
       y.sub_sub_categories.create(name: "TestSubSubCategory ##{z}")
-      
+    end
+    y.sub_sub_categories.each do |a|
+      4.times do |b|
+        a.game_items.create(name: "TestGameItem ##{b}", weight: 1)
+      end
     end
   end
 end

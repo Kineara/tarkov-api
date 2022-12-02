@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sub_sub_category: one
+  name: MyString
+  weight: 1
+
+two:
+  sub_sub_category: two
+  name: MyString
+  weight: 1
