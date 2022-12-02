@@ -16,3 +16,11 @@ testHandbook = testGameVersion.create_handbook
 4.times do |i|
   testHandbook.categories.create(name: "TestCategory ##{i}")
 end
+
+# Create SubCategories
+testHandbook.categories.each do |i|
+  4.times do |x|
+    i.sub_categories.create(name: "TestSubCategory ##{x}")
+  end
+end
+
