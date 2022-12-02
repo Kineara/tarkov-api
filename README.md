@@ -317,7 +317,7 @@ end
 
 ```js
 
--------------------------
+
 ## Items Structure
 
 ```ruby
