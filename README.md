@@ -315,14 +315,19 @@ end
 }
 ```
 
-```js
-
 
 ## Items Structure
 
 ```ruby
+class gameVersion
+	has_one :handbook
+end
+```
+
+```ruby
 class Handbook
 	has_many :categories
+	belongs_to :gameVersion
 end
 ```
 
@@ -353,6 +358,7 @@ class GameItem
 end
 ```
 
+```js
 // Hideout mockup
 {
 	// hideout-station

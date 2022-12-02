@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# Game Version
+testGameVersion = GameVersion.create(name: "testing")
+
+# Create Handbook
+testHandbook = testGameVersion.create_handbook
+
+# Create Categories
+4.times do |i|
+  testHandbook.categories.create(name: "TestCategory ##{i}")
+end
