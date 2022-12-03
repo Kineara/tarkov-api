@@ -90,6 +90,7 @@ medicationInjectors = medication.sub_categories.create(name: "Injectors")
 medicationInjuryTreatment = medication.sub_categories.create(name: "Injury Treatment")
 medicationMedkits = medication.sub_categories.create(name: "Medkits")
 medicationPills = medication.sub_categories.create(name: "Pills")
+medicationPillsAnalgin = medicationPills.items.create(name: "Analgin", use_time_seconds: 3, item_uses: 4, removes_pain?: true, removes_pain_duration_seconds: 95 )
 
 keys = handbook.categories.create(name: "Keys")
 keysElectronic = keys.sub_categories.create(name: "Electronic Keys")

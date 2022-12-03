@@ -1,12 +1,13 @@
 class CreateItems < ActiveRecord::Migration[6.1]
   def change
     create_table :items do |t|
+      t.belongs_to :sub_category, null: false, foreign_key: true 
       # Generic attributes
       t.string :name
       t.integer :weight_kg 
-      t.boolean :cannot_be_discarded_in_raid 
-      t.string :cannot_be_discarded_in_raid_amount 
-      t.boolean :moddable_in_raid 
+      t.boolean :can_be_discarded_in_raid?
+      t.string :can_be_discarded_in_raid_amount 
+      t.boolean :is_moddable_in_raid? 
       t.string :size_change 
       t.integer :use_time_seconds
       t.integer :item_uses 
@@ -46,17 +47,17 @@ class CreateItems < ActiveRecord::Migration[6.1]
       t.integer :minimum_check_level 
       t.string :failure_to_feed_chance 
       t.string :misfire_chance 
-      t.boolean :is_threaded 
+      t.boolean :is_threaded? 
       t.integer :bullet_velocity 
       t.integer :repair_resource 
 
       # Sights & Lights attributes
-      t.boolean :is_thermal 
-      t.boolean :is_nvg 
-      t.boolean :is_laser 
-      t.boolean :is_flashlight 
-      t.boolean :has_switchable_reticle 
-      t.boolean :has_switchable_magnification 
+      t.boolean :is_thermal? 
+      t.boolean :is_nvg?
+      t.boolean :is_laser? 
+      t.boolean :is_flashlight? 
+      t.boolean :has_switchable_reticle? 
+      t.boolean :has_switchable_magnification? 
       t.string :magnifications 
       t.string :reticle_color 
       t.integer :sighting_range 
@@ -74,19 +75,20 @@ class CreateItems < ActiveRecord::Migration[6.1]
       t.string :damage_taken_except_head_modifier 
       t.integer :light_bleed_percent_chance 
       t.integer :heavy_bleed_percent_chance 
-      t.boolean :removes_radiation_exposure 
-      t.string :causes_pain
-      t.string :removes_pain 
-      t.string :causes_abdominal_bleeding 
-      t.string :causes_tunnel_vision 
-      t.string :removes_contusion 
+      t.boolean :removes_radiation_exposure? 
+      t.boolean :causes_pain?
+      t.boolean :removes_pain? 
+      t.integer :removes_pain_duration_seconds 
+      t.boolean :causes_abdominal_bleeding? 
+      t.boolean :causes_tunnel_vision? 
+      t.boolean :removes_contusion? 
       t.string :carry_limit_modifier 
-      t.string :causes_tremors 
-      t.string :stops_bleeding 
-      t.boolean :removes_fracture 
-      t.boolean :restores_limb
-      t.integer :hp_resource 
-      t.string :removes_toxification 
+      t.boolean :causes_tremors? 
+      t.boolean :stops_bleeding? 
+      t.boolean :removes_fracture? 
+      t.boolean :restores_limb?
+      t.integer :hp_resource
+      t.boolean :removes_toxification? 
 
       # Skill changes
       # Combat
@@ -160,10 +162,6 @@ class CreateItems < ActiveRecord::Migration[6.1]
       t.string :skill_usec_long_range_optics_change 
       t.string :skill_usec_negotiations_change 
       t.string :skill_usec_tactics_change 
-
-
-
-
 
       t.timestamps
     end
