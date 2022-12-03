@@ -91,44 +91,19 @@ medicationInjuryTreatment = medication.sub_categories.create(name: "Injury Treat
 medicationMedkits = medication.sub_categories.create(name: "Medkits")
 
 medicationPills = medication.sub_categories.create(name: "Pills")
-#medicationPillsAnalgin = medicationPills.items.create(name: "Analgin", use_time_seconds: 3, item_uses: 4, removes_pain?: true, removes_pain_duration_seconds: 95 )
+medicationPillsAnalgin = medicationPills.items.create(name: "Analgin", use_time_seconds: 3, uses: 4, removes_pain?: true, removes_pain_duration_seconds: 95 )
 
 keys = handbook.categories.create(name: "Keys")
 keysElectronic = keys.sub_categories.create(name: "Electronic Keys")
 keysMechanical = keys.sub_categories.create(name: "Mechanical Keys")
 
 infoItems = handbook.categories.create(name: "Info Items")
+infoItemsFactoryMap = infoItems.items.create(name: "Factory Plan Map", weight_kg: 0.1, grid_size: "2x1" )
+
 
 specialEquipment = handbook.categories.create(name: "Special Equipment")
 maps = handbook.categories.create(name: "Maps")
 money = handbook.categories.create(name: "Money")
 questItems = handbook.categories.create(name: "Quest Items")
-
-# Create Items
-infoItemsFactoryMap = infoItems.items.create(name: "Factory Plan Map", weight_kg: 0.1, grid_size: "2x1" )
-medicationAnalgin = medication.items.create(name: "Analgin", sub_category: @medicationPills, use_time_seconds: 3, uses: 4, removes_pain?: true, removes_pain_duration_seconds: 95)
-
-# # Create Categories
-# 4.times do |i|
-#   testHandbook.categories.create(name: "TestCategory ##{i}")
-# end
-
-# # Create SubCategories, SubSubCategories, GameItems
-# testHandbook.categories.each do |i|
-#   4.times do |x|
-#     i.sub_categories.create(name: "TestSubCategory ##{x}")
-#   end
-#   i.sub_categories.each do |y|
-#     4.times do |z|
-#       y.sub_sub_categories.create(name: "TestSubSubCategory ##{z}")
-#     end
-#     y.sub_sub_categories.each do |a|
-#       4.times do |b|
-#         a.game_items.create(name: "TestGameItem ##{b}", weight: 1)
-#       end
-#     end
-#   end
-# end
-
 
 

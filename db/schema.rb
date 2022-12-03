@@ -38,7 +38,8 @@ ActiveRecord::Schema.define(version: 2022_12_03_051933) do
   end
 
   create_table "items", force: :cascade do |t|
-    t.bigint "category_id", null: false
+    t.string "categorization_type"
+    t.bigint "categorization_id"
     t.string "name"
     t.integer "weight_kg"
     t.boolean "can_be_discarded_in_raid?"
@@ -182,7 +183,7 @@ ActiveRecord::Schema.define(version: 2022_12_03_051933) do
     t.string "skill_usec_tactics_change"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["category_id"], name: "index_items_on_category_id"
+    t.index ["categorization_type", "categorization_id"], name: "index_items_on_categorization"
   end
 
   create_table "sub_categories", force: :cascade do |t|
@@ -211,7 +212,6 @@ ActiveRecord::Schema.define(version: 2022_12_03_051933) do
 
   add_foreign_key "categories", "handbooks"
   add_foreign_key "handbooks", "game_versions"
-  add_foreign_key "items", "categories"
   add_foreign_key "sub_categories", "categories"
   add_foreign_key "sub_x2_categories", "sub_categories"
   add_foreign_key "sub_x3_categories", "sub_x2_categories"
