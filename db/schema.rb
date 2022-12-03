@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 2022_12_03_051933) do
   end
 
   create_table "items", force: :cascade do |t|
-    t.bigint "sub_category_id", null: false
+    t.bigint "category_id", null: false
     t.string "name"
     t.integer "weight_kg"
     t.boolean "can_be_discarded_in_raid?"
@@ -46,7 +46,8 @@ ActiveRecord::Schema.define(version: 2022_12_03_051933) do
     t.boolean "is_moddable_in_raid?"
     t.string "size_change"
     t.integer "use_time_seconds"
-    t.integer "item_uses"
+    t.integer "uses"
+    t.string "grid_size"
     t.string "container_size"
     t.integer "armour_points"
     t.integer "armour_class"
@@ -181,7 +182,7 @@ ActiveRecord::Schema.define(version: 2022_12_03_051933) do
     t.string "skill_usec_tactics_change"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["sub_category_id"], name: "index_items_on_sub_category_id"
+    t.index ["category_id"], name: "index_items_on_category_id"
   end
 
   create_table "sub_categories", force: :cascade do |t|
@@ -210,7 +211,7 @@ ActiveRecord::Schema.define(version: 2022_12_03_051933) do
 
   add_foreign_key "categories", "handbooks"
   add_foreign_key "handbooks", "game_versions"
-  add_foreign_key "items", "sub_categories"
+  add_foreign_key "items", "categories"
   add_foreign_key "sub_categories", "categories"
   add_foreign_key "sub_x2_categories", "sub_categories"
   add_foreign_key "sub_x3_categories", "sub_x2_categories"

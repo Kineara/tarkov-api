@@ -1,7 +1,8 @@
 class CreateItems < ActiveRecord::Migration[6.1]
   def change
     create_table :items do |t|
-      t.belongs_to :sub_category, null: false, foreign_key: true 
+      #t.belongs_to :sub_category, null: false, foreign_key: true 
+      t.belongs_to :category, null: false, foreign_key: true 
       # Generic attributes
       t.string :name
       t.integer :weight_kg 
@@ -10,7 +11,8 @@ class CreateItems < ActiveRecord::Migration[6.1]
       t.boolean :is_moddable_in_raid? 
       t.string :size_change 
       t.integer :use_time_seconds
-      t.integer :item_uses 
+      t.integer :uses 
+      t.string :grid_size 
 
       # Armor / Helmets / Eyewear attributes
       t.string :container_size 
