@@ -2,8 +2,6 @@
 
 one:
   handbook: one
-  name: MyString
 
 two:
   handbook: two
-  name: MyString

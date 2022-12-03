@@ -10,26 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_02_073901) do
+ActiveRecord::Schema.define(version: 2022_12_03_051045) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "categories", force: :cascade do |t|
-    t.bigint "handbook_id"
+    t.bigint "handbook_id", null: false
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["handbook_id"], name: "index_categories_on_handbook_id"
-  end
-
-  create_table "game_items", force: :cascade do |t|
-    t.bigint "sub_sub_category_id", null: false
-    t.string "name"
-    t.integer "weight"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["sub_sub_category_id"], name: "index_game_items_on_sub_sub_category_id"
   end
 
   create_table "game_versions", force: :cascade do |t|
@@ -47,24 +38,32 @@ ActiveRecord::Schema.define(version: 2022_12_02_073901) do
   end
 
   create_table "sub_categories", force: :cascade do |t|
-    t.bigint "category_id"
+    t.bigint "category_id", null: false
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["category_id"], name: "index_sub_categories_on_category_id"
   end
 
-  create_table "sub_sub_categories", force: :cascade do |t|
-    t.string "name"
+  create_table "sub_x2_categories", force: :cascade do |t|
     t.bigint "sub_category_id", null: false
+    t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["sub_category_id"], name: "index_sub_sub_categories_on_sub_category_id"
+    t.index ["sub_category_id"], name: "index_sub_x2_categories_on_sub_category_id"
+  end
+
+  create_table "sub_x3_categories", force: :cascade do |t|
+    t.bigint "sub_x2_category_id", null: false
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["sub_x2_category_id"], name: "index_sub_x3_categories_on_sub_x2_category_id"
   end
 
   add_foreign_key "categories", "handbooks"
-  add_foreign_key "game_items", "sub_sub_categories"
   add_foreign_key "handbooks", "game_versions"
   add_foreign_key "sub_categories", "categories"
-  add_foreign_key "sub_sub_categories", "sub_categories"
+  add_foreign_key "sub_x2_categories", "sub_categories"
+  add_foreign_key "sub_x3_categories", "sub_x2_categories"
 end

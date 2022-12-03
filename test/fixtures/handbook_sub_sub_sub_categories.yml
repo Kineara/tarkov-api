@@ -1,9 +1,9 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  handbook: one
+  handbook_sub_sub_category: one
   name: MyString
 
 two:
-  handbook: two
+  handbook_sub_sub_category: two
   name: MyString

@@ -1,3 +1,4 @@
 class SubCategory < ApplicationRecord
-  has_many :sub_sub_categories 
+  belongs_to :category
+  has_many :sub_x2_categories, dependent: :destroy 
 end
