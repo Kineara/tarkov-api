@@ -89,21 +89,117 @@ medication = handbook.categories.create(name: "Medication")
 medicationInjectors = medication.sub_categories.create(name: "Injectors")
 medicationInjuryTreatment = medication.sub_categories.create(name: "Injury Treatment")
 medicationMedkits = medication.sub_categories.create(name: "Medkits")
-
 medicationPills = medication.sub_categories.create(name: "Pills")
-medicationPillsAnalgin = medicationPills.items.create(name: "Analgin", use_time_seconds: 3, uses: 4, removes_pain?: true, removes_pain_duration_seconds: 95 )
 
 keys = handbook.categories.create(name: "Keys")
 keysElectronic = keys.sub_categories.create(name: "Electronic Keys")
 keysMechanical = keys.sub_categories.create(name: "Mechanical Keys")
 
 infoItems = handbook.categories.create(name: "Info Items")
-infoItemsFactoryMap = infoItems.items.create(name: "Factory Plan Map", weight_kg: 0.1, grid_size: "2x1" )
-
 
 specialEquipment = handbook.categories.create(name: "Special Equipment")
+
 maps = handbook.categories.create(name: "Maps")
+
 money = handbook.categories.create(name: "Money")
+
 questItems = handbook.categories.create(name: "Quest Items")
 
+# Create Items
+## Barter Items
+### Others
+### Building Materials
+### Electronics
+### Energy Elements
+### Flammable Materials
+### Household Materials
+### Medical Supplies
+### Tools
+### Valuables
 
+## Gear
+### Backpacks
+### Body Armor
+### Eyewear
+### Facecovers
+### Gear Components
+### Headgear
+### Headsets
+### Secure Containers
+### Storage Containers
+### Tactical Rigs
+
+## Weapon Parts & Mods
+### Functional Mods
+#### Auxiliary Parts
+#### Bipods
+#### Foregrips
+#### Light & Laser Devices
+##### Flashlights
+##### Laser Target Designators
+##### Tactical Combo Devices
+#### Muzzle Devices
+##### Flashhiders
+##### Muzzle Adapters
+##### Suppressors
+#### Sights
+##### Assault Scopes
+##### Collimators
+##### Compact Collimators
+##### Iron Sights
+##### Optics
+##### Special Purpose Sights
+### Gear Mods
+#### Charging Handles
+#### Magazines
+#### Mounts
+#### Stocks & Chassis
+### Vital Parts
+#### Barrels
+#### Gas Blocks
+#### Handguards
+#### Pistol Grips
+#### Receivers & Slides
+
+## Weapons
+### Assault Carbines
+### Assault Rifles
+### Bolt-action Rifles
+### Machine Guns
+### Marksman Rifles
+### Melee Weapons
+### Pistols
+### SMGs
+### Shotguns
+### Special Weapons
+### Throwables
+
+## Ammo
+### Ammo Packs
+### Rounds
+
+## Provisions
+### Drinks
+### Food
+
+## Medication
+### Injectors
+### Injury Treatment
+### Medkits
+### Pills
+medicationPillsAnalgin = medicationPills.items.create(name: "Analgin", use_time_seconds: 3, uses: 4, removes_pain?: true, removes_pain_duration_seconds: 95 )
+
+## Keys
+### Electronic Keys
+### Mechanical Keys
+
+## Info Items
+infoItemsFactoryMap = infoItems.items.create(name: "Factory Plan Map", weight_kg: 0.1, grid_size: "2x1" )
+
+## Special Equipment
+
+## Maps
+
+## Money
+
+## Quest Items
