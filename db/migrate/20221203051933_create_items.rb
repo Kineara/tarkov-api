@@ -5,14 +5,17 @@ class CreateItems < ActiveRecord::Migration[6.1]
       t.belongs_to :categorization, polymorphic: true 
       # Generic attributes
       t.string :name
+      t.string :description 
       t.integer :weight_kg 
       t.boolean :can_be_discarded_in_raid?
       t.string :can_be_discarded_in_raid_amount 
       t.boolean :is_moddable_in_raid? 
+      t.boolean :store_in_secure_container?
       t.string :size_change 
       t.integer :use_time_seconds
       t.integer :uses 
-      t.string :grid_size 
+      t.string :external_grid_size 
+      t.string :internal_grid_size 
 
       # Armor / Helmets / Eyewear attributes
       t.string :container_size 
