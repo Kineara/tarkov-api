@@ -6,7 +6,7 @@ class GameVersionsController < ApplicationController
 
   def show 
     @gameVersion = GameVersion.find(params[:id])
-    render json: @gameVersion, version_id: @gameVersion.id 
+    render json: @gameVersion, version_id: params[:id]
   end
 
   def create 

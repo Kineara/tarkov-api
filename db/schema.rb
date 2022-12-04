@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_03_051933) do
+ActiveRecord::Schema.define(version: 2022_12_04_125101) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -35,6 +35,21 @@ ActiveRecord::Schema.define(version: 2022_12_03_051933) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["game_version_id"], name: "index_handbooks_on_game_version_id"
+  end
+
+  create_table "hideout_stations", force: :cascade do |t|
+    t.bigint "hideout_id", null: false
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["hideout_id"], name: "index_hideout_stations_on_hideout_id"
+  end
+
+  create_table "hideouts", force: :cascade do |t|
+    t.bigint "game_version_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["game_version_id"], name: "index_hideouts_on_game_version_id"
   end
 
   create_table "items", force: :cascade do |t|
@@ -212,6 +227,8 @@ ActiveRecord::Schema.define(version: 2022_12_03_051933) do
 
   add_foreign_key "categories", "handbooks"
   add_foreign_key "handbooks", "game_versions"
+  add_foreign_key "hideout_stations", "hideouts"
+  add_foreign_key "hideouts", "game_versions"
   add_foreign_key "sub_categories", "categories"
   add_foreign_key "sub_x2_categories", "sub_categories"
   add_foreign_key "sub_x3_categories", "sub_x2_categories"

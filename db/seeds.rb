@@ -1,9 +1,9 @@
 # Game Version
-gameVersionCurrent = GameVersion.create(name: "12.12", current_version: true)
+gameVersion1212 = GameVersion.create(name: "12.12", current_version: true)
 gameVersionTest = GameVersion.create(name: "12.testVersion, current_version: false")
 
 # Create Handbook
-handbook = gameVersionCurrent.create_handbook
+handbook = gameVersion1212.create_handbook
 
 # Create Categories
 barterItems = handbook.categories.create(name: "Barter Items")
@@ -204,3 +204,29 @@ infoItemsFactoryMap = infoItems.items.create(name: "Factory Plan Map", weight_kg
 ## Money
 
 ## Quest Items
+
+# Create Hideout
+hideout1212 = gameVersion1212.create_hideout 
+
+# Create Hideout Stations
+hideout1212AirFilteringUnit = hideout1212.hideout_stations.create(name: "Air Filtering Unit")
+hideout1212BitcoinFarm = hideout1212.hideout_stations.create(name: "Bitcoin Farm")
+hideout1212BoozeGenerator = hideout1212.hideout_stations.create(name: "Booze Generator")
+hideout1212Generator = hideout1212.hideout_stations.create(name: "Generator")
+hideout1212Heating = hideout1212.hideout_stations.create(name: "Heating")
+hideout1212Illumination = hideout1212.hideout_stations.create(name: "Illumination")
+hideout1212IntelligenceCenter = hideout1212.hideout_stations.create(name: "Intelligence Center")
+hideout1212Lavatory = hideout1212.hideout_stations.create(name: "Lavatory")
+hideout1212Library = hideout1212.hideout_stations.create(name: "Library")
+hideout1212Medstation = hideout1212.hideout_stations.create(name: "Medstation")
+hideout1212NutritionUnit = hideout1212.hideout_stations.create(name: "Nutrition Unit")
+hideout1212RestSpace = hideout1212.hideout_stations.create(name: "Rest Space")
+hideout1212ScavCase = hideout1212.hideout_stations.create(name: "Scav Case")
+hideout1212Security = hideout1212.hideout_stations.create(name: "Security")
+hideout1212ShootingRange = hideout1212.hideout_stations.create(name: "Air Filtering Unit")
+hideout1212SolarPower = hideout1212.hideout_stations.create(name: "Solar Power")
+hideout1212Stash = hideout1212.hideout_stations.create(name: "Stash")
+hideout1212Vents = hideout1212.hideout_stations.create(name: "Vents")
+hideout1212WaterCollector = hideout1212.hideout_stations.create(name: "Water Collector")
+hideout1212Workbench = hideout1212.hideout_stations.create(name: "Workbench")
+hideout1212ChristmasTree = hideout1212.hideout_stations.create(name: "Christmas Tree")
