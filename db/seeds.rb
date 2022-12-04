@@ -1,8 +1,9 @@
 # Game Version
-gameVersion = GameVersion.create(name: "12.12", current_version: true)
+gameVersionCurrent = GameVersion.create(name: "12.12", current_version: true)
+gameVersionTest = GameVersion.create(name: "12.testVersion, current_version: false")
 
 # Create Handbook
-handbook = gameVersion.create_handbook
+handbook = gameVersionCurrent.create_handbook
 
 # Create Categories
 barterItems = handbook.categories.create(name: "Barter Items")
