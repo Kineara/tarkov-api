@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_04_130539) do
+ActiveRecord::Schema.define(version: 2022_12_04_133428) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -233,6 +233,23 @@ ActiveRecord::Schema.define(version: 2022_12_04_130539) do
     t.index ["sub_x2_category_id"], name: "index_sub_x3_categories_on_sub_x2_category_id"
   end
 
+  create_table "trader_loyalty_levels", force: :cascade do |t|
+    t.bigint "trader_id", null: false
+    t.integer "level"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["trader_id"], name: "index_trader_loyalty_levels_on_trader_id"
+  end
+
+  create_table "traders", force: :cascade do |t|
+    t.bigint "game_version_id", null: false
+    t.string "title"
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["game_version_id"], name: "index_traders_on_game_version_id"
+  end
+
   add_foreign_key "categories", "handbooks"
   add_foreign_key "handbooks", "game_versions"
   add_foreign_key "hideout_station_levels", "hideout_stations"
@@ -241,4 +258,6 @@ ActiveRecord::Schema.define(version: 2022_12_04_130539) do
   add_foreign_key "sub_categories", "categories"
   add_foreign_key "sub_x2_categories", "sub_categories"
   add_foreign_key "sub_x3_categories", "sub_x2_categories"
+  add_foreign_key "trader_loyalty_levels", "traders"
+  add_foreign_key "traders", "game_versions"
 end

@@ -1,9 +1,9 @@
 # Game Version
-gameVersion1212 = GameVersion.create(name: "12.12", current_version: true)
+v1212 = GameVersion.create(name: "12.12", current_version: true)
 gameVersionTest = GameVersion.create(name: "12.testVersion, current_version: false")
 
 # Create Handbook
-handbook = gameVersion1212.create_handbook
+handbook = v1212.create_handbook
 
 # Create Categories
 barterItems = handbook.categories.create(name: "Barter Items")
@@ -206,97 +206,148 @@ infoItemsFactoryMap = infoItems.items.create(name: "Factory Plan Map", weight_kg
 ## Quest Items
 
 # Create Hideout
-hideout1212 = gameVersion1212.create_hideout 
+hideout = v1212.create_hideout 
 
 # Create Hideout Stations / Levels
-hideout1212AirFilteringUnit = hideout1212.hideout_stations.create(name: "Air Filtering Unit")
-hideout1212AirFilteringUnitLevel1 = hideout1212AirFilteringUnit.hideout_station_levels.create(level: 1)
+hideoutAirFilteringUnit = hideout.hideout_stations.create(name: "Air Filtering Unit")
+hideoutAirFilteringUnitLevel1 = hideoutAirFilteringUnit.hideout_station_levels.create(level: 1)
 
-hideout1212BitcoinFarm = hideout1212.hideout_stations.create(name: "Bitcoin Farm")
-hideout1212BitcoinFarmLevel1 = hideout1212BitcoinFarm.hideout_station_levels.create(level: 1)
-hideout1212BitcoinFarmLevel2 = hideout1212BitcoinFarm.hideout_station_levels.create(level: 2)
-hideout1212BitcoinFarmLevel3 = hideout1212BitcoinFarm.hideout_station_levels.create(level: 3)
+hideoutBitcoinFarm = hideout.hideout_stations.create(name: "Bitcoin Farm")
+hideoutBitcoinFarmLevel1 = hideoutBitcoinFarm.hideout_station_levels.create(level: 1)
+hideoutBitcoinFarmLevel2 = hideoutBitcoinFarm.hideout_station_levels.create(level: 2)
+hideoutBitcoinFarmLevel3 = hideoutBitcoinFarm.hideout_station_levels.create(level: 3)
 
-hideout1212BoozeGenerator = hideout1212.hideout_stations.create(name: "Booze Generator")
-hideout1212BoozeGeneratorLevel1 = hideout1212BoozeGenerator.hideout_station_levels.create(level: 1)
+hideoutBoozeGenerator = hideout.hideout_stations.create(name: "Booze Generator")
+hideoutBoozeGeneratorLevel1 = hideoutBoozeGenerator.hideout_station_levels.create(level: 1)
 
-hideout1212Generator = hideout1212.hideout_stations.create(name: "Generator")
-hideout1212GeneratorLevel1 = hideout1212Generator.hideout_station_levels.create(level: 1)
-hideout1212GeneratorLevel2 = hideout1212Generator.hideout_station_levels.create(level: 2)
-hideout1212GeneratorLevel3 = hideout1212Generator.hideout_station_levels.create(level: 3)
+hideoutGenerator = hideout.hideout_stations.create(name: "Generator")
+hideoutGeneratorLevel1 = hideoutGenerator.hideout_station_levels.create(level: 1)
+hideoutGeneratorLevel2 = hideoutGenerator.hideout_station_levels.create(level: 2)
+hideoutGeneratorLevel3 = hideoutGenerator.hideout_station_levels.create(level: 3)
 
-hideout1212Heating = hideout1212.hideout_stations.create(name: "Heating")
-hideout1212HeatingLevel1 = hideout1212Heating.hideout_station_levels.create(level: 1)
-hideout1212HeatingLevel2 = hideout1212Heating.hideout_station_levels.create(level: 2)
-hideout1212HeatingLevel3 = hideout1212Heating.hideout_station_levels.create(level: 3)
+hideoutHeating = hideout.hideout_stations.create(name: "Heating")
+hideoutHeatingLevel1 = hideoutHeating.hideout_station_levels.create(level: 1)
+hideoutHeatingLevel2 = hideoutHeating.hideout_station_levels.create(level: 2)
+hideoutHeatingLevel3 = hideoutHeating.hideout_station_levels.create(level: 3)
 
-hideout1212Illumination = hideout1212.hideout_stations.create(name: "Illumination")
-hideout1212IlluminationLevel1 = hideout1212Illumination.hideout_station_levels.create(level: 1)
-hideout1212IlluminationLevel2 = hideout1212Illumination.hideout_station_levels.create(level: 2)
-hideout1212IlluminationLevel3 = hideout1212Illumination.hideout_station_levels.create(level: 3)
+hideoutIllumination = hideout.hideout_stations.create(name: "Illumination")
+hideoutIlluminationLevel1 = hideoutIllumination.hideout_station_levels.create(level: 1)
+hideoutIlluminationLevel2 = hideoutIllumination.hideout_station_levels.create(level: 2)
+hideoutIlluminationLevel3 = hideoutIllumination.hideout_station_levels.create(level: 3)
 
-hideout1212IntelligenceCenter = hideout1212.hideout_stations.create(name: "Intelligence Center")
-hideout1212IntelligenceCenterLevel1 = hideout1212IntelligenceCenter.hideout_station_levels.create(level: 1)
-hideout1212IntelligenceCenterLevel2 = hideout1212IntelligenceCenter.hideout_station_levels.create(level: 2)
-hideout1212IntelligenceCenterLevel3 = hideout1212IntelligenceCenter.hideout_station_levels.create(level: 3)
+hideoutIntelligenceCenter = hideout.hideout_stations.create(name: "Intelligence Center")
+hideoutIntelligenceCenterLevel1 = hideoutIntelligenceCenter.hideout_station_levels.create(level: 1)
+hideoutIntelligenceCenterLevel2 = hideoutIntelligenceCenter.hideout_station_levels.create(level: 2)
+hideoutIntelligenceCenterLevel3 = hideoutIntelligenceCenter.hideout_station_levels.create(level: 3)
 
-hideout1212Lavatory = hideout1212.hideout_stations.create(name: "Lavatory")
-hideout1212LavatoryLevel1 = hideout1212Lavatory.hideout_station_levels.create(level: 1)
-hideout1212LavatoryLevel2 = hideout1212Lavatory.hideout_station_levels.create(level: 2)
-hideout1212LavatoryLevel3 = hideout1212Lavatory.hideout_station_levels.create(level: 3)
+hideoutLavatory = hideout.hideout_stations.create(name: "Lavatory")
+hideoutLavatoryLevel1 = hideoutLavatory.hideout_station_levels.create(level: 1)
+hideoutLavatoryLevel2 = hideoutLavatory.hideout_station_levels.create(level: 2)
+hideoutLavatoryLevel3 = hideoutLavatory.hideout_station_levels.create(level: 3)
 
-hideout1212Library = hideout1212.hideout_stations.create(name: "Library")
-hideout1212LibraryLevel1 = hideout1212Library.hideout_station_levels.create(level: 1)
+hideoutLibrary = hideout.hideout_stations.create(name: "Library")
+hideoutLibraryLevel1 = hideoutLibrary.hideout_station_levels.create(level: 1)
 
-hideout1212Medstation = hideout1212.hideout_stations.create(name: "Medstation")
-hideout1212MedstationLevel1 = hideout1212Medstation.hideout_station_levels.create(level: 1)
-hideout1212MedstationLevel2 = hideout1212Medstation.hideout_station_levels.create(level: 2)
-hideout1212MedstationLevel3 = hideout1212Medstation.hideout_station_levels.create(level: 3)
+hideoutMedstation = hideout.hideout_stations.create(name: "Medstation")
+hideoutMedstationLevel1 = hideoutMedstation.hideout_station_levels.create(level: 1)
+hideoutMedstationLevel2 = hideoutMedstation.hideout_station_levels.create(level: 2)
+hideoutMedstationLevel3 = hideoutMedstation.hideout_station_levels.create(level: 3)
 
-hideout1212NutritionUnit = hideout1212.hideout_stations.create(name: "Nutrition Unit")
-hideout1212NutritionUnitLevel1 = hideout1212NutritionUnit.hideout_station_levels.create(level: 1)
-hideout1212NutritionUnitLevel2 = hideout1212NutritionUnit.hideout_station_levels.create(level: 2)
-hideout1212NutritionUnitLevel3 = hideout1212NutritionUnit.hideout_station_levels.create(level: 3)
+hideoutNutritionUnit = hideout.hideout_stations.create(name: "Nutrition Unit")
+hideoutNutritionUnitLevel1 = hideoutNutritionUnit.hideout_station_levels.create(level: 1)
+hideoutNutritionUnitLevel2 = hideoutNutritionUnit.hideout_station_levels.create(level: 2)
+hideoutNutritionUnitLevel3 = hideoutNutritionUnit.hideout_station_levels.create(level: 3)
 
-hideout1212RestSpace = hideout1212.hideout_stations.create(name: "Rest Space")
-hideout1212RestSpaceLevel1 = hideout1212RestSpace.hideout_station_levels.create(level: 1)
-hideout1212RestSpaceLevel2 = hideout1212RestSpace.hideout_station_levels.create(level: 2)
-hideout1212RestSpaceLevel3 = hideout1212RestSpace.hideout_station_levels.create(level: 3)
+hideoutRestSpace = hideout.hideout_stations.create(name: "Rest Space")
+hideoutRestSpaceLevel1 = hideoutRestSpace.hideout_station_levels.create(level: 1)
+hideoutRestSpaceLevel2 = hideoutRestSpace.hideout_station_levels.create(level: 2)
+hideoutRestSpaceLevel3 = hideoutRestSpace.hideout_station_levels.create(level: 3)
 
-hideout1212ScavCase = hideout1212.hideout_stations.create(name: "Scav Case")
-hideout1212ScavCaseLevel1 = hideout1212ScavCase.hideout_station_levels.create(level: 1)
+hideoutScavCase = hideout.hideout_stations.create(name: "Scav Case")
+hideoutScavCaseLevel1 = hideoutScavCase.hideout_station_levels.create(level: 1)
 
-hideout1212Security = hideout1212.hideout_stations.create(name: "Security")
-hideout1212SecurityLevel1 = hideout1212Security.hideout_station_levels.create(level: 1)
-hideout1212SecurityLevel2 = hideout1212Security.hideout_station_levels.create(level: 2)
-hideout1212SecurityLevel3 = hideout1212Security.hideout_station_levels.create(level: 3)
+hideoutSecurity = hideout.hideout_stations.create(name: "Security")
+hideoutSecurityLevel1 = hideoutSecurity.hideout_station_levels.create(level: 1)
+hideoutSecurityLevel2 = hideoutSecurity.hideout_station_levels.create(level: 2)
+hideoutSecurityLevel3 = hideoutSecurity.hideout_station_levels.create(level: 3)
 
-hideout1212ShootingRange = hideout1212.hideout_stations.create(name: "Shooting Range")
-hideout1212ShootingRangeLevel1 = hideout1212ShootingRange.hideout_station_levels.create(level: 1)
+hideoutShootingRange = hideout.hideout_stations.create(name: "Shooting Range")
+hideoutShootingRangeLevel1 = hideoutShootingRange.hideout_station_levels.create(level: 1)
 
-hideout1212SolarPower = hideout1212.hideout_stations.create(name: "Solar Power")
-hideout1212SolarPowerLevel1 = hideout1212SolarPower.hideout_station_levels.create(level: 1)
+hideoutSolarPower = hideout.hideout_stations.create(name: "Solar Power")
+hideoutSolarPowerLevel1 = hideoutSolarPower.hideout_station_levels.create(level: 1)
 
-hideout1212Stash = hideout1212.hideout_stations.create(name: "Stash")
-hideout1212StashLevel1 = hideout1212Stash.hideout_station_levels.create(level: 1)
-hideout1212StashLevel2 = hideout1212Stash.hideout_station_levels.create(level: 2)
-hideout1212StashLevel3 = hideout1212Stash.hideout_station_levels.create(level: 3)
-hideout1212StashLevel4 = hideout1212Stash.hideout_station_levels.create(level: 4)
+hideoutStash = hideout.hideout_stations.create(name: "Stash")
+hideoutStashLevel1 = hideoutStash.hideout_station_levels.create(level: 1)
+hideoutStashLevel2 = hideoutStash.hideout_station_levels.create(level: 2)
+hideoutStashLevel3 = hideoutStash.hideout_station_levels.create(level: 3)
+hideoutStashLevel4 = hideoutStash.hideout_station_levels.create(level: 4)
 
-hideout1212Vents = hideout1212.hideout_stations.create(name: "Vents")
-hideout1212VentsLevel1 = hideout1212Vents.hideout_station_levels.create(level: 1)
-hideout1212VentsLevel2 = hideout1212Vents.hideout_station_levels.create(level: 2)
-hideout1212VentsLevel3 = hideout1212Vents.hideout_station_levels.create(level: 3)
+hideoutVents = hideout.hideout_stations.create(name: "Vents")
+hideoutVentsLevel1 = hideoutVents.hideout_station_levels.create(level: 1)
+hideoutVentsLevel2 = hideoutVents.hideout_station_levels.create(level: 2)
+hideoutVentsLevel3 = hideoutVents.hideout_station_levels.create(level: 3)
 
-hideout1212WaterCollector = hideout1212.hideout_stations.create(name: "Water Collector")
-hideout1212WaterCollectorLevel1 = hideout1212WaterCollector.hideout_station_levels.create(level: 1)
-hideout1212WaterCollectorLevel2 = hideout1212WaterCollector.hideout_station_levels.create(level: 2)
-hideout1212WaterCollectorLevel3 = hideout1212WaterCollector.hideout_station_levels.create(level: 3)
+hideoutWaterCollector = hideout.hideout_stations.create(name: "Water Collector")
+hideoutWaterCollectorLevel1 = hideoutWaterCollector.hideout_station_levels.create(level: 1)
+hideoutWaterCollectorLevel2 = hideoutWaterCollector.hideout_station_levels.create(level: 2)
+hideoutWaterCollectorLevel3 = hideoutWaterCollector.hideout_station_levels.create(level: 3)
 
-hideout1212Workbench = hideout1212.hideout_stations.create(name: "Workbench")
-hideout1212WorkbenchLevel1 = hideout1212Workbench.hideout_station_levels.create(level: 1)
-hideout1212WorkbenchLevel2 = hideout1212Workbench.hideout_station_levels.create(level: 2)
-hideout1212WorkbenchLevel3 = hideout1212Workbench.hideout_station_levels.create(level: 3)
+hideoutWorkbench = hideout.hideout_stations.create(name: "Workbench")
+hideoutWorkbenchLevel1 = hideoutWorkbench.hideout_station_levels.create(level: 1)
+hideoutWorkbenchLevel2 = hideoutWorkbench.hideout_station_levels.create(level: 2)
+hideoutWorkbenchLevel3 = hideoutWorkbench.hideout_station_levels.create(level: 3)
 
-hideout1212ChristmasTree = hideout1212.hideout_stations.create(name: "Christmas Tree")
-hideout1212ChristmasTreeLevel1 = hideout1212ChristmasTree.hideout_station_levels.create(level: 1)
+hideoutChristmasTree = hideout.hideout_stations.create(name: "Christmas Tree")
+hideoutChristmasTreeLevel1 = hideoutChristmasTree.hideout_station_levels.create(level: 1)
+
+
+# Create Traders & Loyalty Levels 
+fence = v1212.traders.create(title: "Fence", name: "Unknown")
+fenceLevel1 = fence.trader_loyalty_levels.create(level: 1)
+fenceLevel4 = fence.trader_loyalty_levels.create(level: 4)
+
+jaeger = v1212.traders.create(title: "Jaeger", name: "Ivan Yegorovich Kharitonov")
+jaegerLevel1 = jaeger.trader_loyalty_levels.create(level:1)
+jaegerLevel2 = jaeger.trader_loyalty_levels.create(level:2)
+jaegerLevel3 = jaeger.trader_loyalty_levels.create(level:3)
+jaegerLevel4 = jaeger.trader_loyalty_levels.create(level:4)
+
+mechanic = v1212.traders.create(title: "Mechanic", name: "Sergey Arsenyevich Samoylov")
+mechanicLevel1 = mechanic.trader_loyalty_levels.create(level: 1)
+mechanicLevel2 = mechanic.trader_loyalty_levels.create(level: 2)
+mechanicLevel3 = mechanic.trader_loyalty_levels.create(level: 3)
+mechanicLevel4 = mechanic.trader_loyalty_levels.create(level: 4)
+
+peacekeeper = v1212.traders.create(title: "Peacekeeper", name: "Tadeusz Pilsudski")
+peacekeeperLevel1 = peacekeeper.trader_loyalty_levels.create(level: 1)
+peacekeeperLevel2 = peacekeeper.trader_loyalty_levels.create(level: 2)
+peacekeeperLevel3 = peacekeeper.trader_loyalty_levels.create(level: 3)
+peacekeeperLevel4 = peacekeeper.trader_loyalty_levels.create(level: 4)
+
+prapor = v1212.traders.create(title: "Prapor", name: "Pavel Yegorovich Romanenko")
+praporLevel1 = prapor.trader_loyalty_levels.create(level: 1)
+praporLevel2 = prapor.trader_loyalty_levels.create(level: 2)
+praporLevel3 = prapor.trader_loyalty_levels.create(level: 3)
+praporLevel4 = prapor.trader_loyalty_levels.create(level: 4)
+
+ragman = v1212.traders.create(title: "Ragman", name: "Arshavir Sarkisovich Abramyan")
+ragmanLevel1 = ragman.trader_loyalty_levels.create(level: 1)
+ragmanLevel2 = ragman.trader_loyalty_levels.create(level: 2)
+ragmanLevel3 = ragman.trader_loyalty_levels.create(level: 3)
+ragmanLevel4 = ragman.trader_loyalty_levels.create(level: 4)
+
+skier = v1212.traders.create(title: "Skier", name: "Alexander Fyodorovich Kiselyov")
+skierLevel1 = skier.trader_loyalty_levels.create(level: 1)
+skierLevel2 = skier.trader_loyalty_levels.create(level: 2)
+skierLevel3 = skier.trader_loyalty_levels.create(level: 3)
+skierLevel4 = skier.trader_loyalty_levels.create(level: 4)
+
+therapist = v1212.traders.create(title: "Therapist", name: "Elvira Khabibullina")
+therapistLevel1 = therapist.trader_loyalty_levels.create(level: 1)
+therapistLevel2 = therapist.trader_loyalty_levels.create(level: 2)
+therapistLevel3 = therapist.trader_loyalty_levels.create(level: 3)
+therapistLevel4 = therapist.trader_loyalty_levels.create(level: 4)
+
+
+
