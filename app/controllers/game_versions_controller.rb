@@ -1,12 +1,12 @@
 class GameVersionsController < ApplicationController
   def index 
     @gameVersions = GameVersion.all 
-    render json: @gameVersions 
+    render json: @gameVersions
   end
 
   def show 
     @gameVersion = GameVersion.find(params[:id])
-    render json: @gameVersion
+    render json: @gameVersion, version_id: @gameVersion.id 
   end
 
   def create 
