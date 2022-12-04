@@ -1,5 +1,5 @@
 # Game Version
-gameVersion = GameVersion.create(name: "testing")
+gameVersion = GameVersion.create(name: "12.12", current_version: true)
 
 # Create Handbook
 handbook = gameVersion.create_handbook
