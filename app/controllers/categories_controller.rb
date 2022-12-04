@@ -1,7 +1,8 @@
 class CategoriesController < ApplicationController
   def index 
-    @categories = Category.all 
-    render json: @categories 
+    @game_version = GameVersion.find(params[:game_version_id])
+    categories = @game_version.handbook.categories.all 
+    render json: categories 
   end
 
   def create 
