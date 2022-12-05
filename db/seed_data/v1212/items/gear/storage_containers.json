@@ -1,0 +1,67 @@
+{
+  "storage_containers": {
+    {
+      "name": "Lucky Scav Junkbox",
+      "description": "Holds all barter items.",
+      "external_grid_size": "4x4",
+      "internal_grid_size": "14x14",
+      "store_in_secure_container?": false,
+    },
+    {
+      "name": "THICC Item Case",
+      "description": "It thicc.",
+      "external_grid_size": "5x3",
+      "internal_grid_size": "14x14",
+      "store_in_secure_container?": false,
+    },
+    {
+      "name": "Item Case",
+      "description": "It not thicc.",
+      "external_grid_size": "4x4",
+      "internal_grid_size": "8x8",
+      "store_in_secure_container?": false,
+    },
+    {
+      "name": "THICC Weapon Case",
+      "description": "It thicc and it loaded.",
+      "external_grid_size": "5x2",
+      "internal_grid_size": "6x15",
+      "store_in_secure_container?": false,
+    },
+    {
+      "name": "Weapon Case",
+      "description": "A box of pew.",
+      "external_grid_size": "5x2",
+      "internal_grid_size": "5x10",
+      "store_in_secure_container?": false,
+    },
+    {
+      "name": "Medicine Case",
+      "description": "A box of aww.",
+      "external_grid_size": "3x3",
+      "internal_grid_size": "7x7",
+      "store_in_secure_container?": false,
+    },
+    {
+      "name": "Grenade Case",
+      "description": "A box of boom.",
+      "external_grid_size": "3x3",
+      "internal_grid_size": "8x8",
+      "store_in_secure_container?": false,
+    },
+    {
+      "name": "Mr. Holodilnick Thermal Bag",
+      "description": "Keeps your favorite food cold while you're out a-raiding!",
+      "external_grid_size": "3x3",
+      "internal_grid_size": "8x8",
+      "store_in_secure_container?": false,
+    },
+    {
+      "name": "Magazine Case",
+      "description": "Stores magazines. Not a replacement for upgrading the library.",
+      "external_grid_size": "3x2",
+      "internal_grid_size": "7x7",
+      "store_in_secure_container?": false,
+    }
+  }
+}
