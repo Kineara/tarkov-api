@@ -1,1 +1,72 @@
-
+{
+	"building_materials": [
+		{
+			"name": "Analog Thermometer",
+			"external_grid_size": "2x1",
+		},
+		{
+			"name": "Bolts",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Corrugated Hose",
+			"external_grid_size": "1x2",
+		},
+		{
+			"name": "Duct Tape",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Insulating Tape",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "KEKTAPE Duct Tape",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Metal Spare Parts",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Military Corrugated Tube",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Pack of Nails",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Pack of Screws",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Piece of Plexiglass",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Pressure Gauge",
+			"external_grid_size": "1x2",
+		},
+		{
+			"name": "Screw Nuts",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Shustrilo Sealing Foam",
+			"external_grid_size": "3x1",
+		},
+		{
+			"name": "Silicone Tube",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Tube of Poxeram Cold Welding",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Xenomorph Sealing Foam",
+			"external_grid_size": "3x1",
+		}
+	]
+}
