@@ -1,1 +1,36 @@
-
+{
+	"energy_elements": [
+		{
+			"name": "6-STEN-140-M Military Battery",
+			"external_grid_size": "2x4",
+		},
+		{
+			"name": "AA Battery",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Car Battery",
+			"external_grid_size": "2x3",
+		},
+		{
+			"name": "Cyclon Rechargeable Battery",
+			"external_grid_size": "1x2",
+		},
+		{
+			"name": "D Size Battery",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "GreenBat Lithium Battery",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Portable Powerbank",
+			"external_grid_size": "1x1",
+		},
+		{
+			"name": "Rechargeable Battery",
+			"external_grid_size": "1x1",
+		}
+	]
+}
