@@ -1,0 +1,40 @@
+{
+	"secure_containers": {
+		{
+			"name": "Secure Container Kappa",
+			"description": "The ultimate sweat brag.",
+			"external_grid_size": "3x3",
+			"internal_grid_size": "3x4",
+		},
+		{
+			"name": "Secure Container Gamma",
+			"description": "It's not pay to win, it's more like pay to die profitably.",
+			"external_grid_size": "3x3",
+			"internal_grid_size": "3x3",
+		},
+		{
+			"name": "Secure Container Epsilon",
+			"description": "I killed so many scavs and all I got was this case.",
+			"external_grid_size": "3x3",
+			"internal_grid_size": "2x4",
+		},
+		{
+			"name": "Secure Container Beta",
+			"description": "Couldn't decide between the standard game and the ultra-expensive bougie version? Look you still get a shiny!",
+			"external_grid_size": "3x2",
+			"internal_grid_size": "3x2",
+		},
+		{
+			"name": "Secure Container Alpha",
+			"description": "Fits almost exactly half of the stuff you wish it did.",
+			"external_grid_size": "2x2",
+			"internal_grid_size": "2x2",
+		},
+		{
+			"name": "Waist Pouch",
+			"description": "A waist pouch befitting the most mismatched scav outfit.",
+			"external_grid_size": "2x2",
+			"internal_grid_size": "2x2",
+		}
+	}
+}
