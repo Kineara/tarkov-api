@@ -1,1 +1,127 @@
-
+{
+	"game_version": "12.12",
+	"hideout": {
+		"hideout_stations": [
+			{
+				"name": "Air Filtering Unit",
+				"upgrade_levels": [1]
+			},
+			{
+				"name": "Bitcoin Farm",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Booze Generator",
+				"upgrade_levels": [1]
+			},
+			{
+				"name": "Generator",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Heating",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Illumination",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Intelligence Center",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Lavatory",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Library",
+				"upgrade_levels": [1]
+			},
+			{
+				"name": "Medstation",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Nutrition Unit",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Rest Space",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Scav Case",
+				"upgrade_levels": [1]
+			},
+			{
+				"name": "Security",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Shooting Range",
+				"upgrade_levels": [1]
+			},
+			{
+				"name": "Solar Power",
+				"upgrade_levels": [1]
+			},
+			{
+				"name": "Stash",
+				"upgrade_levels": [1,2,3,4]
+			},
+			{
+				"name": "Vents",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Water Collector",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Workbench",
+				"upgrade_levels": [1,2,3]
+			},
+			{
+				"name": "Christmas Tree",
+				"upgrade_levels": [1]
+			}
+		]
+	},
+	"traders": [
+		{
+			"title": "Fence",
+			"loyalty_levels": [1,4]
+		},
+		{
+			"title": "Jaeger",
+			"loyalty_levels": [1,2,3,4]
+		},
+		{
+			"title": "Mechanic",
+			"loyalty_levels": [1,2,3,4]
+		},
+		{
+			"title": "Peacekeeper",
+			"loyalty_levels": [1,2,3,4]
+		},
+		{
+			"title": "Prapor",
+			"loyalty_levels": [1,2,3,4]
+		},
+		{
+			"title": "Ragman",
+			"loyalty_levels": [1,2,3,4]
+		},
+		{
+			"title": "Skier",
+			"loyalty_levels": [1,2,3,4]
+		},
+		{
+			"title": "Therapist",
+			"loyalty_levels": [1,2,3,4]
+		}
+	],
+	"handbook": []
+	},
+}
