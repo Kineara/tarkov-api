@@ -1087,6 +1087,131 @@
 							"name": "Eberlestock G2 Gunslinger II Backpack (Dry Earth)",
 							"external_grid_size": "5x7",
 							"weight_kg": 3.36
+						},
+						{
+							"name": "Oakley Mechanism Heavy Duty Backpack (Black)",
+							"external_grid_size": "5x5",
+							"weight_kg": 1.5
+						},
+						{
+							"name": "ANA Tactical Beta 2 Battle Backpack",
+							"external_grid_size": "5x5",
+							"internal_grid_size": "5x6",
+							"weight_kg": 1.32
+						},
+						{
+							"name": "Gruppa 99 T30 Backpack",
+							"external_grid_size": "5x6",
+							"internal_grid_size": "5x6",
+							"weight_kg": 2.22
+						},
+						{
+							"name": "Camelbak Tri-Zip Assault Backpack",
+							"external_grid_size": "5x6",
+							"internal_grid_size": "5x6",
+							"weight_kg": 1.56
+						},
+						{
+							"name": "Eberlestock F5 Switchblade Backpack (Dry Earth)",
+							"external_grid_size": "5x6",
+							"internal_grid_size": "5x6",
+							"weight_kg": 1.572
+						},
+						{
+							"name": "LBT-1476A 3Day Pack (Woodland)",
+							"external_grid_size": "4x5",
+							"internal_grid_size": "5x5",
+							"weight_kg": 1.356
+						},
+						{
+							"name": "Gruppa 99 T20 Backpack",
+							"external_grid_size": "5x5",
+							"internal_grid_size": "5x5",
+							"weight_kg": 1.8
+						},
+						{
+							"name": "Hazard 4 Drawbridge Backpack (Coyote Tan)",
+							"external_grid_size": "5x5",
+							"internal_grid_size": "5x5",
+							"weight_kg": 1.56
+						},
+						{
+							"name": "Hazard 4 Takedown Sling Backpack",
+							"external_grid_size": "3x7",
+							"internal_grid_size": "3x8",
+							"weight_kg": 1.68
+						},
+						{
+							"name": "Hazard 4 Pillbox Backpack",
+							"external_grid_size": "4x4",
+							"internal_grid_size": "4x5",
+							"weight_kg": 2.52
+						},
+						{
+							"name": "Wartech Berkut BB-102 Backpack",
+							"external_grid_size": "4x5",
+							"internal_grid_size": "4x5",
+							"weight_kg": 0.96
+						},
+						{
+							"name": "LBT-8005A Day Pack Backpack",
+							"external_grid_size": "4x5",
+							"internal_grid_size": "4x5",
+							"weight_kg": 0.672
+						},
+						{
+							"name": "Scav Backpack",
+							"external_grid_size": "4x5",
+							"internal_grid_size": "4x5",
+							"weight_kg": 1.68
+						},
+						{
+							"name": "Flyye MBSS Backpack",
+							"external_grid_size": "4x4",
+							"internal_grid_size": "4x4",
+							"weight_kg": 0.6
+						},
+						{
+							"name": "Sanitar's Bag",
+							"external_grid_size": "4x4",
+							"internal_grid_size": "4x4",
+							"weight_kg": 1.44
+						},
+						{
+							"name": "Mystery Ranch NICE COMM 3 BVS Frame System",
+							"external_grid_size": "2x7",
+							"internal_grid_size": "4x5",
+							"weight_kg": 15
+						},
+						{
+							"name": "Duffle Bag",
+							"external_grid_size": "4x3",
+							"internal_grid_size": "4x3",
+							"weight_kg": 1.08
+						},
+						{
+							"name": "LolKek 3F Transfer Tourist Backpack",
+							"external_grid_size": "3x4",
+							"internal_grid_size": "3x4",
+							"weight_kg": 0.984
+						},
+						{
+							"name": "Transformer Bag",
+							"external_grid_size": "3x3",
+							"internal_grid_size": "3x3",
+							"weight_kg": 0.84
+						},
+						{
+							"name": "VKBO Army Bag",
+							"external_grid_size": "3x4",
+							"internal_grid_size": "4x2",
+							"weight_kg": 0.96
+						},
+						{
+							"name": "Tactical Sling Bag",
+							"external_grid_size": "3x3",
+							"internal_grid_size": "3x2",
+							"weight_kg": 0.48
 						}
 					]
 				}
