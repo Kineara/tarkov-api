@@ -122,6 +122,755 @@
 			"loyalty_levels": [1,2,3,4]
 		}
 	],
-	"handbook": []
-	},
+	"handbook": [
+		{
+			"barter_items": [
+				{
+					"building_materials": [
+						{
+							"name": "Analog Thermometer",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Bolts",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Corrugated Hose",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Duct Tape",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Insulating Tape",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "KEKTAPE Duct Tape",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Metal Spare Parts",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Military Corrugated Tube",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Pack of Nails",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Pack of Screws",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Piece of Plexiglass",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Pressure Gauge",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Screw Nuts",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Shustrilo Sealing Foam",
+							"external_grid_size": "3x1"
+						},
+						{
+							"name": "Silicone Tube",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Tube of Poxeram Cold Welding",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Xenomorph Sealing Foam",
+							"external_grid_size": "3x1"
+						}
+					]
+				},
+				{
+					"electronics": [
+						{
+							"name": "Broken GPhone X Smartphone",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Broken GPhone Smartphone",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Broken LCD",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Bundle of Wires",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Capacitors",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "CPU Fan",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Damaged Hard Drive",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "DVD Drive",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Electric Drill",
+							"external_grid_size": "2x2"
+						},
+						{
+							"name": "Electric Motor",
+							"external_grid_size": "2x2"
+						},
+						{
+							"name": "Energy-Saving Lamp",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Gas Analyzer",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Geiger-Muller Counter",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Golden 1GPhone Smartphone",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Graphics Card",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Iridium Military Thermal Vision Module",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Light Bulb",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Magnet",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Military Cable",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Military Circuit Board",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Military COFDM Wireless Signal Transmitter",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Military Gyrotachometer",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Military Power Filter",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "NIXXOR Lens",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "PC CPU",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Phase Control Relay",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Phased Array Element",
+							"external_grid_size": "2x2"
+						},
+						{
+							"name": "Power Cord",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Power Supply Unit",
+							"external_grid_size": "2x2"
+						},
+						{
+							"name": "Printed Circuit Board",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Radiator Helix",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "RAM",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Spark Plug",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "T-Shaped Plug",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Tetriz Portable Game Console",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "UHF RFID Reader",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Ultraviolet Lamp",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "USB Adapter",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Virtex Programmable Processor",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "VPX Flash Storage Module",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Working LCD",
+							"external_grid_size": "1x2"
+						}
+					]
+				},
+				{
+					"energy_elements": [
+						{
+							"name": "6-STEN-140-M Military Battery",
+							"external_grid_size": "2x4"
+						},
+						{
+							"name": "AA Battery",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Car Battery",
+							"external_grid_size": "2x3"
+						},
+						{
+							"name": "Cyclon Rechargeable Battery",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "D Size Battery",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "GreenBat Lithium Battery",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Portable Powerbank",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Rechargeable Battery",
+							"external_grid_size": "1x1"
+						}
+					]
+				},
+				{
+				  "flammable_materials": [
+				    {
+				      "name": "Can of Thermite",
+				      "external_grid_size": "1x1"
+				    },
+				    {
+				      "name": "Classic Matches",
+				      "external_grid_size": "1x1"
+				    },
+				    {
+				      "name": "Crickent Lighter",
+				      "external_grid_size": "1x1"
+				    },
+				    {
+				      "name": "Dry Fuel",
+				      "external_grid_size": "1x1"
+				    },
+				    {
+				      "name": "Expeditionary Fuel Tank",
+				      "external_grid_size": "2x2"
+				    },
+				    {
+				      "name": "FireKlean Gun Lube",
+				      "external_grid_size": "1x1"
+				    },
+				    {
+				      "name": "Fuel Conditioner",
+				      "external_grid_size": "1x2"
+				    },
+				    {
+				      "name": "Gunpowder 'Eagle'",
+				      "external_grid_size": "1x2"
+				    },
+				    {
+				      "name": "Gunpowder 'Hawk'",
+				      "external_grid_size": "1x2"
+				    },
+				    {
+				      "name": "Gunpowder 'Kite'",
+				      "external_grid_size": "1x2"
+				    },
+				    {
+				      "name": "Hunting Matches",
+				      "external_grid_size": "1x1"
+				    },
+				    {
+				      "name": "Metal Fuel Tank",
+				      "external_grid_size": "3x2"
+				    },
+				    {
+				      "name": "Propane Tank (5L)",
+				      "external_grid_size": "2x2"
+				    },
+				    {
+				      "name": "SurvL Survivor Lighter",
+				      "external_grid_size": "1x1"
+				    },
+				    {
+				      "name": "TP-200 TNT Brick",
+				      "external_grid_size": "1x1"
+				    },
+				    {
+				      "name": "WD-40 (400ml)",
+				      "external_grid_size": "3x1"
+				    },
+				    {
+				      "name": "WD-40 (100ml)",
+				      "external_grid_size": "1x1"
+				    },
+				    {
+				      "name": "Zibbo Lighter",
+				      "external_grid_size": "1x1"
+				    }
+				  ]
+				},
+				{
+					"others": [
+						{
+							"name": "42 Signature Blend English Tea",
+							"external_grid_size": "1x1",
+						},
+						{
+							"name": "Apollo Soyuz Cigarettes",
+							"external_grid_size": "1x1",
+						},
+						{
+							"name": "Aramid Fiber Fabric",
+							"external_grid_size": "1x2",
+						},
+						{
+							"name": "BEAR Buddy Plush Toy",
+							"external_grid_size": "2x2",
+						},
+						{
+							"name": "Can of Dr. Lupo's Coffee Beans",
+							"external_grid_size": "1x1",
+						},
+						{
+							"name": "Can of Majaica Coffee Beans",
+							"external_grid_size": "1x1",
+						},
+						{
+							"name": "Cordura Polyamide Fabric",
+							"external_grid_size": "1x2",
+						},
+						{
+							"name": "USEC Dogtag",
+							"external_grid_size": "1x1",
+						},
+						{
+							"name": "BEAR Dogtag",
+							"external_grid_size": "1x1",
+						},
+						{
+							"name": "Fleece Fabric",
+							"external_grid_size": "1x2",
+						},
+						{
+							"name": "FP-100 Filter Absorber",
+							"external_grid_size": "3x3",
+						},
+						{
+							"name": "Gas Mask Air Filter",
+							"external_grid_size": "1x2",
+						},
+						{
+							"name": "Malboro Cigarettes",
+							"external_grid_size": "1x1",
+						},
+						{
+							"name": "OFZ 30x160mm Shell",
+							"external_grid_size": "2x1",
+						},
+						{
+							"name": "Paracord",
+							"external_grid_size": "1x2",
+						},
+						{
+							"name": "Press Pass (issued for NoiceGuy)",
+							"external_grid_size": "2x1",
+						},
+						{
+							"name": "Ripstop Fabric",
+							"external_grid_size": "1x2",
+						},
+						{
+							"name": "Strike Cigarettes",
+							"external_grid_size": "1x1",
+						},
+						{
+							"name": "UZRGM Grenade Fuze",
+							"external_grid_size": "1x1",
+						},
+						{
+							"name": "Water Filter",
+							"external_grid_size": "2x1",
+						},
+						{
+							"name": "Weapon Parts",
+							"external_grid_size": "1x2",
+						},
+						{
+							"name": "Wilston Cigarettes",
+							"external_grid_size": "1x1",
+						}
+
+					]
+				},
+				{
+					"household_materials": [
+						{
+							"name": "Alkaline Cleaner for Heat Exchangers",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Can of White Salt",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Clin Window Cleaner",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Deadlyslob's Beard Oil",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "LVNDMARK's Rat Poison",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Ortodontox Toothpaste",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Ox Bleach",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Pack of Chlorine",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Pack of Sodium Bicarbonate",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "PAID AntiRoach Spray",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Printer Paper",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Repellent",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Schaman Shampoo",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Smoked Chimney Drain Cleaner",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Soap",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Toilet Paper",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Toothpaste",
+							"external_grid_size": "1x1"
+						}
+					]
+				},
+				{
+					"medical_supplies": [
+						{
+							"name": "Bottle of Hydrogen Peroxide",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Bottle of OLOLO Multivitamins",
+							"external_grid_size": "1x1",
+						},
+						{
+							"name": "Bottle of Saline Solution",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Disposable Syringe",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "LEDX Skin Transilluminator",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Medical Bloodset",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Medical Tools",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Ophthalmoscope",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Pile of Meds",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Portable Defibrillator",
+							"external_grid_size": "1x1"
+						}
+					]
+				},
+				{
+					"tools": [
+						{
+							"name": "Awl",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Bulbex Cable Cutter",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Construction Measuring Tape",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Flat Screwdriver",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Flat Screwdriver (Long)",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Hand Drill",
+							"external_grid_size": "2x3"
+						},
+						{
+							"name": "Metal Cutting Scissors",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Nippers",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Pipe Grip Wrench",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Pliers",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Pliers Elite",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Ratchet Wrench",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Round Pliers",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Screwdriver",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Set of Files 'Master'",
+							"external_grid_size": "2x2"
+						},
+						{
+							"name": "Wrench",
+							"external_grid_size": "1x1"
+						}
+					]
+				},
+				{
+					"valuables": [
+						{
+							"name": "Antique Teapot",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Antique Vase",
+							"external_grid_size": "2x2"
+						},
+						{
+							"name": "Axel Parrot Figurine",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Battered Antique Book",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Bronze Lion",
+							"external_grid_size": "2x3"
+						},
+						{
+							"name": "Cat Figurine",
+							"external_grid_size": "3x1"
+						},
+						{
+							"name": "Chain with Prokill Medallion",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Chainlet",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Christmas Tree Ornament (Red)",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Christmas Tree Ornament (Silver)",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Christmas Tree Ornament (Violet)",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Gold Skull Ring",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Golden Egg",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Golden Neck Chain",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Golden Rooster",
+							"external_grid_size": "2x2"
+						},
+						{
+							"name": "GP Coin",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Horse Figurine",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Loot Lord Plushie",
+							"external_grid_size": "2x2"
+						},
+						{
+							"name": "Old Firesteel",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Physical Bitcoin",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Raven Figurine",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Roler Submariner Gold Wrist Watch",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Silver Badge",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Veritas Guitar Pick",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Wooden Clock",
+							"external_grid_size": "2x2"
+						}
+					]
+				},
+				{
+					"info_items": [
+						
+					]
+				},
+				{
+					"special_equipment": [
+						
+					]
+				}
+
+			]
+		}
+	]
+	}
 }
