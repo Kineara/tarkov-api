@@ -206,1496 +206,1395 @@
       "loyalty_levels": [1, 2, 3, 4]
     }
   ],
-  "handbook": [
-    {
-      "barter_items": [
+  "handbook": {
+    "barter_items": {
+      "building_materials": [
         {
-          "building_materials": [
-            {
-              "name": "Analog Thermometer",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Bolts",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Corrugated Hose",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Duct Tape",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Insulating Tape",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "KEKTAPE Duct Tape",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Metal Spare Parts",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Military Corrugated Tube",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Pack of Nails",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Pack of Screws",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Piece of Plexiglass",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Pressure Gauge",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Screw Nuts",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Shustrilo Sealing Foam",
-              "external_grid_size": [3, 1]
-            },
-            {
-              "name": "Silicone Tube",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Tube of Poxeram Cold Welding",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Xenomorph Sealing Foam",
-              "external_grid_size": [3, 1]
-            }
-          ]
+          "name": "Analog Thermometer",
+          "external_grid_size": [2, 1]
         },
         {
-          "electronics": [
-            {
-              "name": "Broken GPhone X Smartphone",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Broken GPhone Smartphone",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Broken LCD",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Bundle of Wires",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Capacitors",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "CPU Fan",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Damaged Hard Drive",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "DVD Drive",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Electric Drill",
-              "external_grid_size": [2, 2]
-            },
-            {
-              "name": "Electric Motor",
-              "external_grid_size": [2, 2]
-            },
-            {
-              "name": "Energy-Saving Lamp",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Gas Analyzer",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Geiger-Muller Counter",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Golden 1GPhone Smartphone",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Graphics Card",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Iridium Military Thermal Vision Module",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Light Bulb",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Magnet",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Military Cable",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Military Circuit Board",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Military COFDM Wireless Signal Transmitter",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Military Gyrotachometer",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Military Power Filter",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "NIXXOR Lens",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "PC CPU",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Phase Control Relay",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Phased Array Element",
-              "external_grid_size": [2, 2]
-            },
-            {
-              "name": "Power Cord",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Power Supply Unit",
-              "external_grid_size": [2, 2]
-            },
-            {
-              "name": "Printed Circuit Board",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Radiator Helix",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "RAM",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Spark Plug",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "T-Shaped Plug",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Tetriz Portable Game Console",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "UHF RFID Reader",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Ultraviolet Lamp",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "USB Adapter",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Virtex Programmable Processor",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "VPX Flash Storage Module",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Working LCD",
-              "external_grid_size": [1, 2]
-            }
-          ]
+          "name": "Bolts",
+          "external_grid_size": [1, 1]
         },
         {
-          "energy_elements": [
-            {
-              "name": "6-STEN-140-M Military Battery",
-              "external_grid_size": [2, 4]
-            },
-            {
-              "name": "AA Battery",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Car Battery",
-              "external_grid_size": [2, 3]
-            },
-            {
-              "name": "Cyclon Rechargeable Battery",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "D Size Battery",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "GreenBat Lithium Battery",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Portable Powerbank",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Rechargeable Battery",
-              "external_grid_size": [1, 1]
-            }
-          ]
+          "name": "Corrugated Hose",
+          "external_grid_size": [1, 2]
         },
         {
-          "flammable_materials": [
-            {
-              "name": "Can of Thermite",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Classic Matches",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Crickent Lighter",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Dry Fuel",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Expeditionary Fuel Tank",
-              "external_grid_size": [2, 2]
-            },
-            {
-              "name": "FireKlean Gun Lube",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Fuel Conditioner",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Gunpowder 'Eagle'",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Gunpowder 'Hawk'",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Gunpowder 'Kite'",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Hunting Matches",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Metal Fuel Tank",
-              "external_grid_size": [3, 2]
-            },
-            {
-              "name": "Propane Tank (5L)",
-              "external_grid_size": [2, 2]
-            },
-            {
-              "name": "SurvL Survivor Lighter",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "TP-200 TNT Brick",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "WD-40 (400ml)",
-              "external_grid_size": [3, 1]
-            },
-            {
-              "name": "WD-40 (100ml)",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Zibbo Lighter",
-              "external_grid_size": [1, 1]
-            }
-          ]
+          "name": "Duct Tape",
+          "external_grid_size": [1, 1]
         },
         {
-          "others": [
-            {
-              "name": "42 Signature Blend English Tea",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Apollo Soyuz Cigarettes",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Aramid Fiber Fabric",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "BEAR Buddy Plush Toy",
-              "external_grid_size": [2, 2]
-            },
-            {
-              "name": "Can of Dr. Lupo's Coffee Beans",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Can of Majaica Coffee Beans",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Cordura Polyamide Fabric",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "USEC Dogtag",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "BEAR Dogtag",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Fleece Fabric",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "FP-100 Filter Absorber",
-              "external_grid_size": [3, 3]
-            },
-            {
-              "name": "Gas Mask Air Filter",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Malboro Cigarettes",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "OFZ 30x160mm Shell",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Paracord",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Press Pass (issued for NoiceGuy)",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Ripstop Fabric",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Strike Cigarettes",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "UZRGM Grenade Fuze",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Water Filter",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Weapon Parts",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Wilston Cigarettes",
-              "external_grid_size": [1, 1]
-            }
-          ]
+          "name": "Insulating Tape",
+          "external_grid_size": [1, 1]
         },
         {
-          "household_materials": [
-            {
-              "name": "Alkaline Cleaner for Heat Exchangers",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Can of White Salt",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Clin Window Cleaner",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Deadlyslob's Beard Oil",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "LVNDMARK's Rat Poison",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Ortodontox Toothpaste",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Ox Bleach",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Pack of Chlorine",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Pack of Sodium Bicarbonate",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "PAID AntiRoach Spray",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Printer Paper",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Repellent",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Schaman Shampoo",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Smoked Chimney Drain Cleaner",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Soap",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Toilet Paper",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Toothpaste",
-              "external_grid_size": [1, 1]
-            }
-          ]
+          "name": "KEKTAPE Duct Tape",
+          "external_grid_size": [1, 1]
         },
         {
-          "medical_supplies": [
-            {
-              "name": "Bottle of Hydrogen Peroxide",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Bottle of OLOLO Multivitamins",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Bottle of Saline Solution",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Disposable Syringe",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "LEDX Skin Transilluminator",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Medical Bloodset",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Medical Tools",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Ophthalmoscope",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Pile of Meds",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Portable Defibrillator",
-              "external_grid_size": [1, 1]
-            }
-          ]
+          "name": "Metal Spare Parts",
+          "external_grid_size": [1, 1]
         },
         {
-          "tools": [
-            {
-              "name": "Awl",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Bulbex Cable Cutter",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Construction Measuring Tape",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Flat Screwdriver",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Flat Screwdriver (Long)",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Hand Drill",
-              "external_grid_size": [2, 3]
-            },
-            {
-              "name": "Metal Cutting Scissors",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Nippers",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Pipe Grip Wrench",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Pliers",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Pliers Elite",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Ratchet Wrench",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Round Pliers",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Screwdriver",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Set of Files 'Master'",
-              "external_grid_size": [2, 2]
-            },
-            {
-              "name": "Wrench",
-              "external_grid_size": [1, 1]
-            }
-          ]
+          "name": "Military Corrugated Tube",
+          "external_grid_size": [1, 1]
         },
         {
-          "valuables": [
-            {
-              "name": "Antique Teapot",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Antique Vase",
-              "external_grid_size": [2, 2]
-            },
-            {
-              "name": "Axel Parrot Figurine",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Battered Antique Book",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Bronze Lion",
-              "external_grid_size": [2, 3]
-            },
-            {
-              "name": "Cat Figurine",
-              "external_grid_size": [3, 1]
-            },
-            {
-              "name": "Chain with Prokill Medallion",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Chainlet",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Christmas Tree Ornament (Red)",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Christmas Tree Ornament (Silver)",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Christmas Tree Ornament (Violet)",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Gold Skull Ring",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Golden Egg",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Golden Neck Chain",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Golden Rooster",
-              "external_grid_size": [2, 2]
-            },
-            {
-              "name": "GP Coin",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Horse Figurine",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Loot Lord Plushie",
-              "external_grid_size": [2, 2]
-            },
-            {
-              "name": "Old Firesteel",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Physical Bitcoin",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Raven Figurine",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Roler Submariner Gold Wrist Watch",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Silver Badge",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Veritas Guitar Pick",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Wooden Clock",
-              "external_grid_size": [2, 2]
-            }
-          ]
+          "name": "Pack of Nails",
+          "external_grid_size": [1, 1]
         },
         {
-          "info_items": [
-            {
-              "name": "BakeEzy Cook Book",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Diary",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Intelligence Folder",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Military Flash Drive",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "SAS Drive",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Secure Flash Drive",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Secured Magnetic Tape Cassette",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Slim Diary",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "SSD Drive",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Tech Manual",
-              "external_grid_size": [2, 1]
-            },
-            {
-              "name": "Topographic Survey Maps",
-              "external_grid_size": [1, 2]
-            },
-            {
-              "name": "Video Cassette with the Cyborg Killer Movie",
-              "external_grid_size": [1, 2]
-            }
-          ]
+          "name": "Pack of Screws",
+          "external_grid_size": [1, 1]
         },
         {
-          "special_equipment": [
-            {
-              "name": "Body Armor Repair Kit",
-              "external_grid_size": [2, 3]
-            },
-            {
-              "name": "EYE MK.2 Professional Hand-Held Compass",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Leatherman Multitool",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "MS2000 Marker",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Signal Jammer",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Vortex Ranger 1500 Rangefinder",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Wi-Fi Camera",
-              "external_grid_size": [1, 1]
-            },
-            {
-              "name": "Weapon Repair Kit",
-              "external_grid_size": [2, 3]
-            }
-          ]
+          "name": "Piece of Plexiglass",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Pressure Gauge",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Screw Nuts",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Shustrilo Sealing Foam",
+          "external_grid_size": [3, 1]
+        },
+        {
+          "name": "Silicone Tube",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Tube of Poxeram Cold Welding",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Xenomorph Sealing Foam",
+          "external_grid_size": [3, 1]
+        }
+      ],
+      "electronics": [
+        {
+          "name": "Broken GPhone X Smartphone",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Broken GPhone Smartphone",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Broken LCD",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Bundle of Wires",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Capacitors",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "CPU Fan",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Damaged Hard Drive",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "DVD Drive",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Electric Drill",
+          "external_grid_size": [2, 2]
+        },
+        {
+          "name": "Electric Motor",
+          "external_grid_size": [2, 2]
+        },
+        {
+          "name": "Energy-Saving Lamp",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Gas Analyzer",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Geiger-Muller Counter",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Golden 1GPhone Smartphone",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Graphics Card",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Iridium Military Thermal Vision Module",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Light Bulb",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Magnet",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Military Cable",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Military Circuit Board",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Military COFDM Wireless Signal Transmitter",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Military Gyrotachometer",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Military Power Filter",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "NIXXOR Lens",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "PC CPU",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Phase Control Relay",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Phased Array Element",
+          "external_grid_size": [2, 2]
+        },
+        {
+          "name": "Power Cord",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Power Supply Unit",
+          "external_grid_size": [2, 2]
+        },
+        {
+          "name": "Printed Circuit Board",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Radiator Helix",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "RAM",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Spark Plug",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "T-Shaped Plug",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Tetriz Portable Game Console",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "UHF RFID Reader",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Ultraviolet Lamp",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "USB Adapter",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Virtex Programmable Processor",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "VPX Flash Storage Module",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Working LCD",
+          "external_grid_size": [1, 2]
+        }
+      ],
+      "energy_elements": [
+        {
+          "name": "6-STEN-140-M Military Battery",
+          "external_grid_size": [2, 4]
+        },
+        {
+          "name": "AA Battery",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Car Battery",
+          "external_grid_size": [2, 3]
+        },
+        {
+          "name": "Cyclon Rechargeable Battery",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "D Size Battery",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "GreenBat Lithium Battery",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Portable Powerbank",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Rechargeable Battery",
+          "external_grid_size": [1, 1]
+        }
+      ],
+      "flammable_materials": [
+        {
+          "name": "Can of Thermite",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Classic Matches",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Crickent Lighter",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Dry Fuel",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Expeditionary Fuel Tank",
+          "external_grid_size": [2, 2]
+        },
+        {
+          "name": "FireKlean Gun Lube",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Fuel Conditioner",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Gunpowder 'Eagle'",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Gunpowder 'Hawk'",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Gunpowder 'Kite'",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Hunting Matches",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Metal Fuel Tank",
+          "external_grid_size": [3, 2]
+        },
+        {
+          "name": "Propane Tank (5L)",
+          "external_grid_size": [2, 2]
+        },
+        {
+          "name": "SurvL Survivor Lighter",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "TP-200 TNT Brick",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "WD-40 (400ml)",
+          "external_grid_size": [3, 1]
+        },
+        {
+          "name": "WD-40 (100ml)",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Zibbo Lighter",
+          "external_grid_size": [1, 1]
+        }
+      ],
+      "others": [
+        {
+          "name": "42 Signature Blend English Tea",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Apollo Soyuz Cigarettes",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Aramid Fiber Fabric",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "BEAR Buddy Plush Toy",
+          "external_grid_size": [2, 2]
+        },
+        {
+          "name": "Can of Dr. Lupo's Coffee Beans",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Can of Majaica Coffee Beans",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Cordura Polyamide Fabric",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "USEC Dogtag",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "BEAR Dogtag",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Fleece Fabric",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "FP-100 Filter Absorber",
+          "external_grid_size": [3, 3]
+        },
+        {
+          "name": "Gas Mask Air Filter",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Malboro Cigarettes",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "OFZ 30x160mm Shell",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Paracord",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Press Pass (issued for NoiceGuy)",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Ripstop Fabric",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Strike Cigarettes",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "UZRGM Grenade Fuze",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Water Filter",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Weapon Parts",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Wilston Cigarettes",
+          "external_grid_size": [1, 1]
+        }
+      ],
+      "household_materials": [
+        {
+          "name": "Alkaline Cleaner for Heat Exchangers",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Can of White Salt",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Clin Window Cleaner",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Deadlyslob's Beard Oil",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "LVNDMARK's Rat Poison",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Ortodontox Toothpaste",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Ox Bleach",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Pack of Chlorine",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Pack of Sodium Bicarbonate",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "PAID AntiRoach Spray",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Printer Paper",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Repellent",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Schaman Shampoo",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Smoked Chimney Drain Cleaner",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Soap",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Toilet Paper",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Toothpaste",
+          "external_grid_size": [1, 1]
+        }
+      ],
+      "medical_supplies": [
+        {
+          "name": "Bottle of Hydrogen Peroxide",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Bottle of OLOLO Multivitamins",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Bottle of Saline Solution",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Disposable Syringe",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "LEDX Skin Transilluminator",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Medical Bloodset",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Medical Tools",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Ophthalmoscope",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Pile of Meds",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Portable Defibrillator",
+          "external_grid_size": [1, 1]
+        }
+      ],
+      "tools": [
+        {
+          "name": "Awl",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Bulbex Cable Cutter",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Construction Measuring Tape",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Flat Screwdriver",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Flat Screwdriver (Long)",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Hand Drill",
+          "external_grid_size": [2, 3]
+        },
+        {
+          "name": "Metal Cutting Scissors",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Nippers",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Pipe Grip Wrench",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Pliers",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Pliers Elite",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Ratchet Wrench",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Round Pliers",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Screwdriver",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Set of Files 'Master'",
+          "external_grid_size": [2, 2]
+        },
+        {
+          "name": "Wrench",
+          "external_grid_size": [1, 1]
+        }
+      ],
+      "valuables": [
+        {
+          "name": "Antique Teapot",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Antique Vase",
+          "external_grid_size": [2, 2]
+        },
+        {
+          "name": "Axel Parrot Figurine",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Battered Antique Book",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Bronze Lion",
+          "external_grid_size": [2, 3]
+        },
+        {
+          "name": "Cat Figurine",
+          "external_grid_size": [3, 1]
+        },
+        {
+          "name": "Chain with Prokill Medallion",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Chainlet",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Christmas Tree Ornament (Red)",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Christmas Tree Ornament (Silver)",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Christmas Tree Ornament (Violet)",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Gold Skull Ring",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Golden Egg",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Golden Neck Chain",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Golden Rooster",
+          "external_grid_size": [2, 2]
+        },
+        {
+          "name": "GP Coin",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Horse Figurine",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Loot Lord Plushie",
+          "external_grid_size": [2, 2]
+        },
+        {
+          "name": "Old Firesteel",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Physical Bitcoin",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Raven Figurine",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Roler Submariner Gold Wrist Watch",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Silver Badge",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Veritas Guitar Pick",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Wooden Clock",
+          "external_grid_size": [2, 2]
+        }
+      ],
+      "info_items": [
+        {
+          "name": "BakeEzy Cook Book",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Diary",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Intelligence Folder",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Military Flash Drive",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "SAS Drive",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Secure Flash Drive",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Secured Magnetic Tape Cassette",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Slim Diary",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "SSD Drive",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Tech Manual",
+          "external_grid_size": [2, 1]
+        },
+        {
+          "name": "Topographic Survey Maps",
+          "external_grid_size": [1, 2]
+        },
+        {
+          "name": "Video Cassette with the Cyborg Killer Movie",
+          "external_grid_size": [1, 2]
+        }
+      ],
+      "special_equipment": [
+        {
+          "name": "Body Armor Repair Kit",
+          "external_grid_size": [2, 3]
+        },
+        {
+          "name": "EYE MK.2 Professional Hand-Held Compass",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Leatherman Multitool",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "MS2000 Marker",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Signal Jammer",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Vortex Ranger 1500 Rangefinder",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Wi-Fi Camera",
+          "external_grid_size": [1, 1]
+        },
+        {
+          "name": "Weapon Repair Kit",
+          "external_grid_size": [2, 3]
         }
       ]
     },
-    {
-      "gear": [
+
+    "gear": {
+      "backpacks": [
         {
-          "backpacks": [
-            {
-              "name": "6Sh118 Raid Backpack",
-              "external_grid_size": [6, 7],
-              "internal_grid_size": [6, 8],
-              "weight_kg": 6.36
-            },
-            {
-              "name": "LBT-2670 Slim Field Med Pack",
-              "external_grid_size": [4, 5],
-              "internal_grid_size": [6, 8],
-              "weight_kg": 1.92
-            },
-            {
-              "name": "Mystery Ranch Blackjack 50 Backpack (Multicam)",
-              "external_grid_size": [6, 7],
-              "internal_grid_size": [5, 7],
-              "weight_kg": 3
-            },
-            {
-              "name": "Eberlestock F4 Terminator Load Bearing Backpack (Tiger Stripe)",
-              "external_grid_size": [5, 7],
-              "weight_kg": 4.356
-            },
-            {
-              "name": "SSO Attack 2 Raid Backpack",
-              "external_grid_size": [5, 7],
-              "internal_grid_size": [5, 7],
-              "weight_kg": 6.12
-            },
-            {
-              "name": "Pilgrim Tourist Backpack",
-              "external_grid_size": [5, 7],
-              "internal_grid_size": [5, 7],
-              "weight_kg": 3.48
-            },
-            {
-              "name": "Santa's Bag",
-              "external_grid_size": [5, 7],
-              "internal_grid_size": [5, 7],
-              "weight_kg": 2.64
-            },
-            {
-              "name": "3V Gear Paratus 3-Day Operator's Tactical Backpack",
-              "external_grid_size": [5, 7],
-              "weight_kg": 1.56
-            },
-            {
-              "name": "Eberlestock G2 Gunslinger II Backpack (Dry Earth)",
-              "external_grid_size": [5, 7],
-              "weight_kg": 3.36
-            },
-            {
-              "name": "Oakley Mechanism Heavy Duty Backpack (Black)",
-              "external_grid_size": [5, 5],
-              "weight_kg": 1.5
-            },
-            {
-              "name": "ANA Tactical Beta 2 Battle Backpack",
-              "external_grid_size": [5, 5],
-              "internal_grid_size": [5, 6],
-              "weight_kg": 1.32
-            },
-            {
-              "name": "Gruppa 99 T30 Backpack",
-              "external_grid_size": [5, 6],
-              "internal_grid_size": [5, 6],
-              "weight_kg": 2.22
-            },
-            {
-              "name": "Camelbak Tri-Zip Assault Backpack",
-              "external_grid_size": [5, 6],
-              "internal_grid_size": [5, 6],
-              "weight_kg": 1.56
-            },
-            {
-              "name": "Eberlestock F5 Switchblade Backpack (Dry Earth)",
-              "external_grid_size": [5, 6],
-              "internal_grid_size": [5, 6],
-              "weight_kg": 1.572
-            },
-            {
-              "name": "LBT-1476A 3Day Pack (Woodland)",
-              "external_grid_size": [4, 5],
-              "internal_grid_size": [5, 5],
-              "weight_kg": 1.356
-            },
-            {
-              "name": "Gruppa 99 T20 Backpack",
-              "external_grid_size": [5, 5],
-              "internal_grid_size": [5, 5],
-              "weight_kg": 1.8
-            },
-            {
-              "name": "Hazard 4 Drawbridge Backpack (Coyote Tan)",
-              "external_grid_size": [5, 5],
-              "internal_grid_size": [5, 5],
-              "weight_kg": 1.56
-            },
-            {
-              "name": "Hazard 4 Takedown Sling Backpack",
-              "external_grid_size": [3, 7],
-              "internal_grid_size": [3, 8],
-              "weight_kg": 1.68
-            },
-            {
-              "name": "Hazard 4 Pillbox Backpack",
-              "external_grid_size": [4, 4],
-              "internal_grid_size": [4, 5],
-              "weight_kg": 2.52
-            },
-            {
-              "name": "Wartech Berkut BB-102 Backpack",
-              "external_grid_size": [4, 5],
-              "internal_grid_size": [4, 5],
-              "weight_kg": 0.96
-            },
-            {
-              "name": "LBT-8005A Day Pack Backpack",
-              "external_grid_size": [4, 5],
-              "internal_grid_size": [4, 5],
-              "weight_kg": 0.672
-            },
-            {
-              "name": "Scav Backpack",
-              "external_grid_size": [4, 5],
-              "internal_grid_size": [4, 5],
-              "weight_kg": 1.68
-            },
-            {
-              "name": "Flyye MBSS Backpack",
-              "external_grid_size": [4, 4],
-              "internal_grid_size": [4, 4],
-              "weight_kg": 0.6
-            },
-            {
-              "name": "Sanitar's Bag",
-              "external_grid_size": [4, 4],
-              "internal_grid_size": [4, 4],
-              "weight_kg": 1.44
-            },
-            {
-              "name": "Mystery Ranch NICE COMM 3 BVS Frame System",
-              "external_grid_size": [2, 7],
-              "internal_grid_size": [4, 5],
-              "weight_kg": 15
-            },
-            {
-              "name": "Duffle Bag",
-              "external_grid_size": [4, 3],
-              "internal_grid_size": [4, 3],
-              "weight_kg": 1.08
-            },
-            {
-              "name": "LolKek 3F Transfer Tourist Backpack",
-              "external_grid_size": [3, 4],
-              "internal_grid_size": [3, 4],
-              "weight_kg": 0.984
-            },
-            {
-              "name": "Transformer Bag",
-              "external_grid_size": [3, 3],
-              "internal_grid_size": [3, 3],
-              "weight_kg": 0.84
-            },
-            {
-              "name": "VKBO Army Bag",
-              "external_grid_size": [3, 4],
-              "internal_grid_size": [4, 2],
-              "weight_kg": 0.96
-            },
-            {
-              "name": "Tactical Sling Bag",
-              "external_grid_size": [3, 3],
-              "internal_grid_size": [3, 2],
-              "weight_kg": 0.48
-            }
-          ]
+          "name": "6Sh118 Raid Backpack",
+          "external_grid_size": [6, 7],
+          "internal_grid_size": [6, 8],
+          "weight_kg": 6.36
         },
         {
-          "body_armor": [
-            {
-              "name": "BNTI Module-3M Body Armor",
-              "external_grid_size": [3, 3],
-              "material": "aramid",
-              "armor_class": 2,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 40,
-              "movement_speed_percent_change": -3,
-              "turning_speed_percent_change": -3,
-              "ergonomics_percent_change": -1,
-              "weight_kg": 6
-            },
-            {
-              "name": "PACA Soft Armor",
-              "external_grid_size": [2, 2],
-              "material": "aramid",
-              "armor_class": 2,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 50,
-              "movement_speed_percent_change": -3,
-              "turning_speed_percent_change": -1,
-              "ergonomics_percent_change": -2,
-              "weight_kg": 3.5
-            },
-            {
-              "name": "PACA Soft Armor (Rivals Edition)",
-              "external_grid_size": [3, 3],
-              "material": "aramid",
-              "armor_class": 2,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 50,
-              "movement_speed_percent_change": -3,
-              "turning_speed_percent_change": -1,
-              "ergonomics_percent_change": -2,
-              "weight_kg": 5
-            },
-            {
-              "name": "6B2 Body Armor (Flora)",
-              "external_grid_size": [3, 3],
-              "material": "titan",
-              "armor_class": 2,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 80,
-              "movement_speed_percent_change": -6,
-              "turning_speed_percent_change": -3,
-              "ergonomics_percent_change": -7,
-              "weight_kg": 5.4
-            },
-            {
-              "name": "MF-UNTAR Body Armor",
-              "external_grid_size": [3, 3],
-              "material": "Aluminium",
-              "armor_class": 3,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 50,
-              "movement_speed_percent_change": -18,
-              "turning_speed_percent_change": -6,
-              "ergonomics_percent_change": -8,
-              "weight_kg": 8.5
-            },
-            {
-              "name": "BNTI Zhuk-3 Body Armor (Press)",
-              "external_grid_size": [3, 3],
-              "material": "UHMWPE",
-              "armor_class": 3,
-              "armor_areas": ["thorax, stomach"],
-              "durability": 50,
-              "movement_speed_percent_change": -10,
-              "turning_speed_percent_change": -4,
-              "ergonomics_percent_change": -5,
-              "weight_kg": 5.2
-            },
-            {
-              "name": "6B23-1 Body Armor",
-              "external_grid_size": [3, 4],
-              "material": "armor steel",
-              "armor_class": 3,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 60,
-              "movement_speed_percent_change": -11,
-              "turning_speed_percent_change": -5,
-              "ergonomics_percent_change": -9,
-              "weight_kg": 7.9
-            },
-            {
-              "name": "DRD Body Armor",
-              "external_grid_size": [3, 3],
-              "material": "aramid",
-              "armor_class": 3,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 60,
-              "movement_speed_percent_change": -3,
-              "turning_speed_percent_change": -2,
-              "ergonomics_percent_change": -2,
-              "weight_kg": 4
-            },
-            {
-              "name": "BNTI Kirasa-N Body Armor",
-              "external_grid_size": [3, 3],
-              "material": "combined materials",
-              "armor_class": 3,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 70,
-              "movement_speed_percent_change": -8,
-              "turning_speed_percent_change": -5,
-              "ergonomics_percent_change": -6,
-              "weight_kg": 7.1
-            },
-            {
-              "name": "HighCom Trooper TFO Body Armor (Multicam)",
-              "external_grid_size": [3, 3],
-              "material": "UHMWPE",
-              "armor_class": 4,
-              "armor_areas": ["thorax"],
-              "durability": 85,
-              "movement_speed_percent_change": -9,
-              "turning_speed_percent_change": -2,
-              "ergonomics_percent_change": -3,
-              "weight_kg": 6.8
-            },
-            {
-              "name": "NFM THOR Concealable Reinforced Vest Body Armor",
-              "external_grid_size": [3, 3],
-              "material": "combined materials",
-              "armor_class": 4,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 35,
-              "movement_speed_percent_change": -4,
-              "turning_speed_percent_change": -4,
-              "ergonomics_percent_change": -2,
-              "weight_kg": 9
-            },
-            {
-              "name": "6B13 Assault Armor",
-              "external_grid_size": [3, 4],
-              "material": "ceramic",
-              "armor_class": 4,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 47,
-              "movement_speed_percent_change": -12,
-              "turning_speed_percent_change": -3,
-              "ergonomics_percent_change": -5,
-              "weight_kg": 10.5
-            },
-            {
-              "name": "6B23-2 Body Armor (Mountain Flora)",
-              "external_grid_size": [3, 4],
-              "material": "ceramic",
-              "armor_class": 4,
-              "armor_areas": ["thorax, stomach"],
-              "durability": 55,
-              "movement_speed_percent_change": -11,
-              "turning_speed_percent_change": -3,
-              "ergonomics_percent_change": -9,
-              "weight_kg": 7.2
-            },
-            {
-              "name": "NPP KIASS Korund-VM Body Armor",
-              "external_grid_size": [3, 4],
-              "material": "armor steel",
-              "armor_class": 5,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 45,
-              "movement_speed_percent_change": -18,
-              "turning_speed_percent_change": -9,
-              "ergonomics_percent_change": -10,
-              "weight_kg": 9.8
-            },
-            {
-              "name": "FORT Redut-M Body Armor",
-              "external_grid_size": [3, 4],
-              "material": "combined materials",
-              "armor_class": 5,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 60,
-              "movement_speed_percent_change": -13,
-              "turning_speed_percent_change": -12,
-              "ergonomics_percent_change": -11,
-              "weight_kg": 13.5
-            },
-            {
-              "name": "6B13 M Modified Assault Armor",
-              "external_grid_size": [3, 4],
-              "material": "UHMWPE",
-              "armor_class": 5,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 60,
-              "movement_speed_percent_change": -9,
-              "turning_speed_percent_change": -3,
-              "ergonomics_percent_change": -5,
-              "weight_kg": 7.5
-            },
-            {
-              "name": "IOTV Gen4 Body Armor (High Mobility Kit)",
-              "external_grid_size": [3, 4],
-              "material": "titan",
-              "armor_class": 5,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 65,
-              "movement_speed_percent_change": -11,
-              "turning_speed_percent_change": -17,
-              "ergonomics_percent_change": -12,
-              "weight_kg": 13
-            },
-            {
-              "name": "BNTI Gzhel-K Body Armor",
-              "external_grid_size": [3, 3],
-              "material": "ceramic",
-              "armor_class": 5,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 65,
-              "movement_speed_percent_change": -10,
-              "turning_speed_percent_change": -3,
-              "ergonomics_percent_change": -4,
-              "weight_kg": 8.9
-            },
-            {
-              "name": "FORT Defender-2 Body Armor",
-              "external_grid_size": [3, 4],
-              "material": "armor steel",
-              "armor_class": 5,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 70,
-              "movement_speed_percent_change": -9,
-              "turning_speed_percent_change": -12,
-              "ergonomics_percent_change": -7,
-              "weight_kg": 11.5
-            },
-            {
-              "name": "IOTV Gen4 Body Armor (Assault Kit)",
-              "external_grid_size": [4, 4],
-              "material": "titan",
-              "armor_class": 5,
-              "armor_areas": ["arms", "thorax", "stomach"],
-              "durability": 75,
-              "movement_speed_percent_change": -20,
-              "turning_speed_percent_change": -14,
-              "ergonomics_percent_change": -14,
-              "weight_kg": 15
-            },
-            {
-              "name": "IOTV Gen4 Body Armor (Full Protection)",
-              "external_grid_size": [4, 4],
-              "material": "titan",
-              "armor_class": 5,
-              "armor_areas": ["arms", "thorax", "stomach"],
-              "durability": 95,
-              "movement_speed_percent_change": -24,
-              "turning_speed_percent_change": -19,
-              "ergonomics_percent_change": -22,
-              "weight_kg": 17
-            },
-            {
-              "name": "FORT Redut-T5 Body Armor",
-              "external_grid_size": [4, 4],
-              "material": "combined materials",
-              "armor_class": 5,
-              "armor_areas": ["arms", "thorax", "stomach"],
-              "durability": 100,
-              "movement_speed_percent_change": -37,
-              "turning_speed_percent_change": -15,
-              "ergonomics_percent_change": -14,
-              "weight_kg": 16.5
-            },
-            {
-              "name": "5.11 Tactical Hexgrid Plate Carrier",
-              "external_grid_size": [3, 3],
-              "material": "UHMWPE",
-              "armor_class": 6,
-              "armor_areas": ["thorax"],
-              "durability": 50,
-              "movement_speed_percent_change": -8,
-              "turning_speed_percent_change": -2,
-              "ergonomics_percent_change": -1,
-              "weight_kg": 7.7
-            },
-            {
-              "name": "LBT-6094A Slick Plate Carrier",
-              "external_grid_size": [3, 3],
-              "material": "armor steel",
-              "armor_class": 6,
-              "armor_areas": ["thorax"],
-              "durability": 80,
-              "movement_speed_percent_change": -10,
-              "turning_speed_percent_change": -2,
-              "ergonomics_percent_change": -1,
-              "weight_kg": 9.7
-            },
-            {
-              "name": "BNTI Zhuk-6a Body Armor",
-              "external_grid_size": [3, 3],
-              "material": "ceramic",
-              "armor_class": 6,
-              "armor_areas": ["thorax", "stomach"],
-              "durability": 75,
-              "movement_speed_percent_change": -13,
-              "turning_speed_percent_change": -5,
-              "ergonomics_percent_change": -6,
-              "weight_kg": 9
-            },
-            {
-              "name": "NFM THOR Integrated Carrier Body Armor",
-              "external_grid_size": [4, 4],
-              "material": "combined materials",
-              "armor_class": 6,
-              "armor_areas": ["arms", "thorax", "stomach"],
-              "durability": 55,
-              "movement_speed_percent_change": -28,
-              "turning_speed_percent_change": -16,
-              "ergonomics_percent_change": -20,
-              "weight_kg": 18
-            },
-            {
-              "name": "6B43 6A Zabralo-Sh Body Armor",
-              "external_grid_size": [4, 4],
-              "material": "combined materials",
-              "armor_class": 6,
-              "armor_areas": ["arms", "thorax", "stomach"],
-              "durability": 85,
-              "movement_speed_percent_change": -35,
-              "turning_speed_percent_change": -21,
-              "ergonomics_percent_change": -27,
-              "weight_kg": 20
-            }
-          ]
+          "name": "LBT-2670 Slim Field Med Pack",
+          "external_grid_size": [4, 5],
+          "internal_grid_size": [6, 8],
+          "weight_kg": 1.92
         },
         {
-          "eyewear": [{}]
+          "name": "Mystery Ranch Blackjack 50 Backpack (Multicam)",
+          "external_grid_size": [6, 7],
+          "internal_grid_size": [5, 7],
+          "weight_kg": 3
         },
         {
-          "facecovers": []
+          "name": "Eberlestock F4 Terminator Load Bearing Backpack (Tiger Stripe)",
+          "external_grid_size": [5, 7],
+          "weight_kg": 4.356
         },
         {
-          "gear_components": []
+          "name": "SSO Attack 2 Raid Backpack",
+          "external_grid_size": [5, 7],
+          "internal_grid_size": [5, 7],
+          "weight_kg": 6.12
         },
         {
-          "headgear": []
+          "name": "Pilgrim Tourist Backpack",
+          "external_grid_size": [5, 7],
+          "internal_grid_size": [5, 7],
+          "weight_kg": 3.48
         },
         {
-          "headsets": []
+          "name": "Santa's Bag",
+          "external_grid_size": [5, 7],
+          "internal_grid_size": [5, 7],
+          "weight_kg": 2.64
         },
         {
-          "secure_containers": []
+          "name": "3V Gear Paratus 3-Day Operator's Tactical Backpack",
+          "external_grid_size": [5, 7],
+          "weight_kg": 1.56
         },
         {
-          "storage_containers": []
+          "name": "Eberlestock G2 Gunslinger II Backpack (Dry Earth)",
+          "external_grid_size": [5, 7],
+          "weight_kg": 3.36
         },
         {
-          "tactical_rigs": []
+          "name": "Oakley Mechanism Heavy Duty Backpack (Black)",
+          "external_grid_size": [5, 5],
+          "weight_kg": 1.5
+        },
+        {
+          "name": "ANA Tactical Beta 2 Battle Backpack",
+          "external_grid_size": [5, 5],
+          "internal_grid_size": [5, 6],
+          "weight_kg": 1.32
+        },
+        {
+          "name": "Gruppa 99 T30 Backpack",
+          "external_grid_size": [5, 6],
+          "internal_grid_size": [5, 6],
+          "weight_kg": 2.22
+        },
+        {
+          "name": "Camelbak Tri-Zip Assault Backpack",
+          "external_grid_size": [5, 6],
+          "internal_grid_size": [5, 6],
+          "weight_kg": 1.56
+        },
+        {
+          "name": "Eberlestock F5 Switchblade Backpack (Dry Earth)",
+          "external_grid_size": [5, 6],
+          "internal_grid_size": [5, 6],
+          "weight_kg": 1.572
+        },
+        {
+          "name": "LBT-1476A 3Day Pack (Woodland)",
+          "external_grid_size": [4, 5],
+          "internal_grid_size": [5, 5],
+          "weight_kg": 1.356
+        },
+        {
+          "name": "Gruppa 99 T20 Backpack",
+          "external_grid_size": [5, 5],
+          "internal_grid_size": [5, 5],
+          "weight_kg": 1.8
+        },
+        {
+          "name": "Hazard 4 Drawbridge Backpack (Coyote Tan)",
+          "external_grid_size": [5, 5],
+          "internal_grid_size": [5, 5],
+          "weight_kg": 1.56
+        },
+        {
+          "name": "Hazard 4 Takedown Sling Backpack",
+          "external_grid_size": [3, 7],
+          "internal_grid_size": [3, 8],
+          "weight_kg": 1.68
+        },
+        {
+          "name": "Hazard 4 Pillbox Backpack",
+          "external_grid_size": [4, 4],
+          "internal_grid_size": [4, 5],
+          "weight_kg": 2.52
+        },
+        {
+          "name": "Wartech Berkut BB-102 Backpack",
+          "external_grid_size": [4, 5],
+          "internal_grid_size": [4, 5],
+          "weight_kg": 0.96
+        },
+        {
+          "name": "LBT-8005A Day Pack Backpack",
+          "external_grid_size": [4, 5],
+          "internal_grid_size": [4, 5],
+          "weight_kg": 0.672
+        },
+        {
+          "name": "Scav Backpack",
+          "external_grid_size": [4, 5],
+          "internal_grid_size": [4, 5],
+          "weight_kg": 1.68
+        },
+        {
+          "name": "Flyye MBSS Backpack",
+          "external_grid_size": [4, 4],
+          "internal_grid_size": [4, 4],
+          "weight_kg": 0.6
+        },
+        {
+          "name": "Sanitar's Bag",
+          "external_grid_size": [4, 4],
+          "internal_grid_size": [4, 4],
+          "weight_kg": 1.44
+        },
+        {
+          "name": "Mystery Ranch NICE COMM 3 BVS Frame System",
+          "external_grid_size": [2, 7],
+          "internal_grid_size": [4, 5],
+          "weight_kg": 15
+        },
+        {
+          "name": "Duffle Bag",
+          "external_grid_size": [4, 3],
+          "internal_grid_size": [4, 3],
+          "weight_kg": 1.08
+        },
+        {
+          "name": "LolKek 3F Transfer Tourist Backpack",
+          "external_grid_size": [3, 4],
+          "internal_grid_size": [3, 4],
+          "weight_kg": 0.984
+        },
+        {
+          "name": "Transformer Bag",
+          "external_grid_size": [3, 3],
+          "internal_grid_size": [3, 3],
+          "weight_kg": 0.84
+        },
+        {
+          "name": "VKBO Army Bag",
+          "external_grid_size": [3, 4],
+          "internal_grid_size": [4, 2],
+          "weight_kg": 0.96
+        },
+        {
+          "name": "Tactical Sling Bag",
+          "external_grid_size": [3, 3],
+          "internal_grid_size": [3, 2],
+          "weight_kg": 0.48
         }
-      ]
+      ],
+      "body_armor": [
+        {
+          "name": "BNTI Module-3M Body Armor",
+          "external_grid_size": [3, 3],
+          "material": "aramid",
+          "armor_class": 2,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 40,
+          "movement_speed_percent_change": -3,
+          "turning_speed_percent_change": -3,
+          "ergonomics_percent_change": -1,
+          "weight_kg": 6
+        },
+        {
+          "name": "PACA Soft Armor",
+          "external_grid_size": [2, 2],
+          "material": "aramid",
+          "armor_class": 2,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 50,
+          "movement_speed_percent_change": -3,
+          "turning_speed_percent_change": -1,
+          "ergonomics_percent_change": -2,
+          "weight_kg": 3.5
+        },
+        {
+          "name": "PACA Soft Armor (Rivals Edition)",
+          "external_grid_size": [3, 3],
+          "material": "aramid",
+          "armor_class": 2,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 50,
+          "movement_speed_percent_change": -3,
+          "turning_speed_percent_change": -1,
+          "ergonomics_percent_change": -2,
+          "weight_kg": 5
+        },
+        {
+          "name": "6B2 Body Armor (Flora)",
+          "external_grid_size": [3, 3],
+          "material": "titan",
+          "armor_class": 2,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 80,
+          "movement_speed_percent_change": -6,
+          "turning_speed_percent_change": -3,
+          "ergonomics_percent_change": -7,
+          "weight_kg": 5.4
+        },
+        {
+          "name": "MF-UNTAR Body Armor",
+          "external_grid_size": [3, 3],
+          "material": "Aluminium",
+          "armor_class": 3,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 50,
+          "movement_speed_percent_change": -18,
+          "turning_speed_percent_change": -6,
+          "ergonomics_percent_change": -8,
+          "weight_kg": 8.5
+        },
+        {
+          "name": "BNTI Zhuk-3 Body Armor (Press)",
+          "external_grid_size": [3, 3],
+          "material": "UHMWPE",
+          "armor_class": 3,
+          "armor_areas": ["thorax, stomach"],
+          "durability": 50,
+          "movement_speed_percent_change": -10,
+          "turning_speed_percent_change": -4,
+          "ergonomics_percent_change": -5,
+          "weight_kg": 5.2
+        },
+        {
+          "name": "6B23-1 Body Armor",
+          "external_grid_size": [3, 4],
+          "material": "armor steel",
+          "armor_class": 3,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 60,
+          "movement_speed_percent_change": -11,
+          "turning_speed_percent_change": -5,
+          "ergonomics_percent_change": -9,
+          "weight_kg": 7.9
+        },
+        {
+          "name": "DRD Body Armor",
+          "external_grid_size": [3, 3],
+          "material": "aramid",
+          "armor_class": 3,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 60,
+          "movement_speed_percent_change": -3,
+          "turning_speed_percent_change": -2,
+          "ergonomics_percent_change": -2,
+          "weight_kg": 4
+        },
+        {
+          "name": "BNTI Kirasa-N Body Armor",
+          "external_grid_size": [3, 3],
+          "material": "combined materials",
+          "armor_class": 3,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 70,
+          "movement_speed_percent_change": -8,
+          "turning_speed_percent_change": -5,
+          "ergonomics_percent_change": -6,
+          "weight_kg": 7.1
+        },
+        {
+          "name": "HighCom Trooper TFO Body Armor (Multicam)",
+          "external_grid_size": [3, 3],
+          "material": "UHMWPE",
+          "armor_class": 4,
+          "armor_areas": ["thorax"],
+          "durability": 85,
+          "movement_speed_percent_change": -9,
+          "turning_speed_percent_change": -2,
+          "ergonomics_percent_change": -3,
+          "weight_kg": 6.8
+        },
+        {
+          "name": "NFM THOR Concealable Reinforced Vest Body Armor",
+          "external_grid_size": [3, 3],
+          "material": "combined materials",
+          "armor_class": 4,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 35,
+          "movement_speed_percent_change": -4,
+          "turning_speed_percent_change": -4,
+          "ergonomics_percent_change": -2,
+          "weight_kg": 9
+        },
+        {
+          "name": "6B13 Assault Armor",
+          "external_grid_size": [3, 4],
+          "material": "ceramic",
+          "armor_class": 4,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 47,
+          "movement_speed_percent_change": -12,
+          "turning_speed_percent_change": -3,
+          "ergonomics_percent_change": -5,
+          "weight_kg": 10.5
+        },
+        {
+          "name": "6B23-2 Body Armor (Mountain Flora)",
+          "external_grid_size": [3, 4],
+          "material": "ceramic",
+          "armor_class": 4,
+          "armor_areas": ["thorax, stomach"],
+          "durability": 55,
+          "movement_speed_percent_change": -11,
+          "turning_speed_percent_change": -3,
+          "ergonomics_percent_change": -9,
+          "weight_kg": 7.2
+        },
+        {
+          "name": "NPP KIASS Korund-VM Body Armor",
+          "external_grid_size": [3, 4],
+          "material": "armor steel",
+          "armor_class": 5,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 45,
+          "movement_speed_percent_change": -18,
+          "turning_speed_percent_change": -9,
+          "ergonomics_percent_change": -10,
+          "weight_kg": 9.8
+        },
+        {
+          "name": "FORT Redut-M Body Armor",
+          "external_grid_size": [3, 4],
+          "material": "combined materials",
+          "armor_class": 5,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 60,
+          "movement_speed_percent_change": -13,
+          "turning_speed_percent_change": -12,
+          "ergonomics_percent_change": -11,
+          "weight_kg": 13.5
+        },
+        {
+          "name": "6B13 M Modified Assault Armor",
+          "external_grid_size": [3, 4],
+          "material": "UHMWPE",
+          "armor_class": 5,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 60,
+          "movement_speed_percent_change": -9,
+          "turning_speed_percent_change": -3,
+          "ergonomics_percent_change": -5,
+          "weight_kg": 7.5
+        },
+        {
+          "name": "IOTV Gen4 Body Armor (High Mobility Kit)",
+          "external_grid_size": [3, 4],
+          "material": "titan",
+          "armor_class": 5,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 65,
+          "movement_speed_percent_change": -11,
+          "turning_speed_percent_change": -17,
+          "ergonomics_percent_change": -12,
+          "weight_kg": 13
+        },
+        {
+          "name": "BNTI Gzhel-K Body Armor",
+          "external_grid_size": [3, 3],
+          "material": "ceramic",
+          "armor_class": 5,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 65,
+          "movement_speed_percent_change": -10,
+          "turning_speed_percent_change": -3,
+          "ergonomics_percent_change": -4,
+          "weight_kg": 8.9
+        },
+        {
+          "name": "FORT Defender-2 Body Armor",
+          "external_grid_size": [3, 4],
+          "material": "armor steel",
+          "armor_class": 5,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 70,
+          "movement_speed_percent_change": -9,
+          "turning_speed_percent_change": -12,
+          "ergonomics_percent_change": -7,
+          "weight_kg": 11.5
+        },
+        {
+          "name": "IOTV Gen4 Body Armor (Assault Kit)",
+          "external_grid_size": [4, 4],
+          "material": "titan",
+          "armor_class": 5,
+          "armor_areas": ["arms", "thorax", "stomach"],
+          "durability": 75,
+          "movement_speed_percent_change": -20,
+          "turning_speed_percent_change": -14,
+          "ergonomics_percent_change": -14,
+          "weight_kg": 15
+        },
+        {
+          "name": "IOTV Gen4 Body Armor (Full Protection)",
+          "external_grid_size": [4, 4],
+          "material": "titan",
+          "armor_class": 5,
+          "armor_areas": ["arms", "thorax", "stomach"],
+          "durability": 95,
+          "movement_speed_percent_change": -24,
+          "turning_speed_percent_change": -19,
+          "ergonomics_percent_change": -22,
+          "weight_kg": 17
+        },
+        {
+          "name": "FORT Redut-T5 Body Armor",
+          "external_grid_size": [4, 4],
+          "material": "combined materials",
+          "armor_class": 5,
+          "armor_areas": ["arms", "thorax", "stomach"],
+          "durability": 100,
+          "movement_speed_percent_change": -37,
+          "turning_speed_percent_change": -15,
+          "ergonomics_percent_change": -14,
+          "weight_kg": 16.5
+        },
+        {
+          "name": "5.11 Tactical Hexgrid Plate Carrier",
+          "external_grid_size": [3, 3],
+          "material": "UHMWPE",
+          "armor_class": 6,
+          "armor_areas": ["thorax"],
+          "durability": 50,
+          "movement_speed_percent_change": -8,
+          "turning_speed_percent_change": -2,
+          "ergonomics_percent_change": -1,
+          "weight_kg": 7.7
+        },
+        {
+          "name": "LBT-6094A Slick Plate Carrier",
+          "external_grid_size": [3, 3],
+          "material": "armor steel",
+          "armor_class": 6,
+          "armor_areas": ["thorax"],
+          "durability": 80,
+          "movement_speed_percent_change": -10,
+          "turning_speed_percent_change": -2,
+          "ergonomics_percent_change": -1,
+          "weight_kg": 9.7
+        },
+        {
+          "name": "BNTI Zhuk-6a Body Armor",
+          "external_grid_size": [3, 3],
+          "material": "ceramic",
+          "armor_class": 6,
+          "armor_areas": ["thorax", "stomach"],
+          "durability": 75,
+          "movement_speed_percent_change": -13,
+          "turning_speed_percent_change": -5,
+          "ergonomics_percent_change": -6,
+          "weight_kg": 9
+        },
+        {
+          "name": "NFM THOR Integrated Carrier Body Armor",
+          "external_grid_size": [4, 4],
+          "material": "combined materials",
+          "armor_class": 6,
+          "armor_areas": ["arms", "thorax", "stomach"],
+          "durability": 55,
+          "movement_speed_percent_change": -28,
+          "turning_speed_percent_change": -16,
+          "ergonomics_percent_change": -20,
+          "weight_kg": 18
+        },
+        {
+          "name": "6B43 6A Zabralo-Sh Body Armor",
+          "external_grid_size": [4, 4],
+          "material": "combined materials",
+          "armor_class": 6,
+          "armor_areas": ["arms", "thorax", "stomach"],
+          "durability": 85,
+          "movement_speed_percent_change": -35,
+          "turning_speed_percent_change": -21,
+          "ergonomics_percent_change": -27,
+          "weight_kg": 20
+        }
+      ],
+      "eyewear": [],
+      "facecovers": [],
+      "gear_components": [],
+      "headgear": [],
+      "headsets": [],
+      "secure_containers": [],
+      "storage_containers": [],
+      "tactical_rigs": []
     },
-		{
-			"weapon_parts_&_mods": [
-				{
-					"functional_mods": [
-						{
-							"auxiliary_parts": []
-						},
-						{
-							"bipods": []
-						},
-						{
-							"foregrips": []
-						},
-						{
-							"light_&_laser_devices": [
-								{
-									"flashlights": []
-								},
-								{
-									"laser_target_designators": []
-								},
-								{
-									"tactical_combo_devices": []
-								}
-							]
-						},
-						{
-							"muzzle_devices": [
-								{
-									"flashhiders": []
-								},
-								{
-									"muzzle_adapters": []
-								},
-								{
-									"suppressors": []
-								}
-							]
-						},
-						{
-							"sights": [
-								{
-									"assault_scopes": []
-								},
-								{
-									"collimators": []
-								},
-								{
-									"compact_collimators": []
-								},
-								{
-									"iron_sights": []
-								},
-								{
-									"optics": []
-								},
-								{
-									"special_purpose_sights": []
-								}
-							]
-						}
-					]
-				},
-				{
-					"gear_mods": [
-						{
-							"charging_handles": []
-						},
-						{
-							"magazines": []
-						},
-						{
-							"mounts": []
-						},
-						{
-							"stocks_&_chassis": []
-						}
-					]
-				},
-				{
-					"vital_parts": [
-						{
-							"barrels": []
-						},
-						{
-							"gas_blocks": []
-						},
-						{
-							"handguards": []
-						},
-						{
-							"pistol_grips": []
-						}, 
-						{
-							"receievers_&_slides": []
-						}
-					]
-				}
-			]
-		},
-		{
-			"weapons": []
-		},
-		{
-			"ammo": []
-		},
-		{
-			"provisions": []
-		},
-		{
-			"medication": []
-		},
-		{
-			"keys": []
-		},
-		{
-			"info_items": []
-		},
-		{
-			"special_equipment": []
-		},
-		{
-			"maps": []
-		},
-		{
-			"money": []
-		},
-		{
-			"quest_items": []
-		}
-  ]
+    "weapon_parts_&_mods": {
+      "functional_mods": {
+        "auxiliary_parts": [],
+        "bipods": [],
+        "foregrips": [],
+        "light_&_laser_devices": {
+          "flashlights": [],
+          "laser_target_designators": [],
+          "tactical_combo_devices": []
+        },
+        "muzzle_devices": {
+          "flashhiders": [],
+          "muzzle_adapters": [],
+          "suppressors": []
+        },
+        "sights": {
+          "assault_scopes": [],
+          "collimators": [],
+          "compact_collimators": [],
+          "iron_sights": [],
+          "optics": [],
+          "special_purpose_sights": []
+        }
+      },
+      "gear_mods": {
+        "charging_handles": [],
+        "magazines": [],
+        "mounts": [],
+        "stocks_&_chassis": []
+      },
+      "vital_parts": {
+        "barrels": [],
+        "gas_blocks": [],
+        "handguards": [],
+        "pistol_grips": [],
+        "receievers_&_slides": []
+      }
+    },
+    "weapons": {
+      "assault_carbines": [],
+      "assault_rifles": [],
+      "bolt_action_rifles": [],
+      "machine_guns": [],
+      "marksman_rifles": [],
+      "melee_weapons": [],
+      "pistols": [],
+      "smgs": [],
+      "shotguns": [],
+      "special_weapons": [],
+      "throwables": []
+    },
+    "ammo": {
+      "ammo_packs": [],
+      "rounds": []
+    },
+    "provisions": {
+      "food": [],
+      "drinks": []
+    },
+    "medication": {
+      "injectors": [],
+      "injury_treatment": [],
+      "medkits": [],
+      "pills": []
+    },
+    "keys": {
+      "electronic_keys": [],
+      "mechanical_keys": []
+    },
+    "info_items": [],
+    "special_equipment": [],
+    "maps": [],
+    "money": [],
+    "quest_items": []
+  }
 }
