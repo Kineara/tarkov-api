@@ -1218,7 +1218,7 @@
             {
               "name": "BNTI Module-3M Body Armor",
               "external_grid_size": [3, 3],
-              "material": "Aramid",
+              "material": "aramid",
               "armor_class": 2,
               "armor_areas": ["thorax", "stomach"],
               "durability": 40,
@@ -1230,7 +1230,7 @@
             {
               "name": "PACA Soft Armor",
               "external_grid_size": [2, 2],
-              "material": "Aramid",
+              "material": "aramid",
               "armor_class": 2,
               "armor_areas": ["thorax", "stomach"],
               "durability": 50,
@@ -1242,7 +1242,7 @@
             {
               "name": "PACA Soft Armor (Rivals Edition)",
               "external_grid_size": [3, 3],
-              "material": "Aramid",
+              "material": "aramid",
               "armor_class": 2,
               "armor_areas": ["thorax", "stomach"],
               "durability": 50,
@@ -1254,7 +1254,7 @@
             {
               "name": "6B2 Body Armor (Flora)",
               "external_grid_size": [3, 3],
-              "material": "Titan",
+              "material": "titan",
               "armor_class": 2,
               "armor_areas": ["thorax", "stomach"],
               "durability": 80,
@@ -1268,7 +1268,7 @@
               "external_grid_size": [3, 3],
               "material": "Aluminium",
               "armor_class": 3,
-              "armor_areas": ["Thorax", "Stomach"],
+              "armor_areas": ["thorax", "stomach"],
               "durability": 50,
               "movement_speed_percent_change": -18,
               "turning_speed_percent_change": -6,
@@ -1290,7 +1290,7 @@
             {
               "name": "6B23-1 Body Armor",
               "external_grid_size": [3, 4],
-              "material": "Armor Steel",
+              "material": "armor steel",
               "armor_class": 3,
               "armor_areas": ["thorax", "stomach"],
               "durability": 60,
@@ -1302,7 +1302,7 @@
             {
               "name": "DRD Body Armor",
               "external_grid_size": [3, 3],
-              "material": "Aramid",
+              "material": "aramid",
               "armor_class": 3,
               "armor_areas": ["thorax", "stomach"],
               "durability": 60,
@@ -1314,7 +1314,7 @@
             {
               "name": "BNTI Kirasa-N Body Armor",
               "external_grid_size": [3, 3],
-              "material": "Combined Materials",
+              "material": "combined materials",
               "armor_class": 3,
               "armor_areas": ["thorax", "stomach"],
               "durability": 70,
@@ -1338,7 +1338,7 @@
             {
               "name": "NFM THOR Concealable Reinforced Vest Body Armor",
               "external_grid_size": [3, 3],
-              "material": "Combined Materials",
+              "material": "combined materials",
               "armor_class": 4,
               "armor_areas": ["thorax", "stomach"],
               "durability": 35,
@@ -1350,7 +1350,7 @@
             {
               "name": "6B13 Assault Armor",
               "external_grid_size": [3, 4],
-              "material": "Ceramic",
+              "material": "ceramic",
               "armor_class": 4,
               "armor_areas": ["thorax", "stomach"],
               "durability": 47,
@@ -1362,7 +1362,7 @@
             {
               "name": "6B23-2 Body Armor (Mountain Flora)",
               "external_grid_size": [3, 4],
-              "material": "Ceramic",
+              "material": "ceramic",
               "armor_class": 4,
               "armor_areas": ["thorax, stomach"],
               "durability": 55,
@@ -1374,7 +1374,7 @@
             {
               "name": "NPP KIASS Korund-VM Body Armor",
               "external_grid_size": [3, 4],
-              "material": "Armor Steel",
+              "material": "armor steel",
               "armor_class": 5,
               "armor_areas": ["thorax", "stomach"],
               "durability": 45,
@@ -1386,7 +1386,7 @@
             {
               "name": "FORT Redut-M Body Armor",
               "external_grid_size": [3, 4],
-              "material": "Combined Materials",
+              "material": "combined materials",
               "armor_class": 5,
               "armor_areas": ["thorax", "stomach"],
               "durability": 60,
@@ -1410,7 +1410,7 @@
             {
               "name": "IOTV Gen4 Body Armor (High Mobility Kit)",
               "external_grid_size": [3, 4],
-              "material": "Titan",
+              "material": "titan",
               "armor_class": 5,
               "armor_areas": ["thorax", "stomach"],
               "durability": 65,
@@ -1422,7 +1422,7 @@
 						{
 							"name": "BNTI Gzhel-K Body Armor",
 							"external_grid_size": [3,3],
-							"material": "Ceramic",
+							"material": "ceramic",
 							"armor_class": 5,
 							"armor_areas": ["thorax", "stomach"],
 							"durability": 65,
@@ -1434,7 +1434,7 @@
 						{
 							"name": "FORT Defender-2 Body Armor",
 							"external_grid_size": [3,4],
-							"material": "Armor Steel",
+							"material": "armor steel",
 							"armor_class": 5,
 							"armor_areas": ["thorax", "stomach"],
 							"durability": 70,
@@ -1446,7 +1446,7 @@
 						{
 							"name": "IOTV Gen4 Body Armor (Assault Kit)",
 							"external_grid_size": [4,4],
-							"material": "Titan",
+							"material": "titan",
 							"armor_class": 5,
 							"armor_areas": ["arms", "thorax", "stomach"],
 							"durability": 75,
@@ -1458,7 +1458,7 @@
 						{
 							"name": "IOTV Gen4 Body Armor (Full Protection)",
 							"external_grid_size": [4,4],
-							"material": "Titan",
+							"material": "titan",
 							"armor_class": 5,
 							"armor_areas": ["arms", "thorax", "stomach"],
 							"durability": 95,
