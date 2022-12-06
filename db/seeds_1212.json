@@ -1,5 +1,89 @@
 {
 	"game_version": "12.12",
+	"location": {
+		"maps": [
+			{
+				"name": "Customs",
+				"match_duration_day": 40,
+				"match_duration_night": 40,
+				"player_count": "9-12",
+				"released?": true
+			},
+			{
+				"name": "Factory",
+				"match_duration_day": 20,
+				"match_duration_night": 25,
+				"player_count": "4-6",
+				"released?": true
+			},
+			{
+				"name": "Interchange",
+				"match_duration_day": 40,
+				"match_duration_night": 40,
+				"player_count": "10-14",
+				"released?": true
+			},
+			{
+				"name": "Lighthouse",
+				"match_duration_day": 40,
+				"match_duration_night": 40,
+				"player_count": "9-12",
+				"released?": true 
+			},
+			{
+				"name": "Reserve",
+				"match_duration_day": 40,
+				"match_duration_night": 40,
+				"player_count": "9-12",
+				"released?": true 
+			},
+			{
+				"name": "Shoreline",
+				"match_duration_day": 45,
+				"match_duration_night": 45,
+				"player_count": "10-13",
+				"released?": true 
+			},
+			{
+				"name": "The Lab",
+				"match_duration_day": 35,
+				"match_duartion_night": 35,
+				"player_count": "6-10",
+				"relased?": true 
+			},
+			{
+				"name": "Woods",
+				"match_duration_day": 40,
+				"match_duration_night": 40,
+				"player_count": "9-14",
+				"released?": true 
+			},
+			{
+				"name": "Arena",
+				"released?": false
+			},
+			{
+				"name": "Private Sector",
+				"released?": false
+			},
+			{
+				"name": "Streets of Tarkov",
+				"released?": false 
+			},
+			{
+				"name": "Suburbs",
+				"released?": false 
+			},
+			{
+				"name": "Terminal",
+				"released?": false
+			},
+			{
+				"name": "Town",
+				"released?": false 
+			}
+		]
+	},
 	"hideout": {
 		"hideout_stations": [
 			{
@@ -860,15 +944,152 @@
 				},
 				{
 					"info_items": [
-						
+						{
+							"name": "BakeEzy Cook Book",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Diary",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Intelligence Folder",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Military Flash Drive",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "SAS Drive",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Secure Flash Drive",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Secured Magnetic Tape Cassette",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Slim Diary",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "SSD Drive",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Tech Manual",
+							"external_grid_size": "2x1"
+						},
+						{
+							"name": "Topographic Survey Maps",
+							"external_grid_size": "1x2"
+						},
+						{
+							"name": "Video Cassette with the Cyborg Killer Movie",
+							"external_grid_size": "1x2"
+						}
 					]
 				},
 				{
 					"special_equipment": [
-						
+						{
+							"name": "Body Armor Repair Kit",
+							"external_grid_size": "2x3"
+						},
+						{
+							"name": "EYE MK.2 Professional Hand-Held Compass",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Leatherman Multitool",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "MS2000 Marker",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Signal Jammer",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Vortex Ranger 1500 Rangefinder",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Wi-Fi Camera",
+							"external_grid_size": "1x1"
+						},
+						{
+							"name": "Weapon Repair Kit",
+							"external_grid_size": "2x3"
+						}
 					]
 				}
 
+			]
+		},
+		{
+			"gear": [
+				{
+					"backpacks": [
+						{
+							"name": "6Sh118 Raid Backpack",
+							"external_grid_size": "6x7",
+							"internal_grid_size": "6x8",
+							"weight_kg": 6.36
+						},
+						{
+							"name": "LBT-2670 Slim Field Med Pack",
+							"external_grid_size": "4x5",
+							"internal_grid_size": "6x8",
+							"weight_kg": 1.92
+						},
+						{
+							"name": "Mystery Ranch Blackjack 50 Backpack (Multicam)",
+							"external_grid_size": "6x7",
+							"internal_grid_size": "5x7",
+							"weight_kg": 3
+						},
+						{
+							"name": "Eberlestock F4 Terminator Load Bearing Backpack (Tiger Stripe)",
+							"external_grid_size": "5x7",
+							"weight_kg": 4.356
+						},
+						{
+							"name": "SSO Attack 2 Raid Backpack",
+							"external_grid_size": "5x7",
+							"internal_grid_size": "5x7",
+							"weight_kg": 6.12
+						},
+						{
+							"name": "Pilgrim Tourist Backpack",
+							"external_grid_size": "5x7",
+							"internal_grid_size": "5x7",
+							"weight_kg": 3.48
+						},
+						{
+							"name": "Santa's Bag",
+							"external_grid_size": "5x7",
+							"internal_grid_size": "5x7",
+							"weight_kg": 2.64
+						},
+						{
+							"name": "3V Gear Paratus 3-Day Operator's Tactical Backpack",
+							"external_grid_size": "5x7",
+							"weight_kg": 1.56
+						},
+						{
+							"name": "Eberlestock G2 Gunslinger II Backpack (Dry Earth)",
+							"external_grid_size": "5x7",
+							"weight_kg": 3.36
+						}
+					]
+				}
 			]
 		}
 	]
