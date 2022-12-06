@@ -131,15 +131,15 @@ for version in gameVersions do
   ### Headsets
   ### Secure Containers
   ### Storage Containers
-  gearStorageContainers.items.create(name: "Lucky Scav Junk Box", description: "Can hold all barter items", external_grid_size: "4x4", internal_grid_size: "14x14", store_in_secure_container?: false)
-  gearStorageContainers.items.create(name: "THICC Item Case", description: "It thicc", external_grid_size: "5x3", internal_grid_size: "14x14", store_in_secure_container?: false)
-  gearStorageContainers.items.create(name: "Item Case", description: "It not thicc", external_grid_size: "4x4", internal_grid_size: "8x8", store_in_secure_container?: false)
-  gearStorageContainers.items.create(name: "THICC Weapon Case", description: "It thicc and it loaded", external_grid_size: "5x2", internal_grid_size: "6x15", store_in_secure_container?: false)
-  gearStorageContainers.items.create(name: "Weapon Case", description: "A box of pew", external_grid_size: "5x2", internal_grid_size: "5x10", store_in_secure_container?: false)
-  gearStorageContainers.items.create(name: "Medicine Case", description: "A box of aww", external_grid_size: "3x3", internal_grid_size: "7x7", store_in_secure_container?: false)
-  gearStorageContainers.items.create(name: "Grenade Case", description: "A box of boom", external_grid_size: "3x3", internal_grid_size: "8x8", store_in_secure_container?: false)
-  gearStorageContainers.items.create(name: "Mr. Holodilnick Thermal Bag", description: "Keeps your food cold while you're out a-raiding!", external_grid_size: "3x3", internal_grid_size: "8x8", store_in_secure_container?: false)
-  gearStorageContainers.items.create(name: "Magazine Case", description: "Stores magazines. Not a replacement for the library.", external_grid_size: "3x2", internal_grid_size: "7x7", store_in_secure_container?: false)
+  # gearStorageContainers.items.create(name: "Lucky Scav Junk Box", description: "Can hold all barter items", external_grid_size: "4x4", internal_grid_size: "14x14", store_in_secure_container?: false)
+  # gearStorageContainers.items.create(name: "THICC Item Case", description: "It thicc", external_grid_size: "5x3", internal_grid_size: "14x14", store_in_secure_container?: false)
+  # gearStorageContainers.items.create(name: "Item Case", description: "It not thicc", external_grid_size: "4x4", internal_grid_size: "8x8", store_in_secure_container?: false)
+  # gearStorageContainers.items.create(name: "THICC Weapon Case", description: "It thicc and it loaded", external_grid_size: "5x2", internal_grid_size: "6x15", store_in_secure_container?: false)
+  # gearStorageContainers.items.create(name: "Weapon Case", description: "A box of pew", external_grid_size: "5x2", internal_grid_size: "5x10", store_in_secure_container?: false)
+  # gearStorageContainers.items.create(name: "Medicine Case", description: "A box of aww", external_grid_size: "3x3", internal_grid_size: "7x7", store_in_secure_container?: false)
+  # gearStorageContainers.items.create(name: "Grenade Case", description: "A box of boom", external_grid_size: "3x3", internal_grid_size: "8x8", store_in_secure_container?: false)
+  # gearStorageContainers.items.create(name: "Mr. Holodilnick Thermal Bag", description: "Keeps your food cold while you're out a-raiding!", external_grid_size: "3x3", internal_grid_size: "8x8", store_in_secure_container?: false)
+  # gearStorageContainers.items.create(name: "Magazine Case", description: "Stores magazines. Not a replacement for the library.", external_grid_size: "3x2", internal_grid_size: "7x7", store_in_secure_container?: false)
   
   ### Tactical Rigs
 
@@ -201,15 +201,13 @@ for version in gameVersions do
   ### Injury Treatment
   ### Medkits
   ### Pills
-  medicationPillsAnalgin = medicationPills.items.create(name: 'Analgin', use_time_seconds: 3, uses: 4,
-                                                        removes_pain?: true, removes_pain_duration_seconds: 95, external_grid_size: "1x1")
 
   ## Keys
   ### Electronic Keys
   ### Mechanical Keys
 
   ## Info Items
-  infoItemsFactoryMap = infoItems.items.create(name: 'Factory Plan Map', weight_kg: 0.1, external_grid_size: '2x1')
+  # infoItemsFactoryMap = infoItems.items.create(name: 'Factory Plan Map', weight_kg: 0.1, external_grid_size: '2x1')
 
   ## Special Equipment
 
@@ -361,3 +359,41 @@ for version in gameVersions do
   therapistLevel4 = therapist.trader_loyalty_levels.create(level: 4)
 
 end
+
+# Add items from external files
+flammables = File.open(Rails.root.join('db', 'seed_data', 'v1212', 'items', 'barter_items', 'flammable_materials.json'))
+flammablesData = JSON.parse(flammables.read)
+
+gameVersion = flammablesData["game_version"]
+category = flammablesData["category"]
+sub_category = flammablesData["sub_category"]
+puts !!sub_category
+sub_x2_category = flammablesData["sub_x2_category"]
+sub_x3_category = flammablesData["sub_x3_category"]
+puts !!sub_x3_category
+
+for item in flammablesData["flammable_materials"] do  
+  if !!sub_x3_category do 
+    itemCategory = GameVersion.find_by(name: gameVersion).handbook.categories.find_by(name: category).sub_categories.find_by(name: sub_category).sub_x2_categories.find_by(name: sub_x2_category).sub_x3_categories.find_by(name: sub_x3_category)
+    itemCategory.items.create(name: item["name"], external_grid_size: item["external_grid_size"])
+  end
+  elsif !!sub_x2_category do 
+    itemCategory = GameVersion.find_by(name: gameVersion).handbook.categories.find_by(name: category).sub_categories.find_by(name: sub_category).sub_x2_categories.find_by(name: sub_x2_category)
+    itemCategory.items.create(name: item["name"], external_grid_size: item["external_grid_size"])
+  end
+  elsif !!sub_category do 
+    itemCategory = GameVersion.find_by(name: gameVersion).handbook.categories.find_by(name: category).sub_categories.find_by(name: sub_category)
+    itemCategory.items.create(name: item["name"], external_grid_size: item["external_grid_size"])
+  end
+  elsif !!category do 
+    itemCategory = GameVersion.find_by(name: gameVersion).handbook.categories.find_by(name: category)
+    itemCategory.items.create(name: item["name"], external_grid_size: item["external_grid_size"])
+  end
+  else 
+    puts "Error parsing data"
+  end
+end
+
+
+
+

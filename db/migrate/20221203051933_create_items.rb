@@ -3,7 +3,7 @@ class CreateItems < ActiveRecord::Migration[6.1]
     create_table :items do |t|
       #t.belongs_to :sub_category, null: false, foreign_key: true 
       t.belongs_to :categorization, polymorphic: true 
-      # Generic attributes
+      # Generic attributesdss
       t.string :name
       t.string :description 
       t.integer :weight_kg 
