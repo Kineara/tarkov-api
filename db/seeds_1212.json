@@ -1419,129 +1419,283 @@
               "ergonomics_percent_change": -12,
               "weight_kg": 13
             },
-						{
-							"name": "BNTI Gzhel-K Body Armor",
-							"external_grid_size": [3,3],
-							"material": "ceramic",
-							"armor_class": 5,
-							"armor_areas": ["thorax", "stomach"],
-							"durability": 65,
-							"movement_speed_percent_change": -10,
-							"turning_speed_percent_change": -3,
-							"ergonomics_percent_change": -4,
-							"weight_kg": 8.9
-						},
-						{
-							"name": "FORT Defender-2 Body Armor",
-							"external_grid_size": [3,4],
-							"material": "armor steel",
-							"armor_class": 5,
-							"armor_areas": ["thorax", "stomach"],
-							"durability": 70,
-							"movement_speed_percent_change": -9,
-							"turning_speed_percent_change": -12,
-							"ergonomics_percent_change": -7,
-							"weight_kg": 11.5
-						},
-						{
-							"name": "IOTV Gen4 Body Armor (Assault Kit)",
-							"external_grid_size": [4,4],
-							"material": "titan",
-							"armor_class": 5,
-							"armor_areas": ["arms", "thorax", "stomach"],
-							"durability": 75,
-							"movement_speed_percent_change": -20,
-							"turning_speed_percent_change": -14,
-							"ergonomics_percent_change": -14,
-							"weight_kg": 15
-						},
-						{
-							"name": "IOTV Gen4 Body Armor (Full Protection)",
-							"external_grid_size": [4,4],
-							"material": "titan",
-							"armor_class": 5,
-							"armor_areas": ["arms", "thorax", "stomach"],
-							"durability": 95,
-							"movement_speed_percent_change": -24,
-							"turning_speed_percent_change": -19,
-							"ergonomics_percent_change": -22,
-							"weight_kg": 17
-						},
-						{
-							"name": "FORT Redut-T5 Body Armor",
-							"external_grid_size": [4,4],
-							"material": "combined materials",
-							"armor_class": 5,
-							"armor_areas": ["arms", "thorax", "stomach"],
-							"durability": 100,
-							"movement_speed_percent_change": -37,
-							"turning_speed_percent_change": -15,
-							"ergonomics_percent_change": -14,
-							"weight_kg": 16.5
-						},
-						{
-							"name": "5.11 Tactical Hexgrid Plate Carrier",
-							"external_grid_size": [3,3],
-							"material": "UHMWPE",
-							"armor_class": 6,
-							"armor_areas": ["thorax"],
-							"durability": 50,
-							"movement_speed_percent_change": -8,
-							"turning_speed_percent_change": -2,
-							"ergonomics_percent_change": -1,
-							"weight_kg": 7.7
-						},
-						{
-							"name": "LBT-6094A Slick Plate Carrier",
-							"external_grid_size": [3,3],
-							"material": "armor steel",
-							"armor_class": 6,
-							"armor_areas": ["thorax"],
-							"durability": 80,
-							"movement_speed_percent_change": -10,
-							"turning_speed_percent_change": -2,
-							"ergonomics_percent_change": -1,
-							"weight_kg": 9.7
-						},
-						{
-							"name": "BNTI Zhuk-6a Body Armor",
-							"external_grid_size": [3,3],
-							"material": "ceramic",
-							"armor_class": 6,
-							"armor_areas": ["thorax", "stomach"],
-							"durability": 75,
-							"movement_speed_percent_change": -13,
-							"turning_speed_percent_change": -5,
-							"ergonomics_percent_change": -6,
-							"weight_kg": 9
-						},
-						{
-							"name": "NFM THOR Integrated Carrier Body Armor",
-							"external_grid_size": [4,4],
-							"material": "combined materials",
-							"armor_class": 6,
-							"armor_areas": ["arms", "thorax", "stomach"],
-							"durability": 55,
-							"movement_speed_percent_change": -28,
-							"turning_speed_percent_change": -16,
-							"ergonomics_percent_change": -20,
-							"weight_kg": 18
-						},
-						{
-							"name": "6B43 6A Zabralo-Sh Body Armor",
-							"external_grid_size": [4,4],
-							"material": "combined materials",
-							"armor_class": 6,
-							"armor_areas": ["arms", "thorax", "stomach"],
-							"durability": 85, 
-							"movement_speed_percent_change": -35,
-							"turning_speed_percent_change": -21,
-							"ergonomics_percent_change": -27,
-							"weight_kg": 20
-						}
+            {
+              "name": "BNTI Gzhel-K Body Armor",
+              "external_grid_size": [3, 3],
+              "material": "ceramic",
+              "armor_class": 5,
+              "armor_areas": ["thorax", "stomach"],
+              "durability": 65,
+              "movement_speed_percent_change": -10,
+              "turning_speed_percent_change": -3,
+              "ergonomics_percent_change": -4,
+              "weight_kg": 8.9
+            },
+            {
+              "name": "FORT Defender-2 Body Armor",
+              "external_grid_size": [3, 4],
+              "material": "armor steel",
+              "armor_class": 5,
+              "armor_areas": ["thorax", "stomach"],
+              "durability": 70,
+              "movement_speed_percent_change": -9,
+              "turning_speed_percent_change": -12,
+              "ergonomics_percent_change": -7,
+              "weight_kg": 11.5
+            },
+            {
+              "name": "IOTV Gen4 Body Armor (Assault Kit)",
+              "external_grid_size": [4, 4],
+              "material": "titan",
+              "armor_class": 5,
+              "armor_areas": ["arms", "thorax", "stomach"],
+              "durability": 75,
+              "movement_speed_percent_change": -20,
+              "turning_speed_percent_change": -14,
+              "ergonomics_percent_change": -14,
+              "weight_kg": 15
+            },
+            {
+              "name": "IOTV Gen4 Body Armor (Full Protection)",
+              "external_grid_size": [4, 4],
+              "material": "titan",
+              "armor_class": 5,
+              "armor_areas": ["arms", "thorax", "stomach"],
+              "durability": 95,
+              "movement_speed_percent_change": -24,
+              "turning_speed_percent_change": -19,
+              "ergonomics_percent_change": -22,
+              "weight_kg": 17
+            },
+            {
+              "name": "FORT Redut-T5 Body Armor",
+              "external_grid_size": [4, 4],
+              "material": "combined materials",
+              "armor_class": 5,
+              "armor_areas": ["arms", "thorax", "stomach"],
+              "durability": 100,
+              "movement_speed_percent_change": -37,
+              "turning_speed_percent_change": -15,
+              "ergonomics_percent_change": -14,
+              "weight_kg": 16.5
+            },
+            {
+              "name": "5.11 Tactical Hexgrid Plate Carrier",
+              "external_grid_size": [3, 3],
+              "material": "UHMWPE",
+              "armor_class": 6,
+              "armor_areas": ["thorax"],
+              "durability": 50,
+              "movement_speed_percent_change": -8,
+              "turning_speed_percent_change": -2,
+              "ergonomics_percent_change": -1,
+              "weight_kg": 7.7
+            },
+            {
+              "name": "LBT-6094A Slick Plate Carrier",
+              "external_grid_size": [3, 3],
+              "material": "armor steel",
+              "armor_class": 6,
+              "armor_areas": ["thorax"],
+              "durability": 80,
+              "movement_speed_percent_change": -10,
+              "turning_speed_percent_change": -2,
+              "ergonomics_percent_change": -1,
+              "weight_kg": 9.7
+            },
+            {
+              "name": "BNTI Zhuk-6a Body Armor",
+              "external_grid_size": [3, 3],
+              "material": "ceramic",
+              "armor_class": 6,
+              "armor_areas": ["thorax", "stomach"],
+              "durability": 75,
+              "movement_speed_percent_change": -13,
+              "turning_speed_percent_change": -5,
+              "ergonomics_percent_change": -6,
+              "weight_kg": 9
+            },
+            {
+              "name": "NFM THOR Integrated Carrier Body Armor",
+              "external_grid_size": [4, 4],
+              "material": "combined materials",
+              "armor_class": 6,
+              "armor_areas": ["arms", "thorax", "stomach"],
+              "durability": 55,
+              "movement_speed_percent_change": -28,
+              "turning_speed_percent_change": -16,
+              "ergonomics_percent_change": -20,
+              "weight_kg": 18
+            },
+            {
+              "name": "6B43 6A Zabralo-Sh Body Armor",
+              "external_grid_size": [4, 4],
+              "material": "combined materials",
+              "armor_class": 6,
+              "armor_areas": ["arms", "thorax", "stomach"],
+              "durability": 85,
+              "movement_speed_percent_change": -35,
+              "turning_speed_percent_change": -21,
+              "ergonomics_percent_change": -27,
+              "weight_kg": 20
+            }
           ]
+        },
+        {
+          "eyewear": [{}]
+        },
+        {
+          "facecovers": []
+        },
+        {
+          "gear_components": []
+        },
+        {
+          "headgear": []
+        },
+        {
+          "headsets": []
+        },
+        {
+          "secure_containers": []
+        },
+        {
+          "storage_containers": []
+        },
+        {
+          "tactical_rigs": []
         }
       ]
-    }
+    },
+		{
+			"weapon_parts_&_mods": [
+				{
+					"functional_mods": [
+						{
+							"auxiliary_parts": []
+						},
+						{
+							"bipods": []
+						},
+						{
+							"foregrips": []
+						},
+						{
+							"light_&_laser_devices": [
+								{
+									"flashlights": []
+								},
+								{
+									"laser_target_designators": []
+								},
+								{
+									"tactical_combo_devices": []
+								}
+							]
+						},
+						{
+							"muzzle_devices": [
+								{
+									"flashhiders": []
+								},
+								{
+									"muzzle_adapters": []
+								},
+								{
+									"suppressors": []
+								}
+							]
+						},
+						{
+							"sights": [
+								{
+									"assault_scopes": []
+								},
+								{
+									"collimators": []
+								},
+								{
+									"compact_collimators": []
+								},
+								{
+									"iron_sights": []
+								},
+								{
+									"optics": []
+								},
+								{
+									"special_purpose_sights": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"gear_mods": [
+						{
+							"charging_handles": []
+						},
+						{
+							"magazines": []
+						},
+						{
+							"mounts": []
+						},
+						{
+							"stocks_&_chassis": []
+						}
+					]
+				},
+				{
+					"vital_parts": [
+						{
+							"barrels": []
+						},
+						{
+							"gas_blocks": []
+						},
+						{
+							"handguards": []
+						},
+						{
+							"pistol_grips": []
+						}, 
+						{
+							"receievers_&_slides": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"weapons": []
+		},
+		{
+			"ammo": []
+		},
+		{
+			"provisions": []
+		},
+		{
+			"medication": []
+		},
+		{
+			"keys": []
+		},
+		{
+			"info_items": []
+		},
+		{
+			"special_equipment": []
+		},
+		{
+			"maps": []
+		},
+		{
+			"money": []
+		},
+		{
+			"quest_items": []
+		}
   ]
 }
