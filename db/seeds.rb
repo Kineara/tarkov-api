@@ -130,17 +130,7 @@ for version in gameVersions do
   ### Headgear
   ### Headsets
   ### Secure Containers
-  ### Storage Containers
-  # gearStorageContainers.items.create(name: "Lucky Scav Junk Box", description: "Can hold all barter items", external_grid_size: "4x4", internal_grid_size: "14x14", store_in_secure_container?: false)
-  # gearStorageContainers.items.create(name: "THICC Item Case", description: "It thicc", external_grid_size: "5x3", internal_grid_size: "14x14", store_in_secure_container?: false)
-  # gearStorageContainers.items.create(name: "Item Case", description: "It not thicc", external_grid_size: "4x4", internal_grid_size: "8x8", store_in_secure_container?: false)
-  # gearStorageContainers.items.create(name: "THICC Weapon Case", description: "It thicc and it loaded", external_grid_size: "5x2", internal_grid_size: "6x15", store_in_secure_container?: false)
-  # gearStorageContainers.items.create(name: "Weapon Case", description: "A box of pew", external_grid_size: "5x2", internal_grid_size: "5x10", store_in_secure_container?: false)
-  # gearStorageContainers.items.create(name: "Medicine Case", description: "A box of aww", external_grid_size: "3x3", internal_grid_size: "7x7", store_in_secure_container?: false)
-  # gearStorageContainers.items.create(name: "Grenade Case", description: "A box of boom", external_grid_size: "3x3", internal_grid_size: "8x8", store_in_secure_container?: false)
-  # gearStorageContainers.items.create(name: "Mr. Holodilnick Thermal Bag", description: "Keeps your food cold while you're out a-raiding!", external_grid_size: "3x3", internal_grid_size: "8x8", store_in_secure_container?: false)
-  # gearStorageContainers.items.create(name: "Magazine Case", description: "Stores magazines. Not a replacement for the library.", external_grid_size: "3x2", internal_grid_size: "7x7", store_in_secure_container?: false)
-  
+  ### Storage Containers  
   ### Tactical Rigs
 
   ## Weapon Parts & Mods
@@ -207,7 +197,6 @@ for version in gameVersions do
   ### Mechanical Keys
 
   ## Info Items
-  # infoItemsFactoryMap = infoItems.items.create(name: 'Factory Plan Map', weight_kg: 0.1, external_grid_size: '2x1')
 
   ## Special Equipment
 
