@@ -1624,7 +1624,7 @@
       "facecovers": [
         {
           "name": "Glorious E Lightweight Armored Mask",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "aramid",
           "armor_class": 1,
           "armor_areas": ["eyes", "jaws"],
@@ -1635,7 +1635,7 @@
         },
         {
           "name": "Shattered Lightweight Armored Mask",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "aramid",
           "armor_class": 1,
           "armor_areas": ["eyes", "jaws"],
@@ -1646,7 +1646,7 @@
         },
         {
           "name": "Death Knight Mask",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "aramid",
           "armor_class": 1,
           "armor_areas": ["top", "eyes"],
@@ -1657,7 +1657,7 @@
         },
         {
           "name": "Tagilla's Welding Mask (Gorilla)",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "armor steel",
           "armor_class": 5,
           "armor_areas": ["top", "ears", "eyes", "jaws"],
@@ -1672,7 +1672,7 @@
         },
         {
           "name": "Tagilla's Welding Mask (UBEY)",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "armor steel",
           "armor_class": 5,
           "armor_areas": ["top", "ears", "eyes", "jaws"],
@@ -1687,147 +1687,147 @@
         },
         {
           "name": "Hockey Player Mask (Captain)",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "weight_kg": 0.1
         },
         {
           "name": "Hockey Player Mask (Brawler)",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "weight_kg": 0.1
         },
         {
           "name": "Hockey Player Mask (Quiet)",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "weight_kg": 0.1
         },
         {
           "name": "GP-5 Gas Mask",
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "weight_kg": 0.45
         },
         {
           "name": "GP-7 Gas Mask",
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "weight_kg": 0.6
         },
         {
           "name": "Deadly Skull Mask",
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "weight_kg": 0.2
         },
         {
           "name": "Respirator",
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "weight_kg": 0.1
         },
         {
           "name": "Pestily Plague Mask",
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "weight_kg": 0.18
         },
         {
           "name": "Spooky Skull Mask",
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "weight_kg": 0.2
         },
         {
           "name": "Slender Mask",
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "weight_kg": 0.1
         },
         {
           "name": "Misha Mayorov",
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "weight_kg": 0.1
         },
         {
           "name": "Ghoul Mask",
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "weight_kg": 0.15
         },
         {
           "name": "Faceless Mask",
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "weight_kg": 0.2
         },
         {
           "name": "Jason Mask",
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "weight_kg": 0.1
         },
         {
           "name": "Balaclava",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         },
         {
           "name": "Cold Fear Infrared Balaclava",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         },
         {
           "name": "Twitch Rivals 2021 Balaclava",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         },
         {
           "name": "Ghost Balaclava",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         },
         {
           "name": "Momex Balaclava",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         },
         {
           "name": "Smoke Balaclava",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         },
         {
           "name": "Shemagh (Green)",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         },
         {
           "name": "Shemmagh (Tan)",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         },
         {
           "name": "Lower Half-Mask",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         },
         {
           "name": "Shroud Half-Mask",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         },
         {
           "name": "Twitch Rivals 2020 Half-Mask",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         },
         {
           "name": "Fake Mustache",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         },
         {
           "name": "Fake White Beard",
-          "external_grid_size": [1,2],
+          "external_grid_size": [1, 2],
           "weight_kg": 0.1
         },
         {
           "name": "Baddie's Red Beard",
-          "external_grid_size": [1,2],
+          "external_grid_size": [1, 2],
           "weight_kg": 0.1
         },
         {
           "name": "Big Pipe's Smoking Pipe",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1
         }
       ],
@@ -1836,7 +1836,7 @@
         {
           "name": "Armasight NVG Head Strap",
           "weight_kg": 0.4,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "blocks_headset?": false,
           "blocks_eyewear?": false,
           "blocks_face_cover?": false
@@ -1844,7 +1844,7 @@
         {
           "name": "Wilcox Skull Lock Head Mount",
           "weight_kg": 0.5,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "durability": 100,
           "blocks_headset?": false,
           "blocks_eyewear?": false,
@@ -1852,7 +1852,7 @@
         },
         {
           "name": "Bomber Beanie",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "armor_class": 1,
           "armor_areas": ["top"],
           "durability": 150,
@@ -1862,7 +1862,7 @@
         {
           "name": "Tac-Kek FAST MT Helmet (Replica)",
           "weight_kg": 0.45,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined materials",
           "armor_class": 1,
           "armor_areas": ["top", "nape"],
@@ -1871,13 +1871,303 @@
           "ergonomics_percent_change": -1,
           "blocks_headset?": false,
           "blocks_eyewear?": false,
-          "blocks_face_cover?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "TSh-4m-L Soft Tank Crew Helmet",
+          "weight_kg": 0.9,
+          "external_grid_size": [2,2],
+          "material": "aramid",
+          "armor_class": 1,
+          "armor_areas": ["top", "ears", "nape"],
+          "durability": 100,
+          "ricochet_chance": "high",
+          "movement_speed_percent_change": -2,
+          "turning_speed_percent_change": -10,
+          "ergonomics_percent_change": -8,
+          "sound_reduction": "low",
+          "blocks_headset?": true,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "Kolpak-1S Riot Helmet",
+          "weight_kg": 1.9,
+          "external_grid_size": [2,2],
+          "material": "aramid",
+          "armor_class": 2,
+          "armor_areas": ["top"],
+          "durability": 25,
+          "richochet_chance": "low",
+          "movement_speed_percent_change": -2,
+          "turning_speed_percent_change": -10,
+          "ergonomics_percent_change": -8,
+          "sound_reduction": "high",
+          "blocks_headset?": true,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "ShPM Firefighter Helmet",
+          "weight_kg": 1.5,
+          "external_grid_size": [2,2],
+          "material": "aramid",
+          "armor_class": 2,
+          "armor_areas": ["top", "nape", "ears"],
+          "durability": 40,
+          "richochet_chance": "low",
+          "movement_speed_percent_change": 0,
+          "turning_speed_percent_change": -12,
+          "ergonomics_percent_change": -10,
+          "sound_reduction": "high",
+          "blocks_headset?": true,
+          "blocks_eyewear?": true,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "PSh-97 DJETA Riot Helmet",
+          "weight_kg": 1.3,
+          "external_grid_size": [2,2],
+          "material": "aramid",
+          "armor_class": 2,
+          "armor_areas": ["top", "nape", "ears"],
+          "durability": 65,
+          "ricochet_chance": "low",
+          "movement_speed_percent_change": 0,
+          "turning_speed_percent_change": -13,
+          "ergonomics_percent_change": -14,
+          "sound_reduction": "high",
+          "blocks_headset?": true,
+          "blocks_eyewear?": true,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "Jack-o-Lantern Tactical Pumpkin Helmet",
+          "weight_kg": 1.2,
+          "external_grid_size": [2,2],
+          "material": "ultrahighweight polyethylene",
+          "armor_class": 2,
+          "armor_areas": ["top", "nape", "ears", "eyes", "jaws"],
+          "durability": 40,
+          "ricochet_chance": "none",
+          "movement_speed_percent_change": -3,
+          "turning_speed_percent_change": -5,
+          "ergonomics_percent_change": 0,
+          "sound_reduction": "low",
+          "blocks_headset?": true,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "LShZ Light Helmet",
+          "weight_kg": 0.95,
+          "external_grid_size": [2,2],
+          "material": "aramid",
+          "armor_class": 3,
+          "armor_areas": ["top", "nape"],
+          "durability": 30,
+          "ricochet_chance": "medium",
+          "movement_speed_percent_change": -1,
+          "turning_speed_percent_change": -7,
+          "ergonomics_percent_change": -5,
+          "sound_reduction": "none",
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "SSh-68 Steel Helmet",
+          "weight_kg": 1.5,
+          "external_grid_size": [2,2],
+          "material": "armor steel",
+          "armor_class": 3,
+          "armor_areas": ["top", "nape"],
+          "durability": 30,
+          "ricochet_chance": "high",
+          "movement_speed_percent_change": -2,
+          "turning_speed_percent_change": -8,
+          "ergonomics_percent_change": -13,
+          "sound_reduction": "none",
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "NFM \"HJELM\" Helmet",
+          "weight_kg": 0.8,
+          "external_grid_size": [2,2],
+          "material": "combined materials",
+          "armor_class": 3,
+          "armor_areas": ["top", "nape"],
+          "durability": 65,
+          "ricochet_chance": "high",
+          "movement_speed_percent_change": 0,
+          "turning_speed_percent_change": -2,
+          "ergonomics_percent_change": -7,
+          "sound_reduction": "none",
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "UNTAR Helmet",
+          "weight_kg": 2.2,
+          "external_grid_size": [2,2],
+          "material": "aramid",
+          "armor_class": 3,
+          "armor_areas": ["top", "nape", "ears"],
+          "durability": 25,
+          "ricochet_chance": "high",
+          "movement_speed_percent_change": -2,
+          "turning_speed_percent_change": -10,
+          "ergonomics_percent_change": -7,
+          "sound_reduction": "none",
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "6B47 Ratnik-BSh Helmet",
+          "weight_kg": 1.3,
+          "external_grid_size": [2,2],
+          "material": "aluminum",
+          "armor_class": 3,
+          "armor_areas": ["top", "nape", "ears"],
+          "durability": 25,
+          "ricochet_chance": "high",
+          "movement_speed_percent_change": -1,
+          "turning_speed_percent_change": -5,
+          "ergonomics_percent_change": -7,
+          "sound_reduction": "low",
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "FORT Kiver-M Bulletproof Helmet",
+          "weight_kg": 1.2,
+          "external_grid_size": [2,2],
+          "material": "ultrahighweight polyethylene",
+          "armor_class": 3,
+          "armor_areas": ["top", "nape", "ears"],
+          "durability": 35,
+          "ricochet_chance": "medium",
+          "movement_speed_percent_change": -3,
+          "turning_speed_percent_change": -5,
+          "ergonomics_percent_change": -6,
+          "sound_reduction": "high",
+          "blocks_headset?": true,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "SSSh-94 SFERA-S Helmet",
+          "weight_kg": 3.5,
+          "external_grid_size": [2,2],
+          "material": "armor steel",
+          "armor_class": 3,
+          "armor_areas": ["top", "nape", "ears"],
+          "durability": 100,
+          "ricochet_chance": "medium",
+          "movement_speed_percent_change": -2,
+          "turning_speed_percent_change": -8,
+          "ergonomics_percent_change": -8,
+          "sound_reduction": "high",
+          "blocks_headset?": true,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "DevTac Ronin Ballistic Helmet",
+          "weight_kg": 1.6,
+          "external_grid_size": [2,2],
+          "material": "aramid",
+          "armor_class": 3,
+          "armor_areas": ["top", "nape", "ears", "eyes", "jaws"],
+          "durability": 60,
+          "ricochet_chance": "low",
+          "movement_speed_percent_change": -5,
+          "turning_speed_percent_change": -10,
+          "ergonomics_percent_change": -5,
+          "sound_reduction": "high",
+          "blocks_headset?": true,
+          "blocks_eyewear?": true,
+          "blocks_face_cover?": true
+        },
+        {
+          "name": "MSA ACH TC-2001 MICH Series Helmet",
+          "weight_kg": 1.4,
+          "external_grid_size": [2,2],
+          "material": "combined materials",
+          "armor_class": 4,
+          "armor_areas": ["top", "nape"],
+          "durability": 25,
+          "ricochet_chance": "high",
+          "movement_speed_percent_change": -2,
+          "turning_speed_percent_change": -8,
+          "ergonomics_percent_change": -7,
+          "sound_reduction": "none",
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "MSA ACH TC-2002 MICH Series Helmet",
+          "weight_kg": 1.45,
+          "external_grid_size": [2,2],
+          "material": "combined materials",
+          "armor_class": 4,
+          "armor_areas": ["top", "nape"],
+          "durability": 27,
+          "ricochet_chance": "high",
+          "movement_speed_percent_change": -2,
+          "turning_speed_percent_change": -8,
+          "ergonomics_percent_change": -7,
+          "sound_reduction": "none",
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "HighCom Striker ACHHC IIIA Helmet",
+          "weight_kg": 1.5,
+          "external_grid_size": [2,2],
+          "material": "combined steel",
+          "armor_class": 4,
+          "armor_areas": ["top", "nape"],
+          "durability": 30,
+          "ricochet_chance": "high",
+          "movement_speed_percent_change": -2,
+          "turning_speed_percent_change": -7,
+          "ergonomics_percent_change": -8,
+          "sound_reduction": "none",
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "MSA Gallet TC 800 High Cut Combat Helmet",
+          "weight_kg": 1.17,
+          "external_grid_size": [2,2],
+          "material": "combined materials",
+          "armor_class": 4,
+          "armor_areas": ["top", "nape"],
+          "durability": 30,
+          "ricochet_chance": "high",
+          "movement_speed_percent_change": -2,
+          "turning_speed_percent_change": -8,
+          "ergonomics_percent_change": -6,
+          "sound_reduction": "none",
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
         }
+
       ],
       "headsets": [
         {
           "name": "GSSh-01 Active Headset",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "blocks_eyewear?": false,
           "blocks_face_cover": false,
           "blocks_headwear": false,
@@ -1885,7 +2175,7 @@
         },
         {
           "name": "MSA Sordin Supreme PRO-X/L Active Headset",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "blocks_eyewear?": false,
           "blocks_face_cover?": false,
           "blocks_headwear?": false,
@@ -1893,12 +2183,12 @@
         },
         {
           "name": "Ops-Core FAST RAC Headset",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 0.6
         },
         {
           "name": "OPSMEN Earmor M32 Headset",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "blocks_eyewear?": false,
           "blocks_face_cover?": false,
           "blocks_headwear?": false,
@@ -1906,7 +2196,7 @@
         },
         {
           "name": "Peltor ComTac 2 Headset",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "blocks_eyewear?": false,
           "blocks_face_cover?": false,
           "blocks_headwear?": false,
@@ -1914,7 +2204,7 @@
         },
         {
           "name": "Peltor Tactical Sport Headset",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "blocks_eyewear?": false,
           "blocks_headwear?": false,
           "blocks_face_cover?": false,
@@ -1922,7 +2212,7 @@
         },
         {
           "name": "Walker's Razor Digital Headset",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "blocks_eyewear?": false,
           "blocks_headwear?": false,
           "blocks_face_cover?": false,
@@ -1930,7 +2220,7 @@
         },
         {
           "name": "Walker's XCEL 500BT Digital Headset",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "blocks_eyewear?": false,
           "blocks_headwear?": false,
           "blocks_face_cover?": false,
@@ -1938,7 +2228,7 @@
         },
         {
           "name": "Peltor ComTac 4 Hybrid Headset",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "blocks_eyewear?": false,
           "blocks_face_cover?": false,
           "blocks_headwear?": false,
