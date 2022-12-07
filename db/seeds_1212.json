@@ -1621,10 +1621,330 @@
           "weight_kg": 0.06
         }
       ],
-      "facecovers": [],
+      "facecovers": [
+        {
+          "name": "Glorious E Lightweight Armored Mask",
+          "external_grid_size": [2,2],
+          "material": "aramid",
+          "armor_class": 1,
+          "armor_areas": ["eyes", "jaws"],
+          "durability": 40,
+          "richochet_chance": "high",
+          "blocks_headset?": false,
+          "weight_kg": 0.28
+        },
+        {
+          "name": "Shattered Lightweight Armored Mask",
+          "external_grid_size": [2,2],
+          "material": "aramid",
+          "armor_class": 1,
+          "armor_areas": ["eyes", "jaws"],
+          "durability": 40,
+          "richochet_chance": "high",
+          "blocks_headset?": false,
+          "weight_kg": 0.3
+        },
+        {
+          "name": "Death Knight Mask",
+          "external_grid_size": [2,2],
+          "material": "aramid",
+          "armor_class": 1,
+          "armor_areas": ["top", "eyes"],
+          "durability": 55,
+          "richochet_chance": "high",
+          "blocks_headset?": false,
+          "weight_kg": 0.78
+        },
+        {
+          "name": "Tagilla's Welding Mask (Gorilla)",
+          "external_grid_size": [2,2],
+          "material": "armor steel",
+          "armor_class": 5,
+          "armor_areas": ["top", "ears", "eyes", "jaws"],
+          "durability": 40,
+          "richochet_chance": "high",
+          "movement_speed_percent_change": -5,
+          "turning_speed_percent_change": -10,
+          "ergonomics_percent_change": -10,
+          "sound_reduction": "low",
+          "blocks_headset?": true,
+          "weight_kg": 1.5
+        },
+        {
+          "name": "Tagilla's Welding Mask (UBEY)",
+          "external_grid_size": [2,2],
+          "material": "armor steel",
+          "armor_class": 5,
+          "armor_areas": ["top", "ears", "eyes", "jaws"],
+          "durability": 40,
+          "richochet_chance": "high",
+          "movement_speed_percent_change": -5,
+          "turning_speed_percent_change": -10,
+          "ergonomics_percent_change": -10,
+          "sound_reduction": "low",
+          "blocks_headset?": true,
+          "weight_kg": 1.5
+        },
+        {
+          "name": "Hockey Player Mask (Captain)",
+          "external_grid_size": [2,2],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Hockey Player Mask (Brawler)",
+          "external_grid_size": [2,2],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Hockey Player Mask (Quiet)",
+          "external_grid_size": [2,2],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "GP-5 Gas Mask",
+          "external_grid_size": [4,4],
+          "weight_kg": 0.45
+        },
+        {
+          "name": "GP-7 Gas Mask",
+          "external_grid_size": [4,4],
+          "weight_kg": 0.6
+        },
+        {
+          "name": "Deadly Skull Mask",
+          "external_grid_size": [4,4],
+          "weight_kg": 0.2
+        },
+        {
+          "name": "Respirator",
+          "external_grid_size": [4,4],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Pestily Plague Mask",
+          "external_grid_size": [4,4],
+          "weight_kg": 0.18
+        },
+        {
+          "name": "Spooky Skull Mask",
+          "external_grid_size": [4,4],
+          "weight_kg": 0.2
+        },
+        {
+          "name": "Slender Mask",
+          "external_grid_size": [4,4],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Misha Mayorov",
+          "external_grid_size": [4,4],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Ghoul Mask",
+          "external_grid_size": [4,4],
+          "weight_kg": 0.15
+        },
+        {
+          "name": "Faceless Mask",
+          "external_grid_size": [4,4],
+          "weight_kg": 0.2
+        },
+        {
+          "name": "Jason Mask",
+          "external_grid_size": [4,4],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Balaclava",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Cold Fear Infrared Balaclava",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Twitch Rivals 2021 Balaclava",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Ghost Balaclava",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Momex Balaclava",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Smoke Balaclava",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Shemagh (Green)",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Shemmagh (Tan)",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Lower Half-Mask",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Shroud Half-Mask",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Twitch Rivals 2020 Half-Mask",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Fake Mustache",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Fake White Beard",
+          "external_grid_size": [1,2],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Baddie's Red Beard",
+          "external_grid_size": [1,2],
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Big Pipe's Smoking Pipe",
+          "external_grid_size": [1,1],
+          "weight_kg": 0.1
+        }
+      ],
       "gear_components": [],
-      "headgear": [],
-      "headsets": [],
+      "headgear": [
+        {
+          "name": "Armasight NVG Head Strap",
+          "weight_kg": 0.4,
+          "external_grid_size": [2,2],
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "Wilcox Skull Lock Head Mount",
+          "weight_kg": 0.5,
+          "external_grid_size": [2,2],
+          "durability": 100,
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "Bomber Beanie",
+          "external_grid_size": [1,1],
+          "armor_class": 1,
+          "armor_areas": ["top"],
+          "durability": 150,
+          "richochet_chance": "low",
+          "weight_kg": 0.1
+        },
+        {
+          "name": "Tac-Kek FAST MT Helmet (Replica)",
+          "weight_kg": 0.45,
+          "external_grid_size": [2,2],
+          "material": "combined materials",
+          "armor_class": 1,
+          "armor_areas": ["top", "nape"],
+          "durability": 40,
+          "richochet_chance": "high",
+          "ergonomics_percent_change": -1,
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false,
+        }
+      ],
+      "headsets": [
+        {
+          "name": "GSSh-01 Active Headset",
+          "external_grid_size": [2,2],
+          "blocks_eyewear?": false,
+          "blocks_face_cover": false,
+          "blocks_headwear": false,
+          "weight_kg": 0.5
+        },
+        {
+          "name": "MSA Sordin Supreme PRO-X/L Active Headset",
+          "external_grid_size": [2,2],
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false,
+          "blocks_headwear?": false,
+          "weight_kg": 0.65
+        },
+        {
+          "name": "Ops-Core FAST RAC Headset",
+          "external_grid_size": [2,1],
+          "weight_kg": 0.6
+        },
+        {
+          "name": "OPSMEN Earmor M32 Headset",
+          "external_grid_size": [2,2],
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false,
+          "blocks_headwear?": false,
+          "weight_kg": 0.49
+        },
+        {
+          "name": "Peltor ComTac 2 Headset",
+          "external_grid_size": [2,2],
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false,
+          "blocks_headwear?": false,
+          "weight_kg": 0.7
+        },
+        {
+          "name": "Peltor Tactical Sport Headset",
+          "external_grid_size": [2,2],
+          "blocks_eyewear?": false,
+          "blocks_headwear?": false,
+          "blocks_face_cover?": false,
+          "weight_kg": 0.6
+        },
+        {
+          "name": "Walker's Razor Digital Headset",
+          "external_grid_size": [2,2],
+          "blocks_eyewear?": false,
+          "blocks_headwear?": false,
+          "blocks_face_cover?": false,
+          "weight_kg": 0.43
+        },
+        {
+          "name": "Walker's XCEL 500BT Digital Headset",
+          "external_grid_size": [2,2],
+          "blocks_eyewear?": false,
+          "blocks_headwear?": false,
+          "blocks_face_cover?": false,
+          "weight_kg": 0.49
+        },
+        {
+          "name": "Peltor ComTac 4 Hybrid Headset",
+          "external_grid_size": [2,2],
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false,
+          "blocks_headwear?": false,
+          "weight_kg": 0.6
+        }
+      ],
       "secure_containers": [
         {
           "name": "Secure Container Kappa",
