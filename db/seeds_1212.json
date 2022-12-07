@@ -1513,7 +1513,114 @@
           "weight_kg": 20
         }
       ],
-      "eyewear": [],
+      "eyewear": [
+				{
+					"name": "Oakley SI Batwolf Glasses",
+					"external_grid_size": [2,1],
+					"material": "glass",
+					"armor_class": 1,
+					"armor_areas": ["eyes"],
+					"durability": 20,
+					"richochet_chance": "medium",
+					"blindness_protection_percent": 18,
+					"weight_kg": 0.05
+				},
+				{
+					"name": "NPP KIASS Condor Glasses",
+					"external_grid_size": [2,1],
+					"material": "glass",
+					"armor_class": 1,
+					"armor_areas": ["eyes"],
+					"durability": 25,
+					"richochet_chance": "medium",
+					"blindness_protection_percent": 10,
+					"weight_kg": 0.03
+				},
+				{
+					"name": "Tactical Glasses",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 10,
+					"weight_kg": 0.1
+				},
+				{
+					"name": "Anti-Fragmentation Glasses",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 10,
+					"weight_kg": 0.11
+				},
+				{
+					"name": "6B34 Anti-Fragmentation Glasses",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 10,
+					"weight_kg": 0.12
+				},
+				{
+					"name": "Dundukk",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 15,
+					"weight_kg": 0.1
+				},
+				{
+					"name": "Oakley SI M Frame Safety Glasses",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 15,
+					"weight_kg": 0.032
+				},
+				{
+					"name": "Pyramex Proximity Safety Glasses",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 15,
+					"weight_kg": 0.026
+				},
+				{
+					"name": "Round Frame Sunglasses",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 20,
+					"weight_kg": 0.1
+				},
+				{
+					"name": "Raybench Hipster Reserve Sunglasses",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 25,
+					"weight_kg": 0.08
+				},
+				{
+					"name": "Raybench Aviator Glasses",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 25,
+					"weight_kg": 0.027
+				},
+				{
+					"name": "Crossbow Tactical Glasses",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 30,
+					"weight_kg": 0.03
+				},
+				{
+					"name": "Gascan Glasses",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 15,
+					"weight_kg": 0.034
+				},
+				{
+					"name": "Twitch Rivals 2020 Glasses",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 30,
+					"weight_kg": 0.034
+				},
+				{
+					"name": "Gas Welder Safety Goggles",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 45,
+					"weight_kg": 0.45
+				},
+				{
+					"name": "JohnB Liquid DNB Glasses",
+					"external_grid_size": [2,1],
+					"blindness_protection_percent": 25,
+					"weight_kg": 0.06
+				}
+			],
       "facecovers": [],
       "gear_components": [],
       "headgear": [],
