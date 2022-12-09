@@ -2404,8 +2404,135 @@
           "name": "Door Kicker Boonie Hat",
           "weight_kg": 0.1,
           "external_grid_size": [2,2]
+        },
+        {
+          "name": "Beanie",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Kotton Beanie",
+          "weight_kg": 0.2,
+          "external_grid_size": [1,1],
+          "material": "ultrahighweight polyethylene"
+        },
+        {
+          "name": "Army Cap",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Baseball Cap",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Ded Moroz Hat",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1],
+          "material": "ultrahighweight polyethylene"
+        },
+        {
+          "name": "Santa Hat",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1],
+          "material": "ultrahighweight polyethylene"
+        },
+        {
+          "name": "Police Cap",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Tactical Fleece Beanie",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "UX PRO Beanie",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "USEC Baseball Cap (Tan)",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "USEC Baseball Cap (Black)",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "BEAR Baseball Cap (Green)",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "BEAR Baseball Cap (Black)",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "EMERCOM Cap",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Pompon Hat",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Bandana",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Ski Hat with Holes for Eyes",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Beret (Olive)",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Beret (Black)",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Beret (Blue)",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Leather Cap",
+          "weight_kg": 0.15,
+          "external_grid_size": [2,1]
+        },
+        {
+          "name": "Rivals 2020 Beanie",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Rivals 2020 Cap",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "BOSS Cap",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
+        },
+        {
+          "name": "Big Pipe's Bandana",
+          "weight_kg": 0.1,
+          "external_grid_size": [1,1]
         }
-
       ],
       "headsets": [
         {
