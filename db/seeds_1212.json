@@ -3705,7 +3705,254 @@
     },
     "weapon_parts_&_mods": {
       "functional_mods": {
-        "auxiliary_parts": [],
+        "auxiliary_parts": [
+          {
+            "name": "HK G36 Hand Stop",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 1,
+            "flea_market?": true 
+          },
+          {
+            "name": "MP-155 Ultima Underbarrel Mount",
+            "weight_kg": 0.2,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 5,
+            "heat_percent_change": -0.6,
+            "cooling_percent_change": 0.8,
+            "flea_market?": true 
+          },
+          {
+            "name": "MP-155 Ultima Pistol Grip Rubber Pad",
+            "weight_kg": 0.05,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 5,
+            "flea_market?": true 
+          },
+          {
+            "name": "FAB Defense Protection Cap for AGR-870",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 2,
+            "flea_market?": true 
+          },
+          {
+            "name": "NSPU-M Scope Eyecup",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 6,
+            "flea_market?": true 
+          },
+          {
+            "name": "Armasight Vulcan MG Scope Eyecup",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 6,
+            "flea_market?": true 
+          },
+          {
+            "name": "Axion Kobra Sight Shade",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 3,
+            "flea_market?": true 
+          },
+          {
+            "name": "PSO Scope Eyecup",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 5,
+            "flea_market?": true 
+          },
+          {
+            "name": "Trijicon REAP-IR Scope Eyecup",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 6,
+            "flea_market?": true 
+          },
+          {
+            "name": "SV-98 Anti-Heat Ribbon",
+            "weight_kg": 0.053,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 2,
+            "heat_percent_change": -20,
+            "cooling_percent_change": 20,
+            "flea_market?": true 
+          },
+          {
+            "name": "SV-98 Sound Suppressor Heat Shield",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 2,
+            "heat_percent_change": -2,
+            "cooling_percent_change": 6,
+            "flea_market?": true 
+          },
+          {
+            "name": "Glock ZEV Tech Sight Mount Cap",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 2,
+            "flea_market?": true 
+          },
+          {
+            "name": "NPZ USP-1 Scope Eyecup",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 5,
+            "flea_market?": true 
+          },
+          {
+            "name": "KMZ 1P59 Scope Eyecup",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 5,
+            "flea_market?": true 
+          },
+          {
+            "name": "KAC URX 3/3.1 Short Panel",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 2,
+            "heat_percent_change": -1,
+            "flea_market?": true 
+          },
+          {
+            "name": "KAC URX 3/3.1 Long Panel",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 3,
+            "heat_percent_change": -2,
+            "flea_market?": true 
+          },
+          {
+            "name": "KAC URX 3/3.1 Stopper Panel",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -1,
+            "ergonomics_change": 4,
+            "heat_percent_change": -1,
+            "flea_market?": true 
+          },
+          {
+            "name": "M1911A1 Slide Stop",
+            "weight_kg": 0.009,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 1,
+            "flea_market?": true 
+          },
+          {
+            "name": "M1911A1 Hammer",
+            "weight_kg": 0.018,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 0,
+            "flea_market?": true 
+          },
+          {
+            "name": "M1911A1 Trigger",
+            "weight_kg": 0.014,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 1,
+            "flea_market?": true 
+          },
+          {
+            "name": "M1911A1 Wilson Extended Slide Stop",
+            "weight_kg": 0.01,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 3,
+            "durability_burn_percent_change": -1,
+            "flea_market?": true 
+          },
+          {
+            "name": "M1911A1 Wilson Retro Commander Hammer",
+            "weight_kg": 0.016,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 2,
+            "durability_burn_percent_change": -3,
+            "flea_market?": true 
+          },
+          {
+            "name": "M1911A1 STI HEX Hammer",
+            "weight_kg": 0.018,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 3,
+            "durability_burn_percent_change": -7,
+            "flea_market?": true 
+          },
+          {
+            "name": "M1911A1 Wilson Ultralight Skeletonized Hammer",
+            "weight_kg": 0.01,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 4,
+            "durability_burn_percent_change": -5,
+            "flea_market?": true 
+          },
+          {
+            "name": "M1911A1 Caspian Arms Trik Trigger",
+            "weight_kg": 0.015,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 3,
+            "durability_burn_percent_change": -3,
+            "flea_market?": true 
+          },
+          {
+            "name": "M45A1 Trigger",
+            "weight_kg": 0.013,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 2,
+            "flea_market?": true 
+          },
+          {
+            "name": "M45A1 Hammer",
+            "weight_kg": 0.017,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 2,
+            "flea_market?": true 
+          },
+          {
+            "name": "M45A1 Slide Lock",
+            "weight_kg": 0.008,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 2,
+            "flea_market?": true 
+          },
+          {
+            "name": "STM-9 Magwell",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 5,
+            "flea_market?": true 
+          },
+          {
+            "name": "HK USP Hammer",
+            "weight_kg": 0.017,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 2,
+            "flea_market?": true 
+          },
+          {
+            "name": "HK USP Slide Lock",
+            "weight_kg": 0.008,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 2,
+            "flea_market?": true 
+          },
+          {
+            "name": "HK USP Trigger",
+            "weight_kg": 0.013,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 2,
+            "flea_market?": true 
+          },
+          {
+            "name": "NPZ 1P78 Scope Eyecup",
+            "weight_kg": 0.005,
+            "external_grid_size": [1,1],
+            "ergonomics_change": 5,
+            "flea_market?": true 
+          }
+        ],
         "bipods": [],
         "foregrips": [],
         "light_&_laser_devices": {
