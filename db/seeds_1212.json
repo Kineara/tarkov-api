@@ -3979,9 +3979,259 @@
             "flea_market?": true 
           }
         ],
-        "foregrips": [],
+        "foregrips": [
+          {
+            "name": "AI AXMC Padded Handguard Grip",
+            "weight_kg": 0.09,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -1,
+            "ergonomics_change": 5,
+            "flea_market": true
+          },
+          {
+            "name": "HK Sturmgriff Foregrip",
+            "weight_kg": 0.068,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": 0,
+            "ergonomics_change": 7,
+            "accuracy_change": 0,
+            "flea_market": true
+          },
+          {
+            "name": "Monstrum Tactical Vertical Fore Grip KeyMod",
+            "weight_kg": 0.028,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -1,
+            "ergonomics_change": 8,
+            "flea_market": true
+          },
+          {
+            "name": "KAC Vertical Foregrip",
+            "weight_kg": 0.072,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": 0,
+            "ergonomics_change": 7,
+            "flea_market": true
+          },
+          {
+            "name": "BCM GUNFIGHTER MOD 3 Vertical Foregrip",
+            "weight_kg": 0.053,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -1,
+            "ergonomics_change": 6,
+            "flea_market": true
+          },
+          {
+            "name": "Strike Industries Cobra Tactical Foregrip",
+            "weight_kg": 0.08,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -1,
+            "ergonomics_change": 9,
+            "flea_market": true
+          },
+          {
+            "name": "Magpul M-LOK AFG Tactical Foregrip",
+            "weight_kg": 0.042,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -2,
+            "ergonomics_change": 7,
+            "flea_market": true
+          },
+          {
+            "name": "Hera Arms CQR Tactical Foregrip",
+            "weight_kg": 0.167,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -3,
+            "ergonomics_change": 4,
+            "flea_market": true
+          },
+          {
+            "name": "Fortis Shift Tactical Foregrip",
+            "weight_kg": 0.09,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -1.5,
+            "ergonomics_change": 8,
+            "flea_market": true
+          },
+          {
+            "name": "Magpul AFG Tactical Foregrip",
+            "weight_kg": 0.082,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -2,
+            "ergonomics_change": 6,
+            "flea_market": true
+          },
+          {
+            "name": "Magpul RVG Foregrip",
+            "weight_kg": 0.082,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -2,
+            "ergonomics_change": 7,
+            "flea_market": true
+          },
+          {
+            "name": "Stark SE-5 Express Forward Foregrip",
+            "weight_kg": 0.09,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -2,
+            "ergonomics_change": 8,
+            "flea_market": true
+          },
+          {
+            "name": "TangoDown Stubby BGV-MK46K Foregrip",
+            "weight_kg": 0.072,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -1,
+            "ergonomics_change": 5,
+            "flea_market": true
+          },
+          {
+            "name": "Viking Tactics UVG Tactical Foregrip",
+            "weight_kg": 0.107,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -2,
+            "ergonomics_change": 5,
+            "flea_market": true
+          },
+          {
+            "name": "Zenit RK-0 Tactical Foregrip",
+            "weight_kg": 0.138,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -2,
+            "ergonomics_change": 3,
+            "flea_market": true
+          },
+          {
+            "name": "Zenit RK-1 Tactical Foregrip",
+            "weight_kg": 0.170,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -3,
+            "ergonomics_change": 1,
+            "flea_market": true
+          },
+          {
+            "name": "Zenit RK-1 Tactical Foregrip on B-25U Mount",
+            "weight_kg": 0.18,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -3,
+            "ergonomics_change": 2,
+            "flea_market": true
+          },
+          {
+            "name": "Zenit RK-2 Tactical Foregrip",
+            "weight_kg": 0.2,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -4,
+            "ergonomics_change": -8,
+            "flea_market": true
+          },
+          {
+            "name": "Zenit RK-4 Tactical Foregrip",
+            "weight_kg": 0.127,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -2,
+            "ergonomics_change": 4,
+            "flea_market": true
+          },
+          {
+            "name": "Zenit RK-5 Tactical Foregrip",
+            "weight_kg": 0.127,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -2,
+            "ergonomics_change": 5,
+            "flea_market": true
+          },
+          {
+            "name": "Zenit RK-6 Tactical Foregrip",
+            "weight_kg": 0.1,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -1,
+            "ergonomics_change": 5,
+            "flea_market": true
+          },
+          {
+            "name": "ASh-12 Vertical Foregrip",
+            "weight_kg": 0.08,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": 0,
+            "ergonomics_change": 5,
+            "flea_market": true
+          },
+          {
+            "name": "RTM Pillau Tactical Foregrip",
+            "weight_kg": 0.065,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -1,
+            "ergonomics_change": 5,
+            "flea_market": true
+          },
+          {
+            "name": "MP9-N Vertical Foregrip",
+            "weight_kg": 0.08,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": 0,
+            "ergonomics_change": 6,
+            "flea_market": true
+          },
+          {
+            "name": "ORSIS T-5000M Padded Handguard Grip",
+            "weight_kg": 0.08,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -1,
+            "ergonomics_change": 6,
+            "flea_market": true
+          },
+          {
+            "name": "Tactical Dynamics Skeletonized Foregrip",
+            "weight_kg": 0.133,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -2,
+            "ergonomics_change": 6,
+            "flea_market": true
+          },
+          {
+            "name": "A3 Tactical MVF001 KeyMod Vertical Foregrip (Black)",
+            "weight_kg": 0.096,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": 0,
+            "ergonomics_change": 10,
+            "flea_market": true
+          },
+          {
+            "name": "SIG Sauer Vertical Foregrip KeyMod (Black)",
+            "weight_kg": 0.055,
+            "external_grid_size": [1,1],
+            "recoil_percent_change": -2,
+            "ergonomics_change": 5,
+            "flea_market": true
+          }
+        ],
         "light_&_laser_devices": {
-          "flashlights": [],
+          "flashlights": [
+            {
+              "name": "Armytek Predator Pro v3 XHP35 HI Flashlight",
+              "weight_kg": 0.12,
+              "external_grid_size": [1,1],
+              "ergonomics_change": -2,
+              "is_laser?": true,
+              "is_flashlight?": true,
+              "is_ir_flashlight?": false,
+              "is_ir_laser?": false,
+              "flea_market": true 
+            },
+            {
+              "name": "Ultrafire WF-501B Flashlight",
+              "weight_kg": 0.12,
+              "external_grid_size": [1,1],
+              "ergonomics_change": -2,
+              "is_laser?": true,
+              "is_flashlight?": true,
+              "is_ir_flashlight?": false,
+              "is_ir_laser?": false,
+              "flea_market": true 
+            }
+            
+          ],
           "laser_target_designators": [],
           "tactical_combo_devices": []
         },
