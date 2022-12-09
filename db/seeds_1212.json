@@ -2368,6 +2368,42 @@
           "blocks_eyewear?": false,
           "blocks_face_cover?": false,
           "flea_market?": false
+        },
+        {
+          "name": "Jack Pyke Hunting LLCS Boonie Hat",
+          "weight_kg": 0.18,
+          "external_grid_size": [2,2],
+          "blocks_headset?": true,
+          "blocks_eyewear?": true,
+          "blocks_face_cover?": true
+        },
+        {
+          "name": "Stich Profi Chimera Boonie Hat",
+          "weight_kg": 0.15,
+          "external_grid_size": [2,2]
+        },
+        {
+          "name": "Kinda Cowboy Hat",
+          "weight_kg": 0.2,
+          "external_grid_size": [2,2]
+        },
+        {
+          "name": "Ushanka Ear Flap Hat",
+          "weight_kg": 0.1,
+          "external_grid_size": [2,2],
+          "blocks_headset?": false,
+          "blocks_eyewear?": false,
+          "blocks_face_cover?": false
+        },
+        {
+          "name": "MIL-TEC Boonie Hat",
+          "weight_kg": 0.1,
+          "external_grid_size": [2,2]
+        },
+        {
+          "name": "Door Kicker Boonie Hat",
+          "weight_kg": 0.1,
+          "external_grid_size": [2,2]
         }
 
       ],
