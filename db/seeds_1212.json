@@ -3953,7 +3953,32 @@
             "flea_market?": true 
           }
         ],
-        "bipods": [],
+        "bipods": [
+          {
+            "name": "HK G36 Bipod",
+            "weight_kg": 0.226,
+            "external_grid_size": [2,1],
+            "recoil_percent_change": -2,
+            "ergonomics_change": 4,
+            "flea_market?": true 
+          },
+          {
+            "name": "Harris HBR Bipod",
+            "weight_kg": 0.277,
+            "external_grid_size": [2,1],
+            "recoil_percent_change": -5,
+            "ergonomics_change": 10,
+            "flea_market?": true 
+          },
+          {
+            "name": "SV-98 Bipod",
+            "weight_kg": 0.472,
+            "external_grid_size": [2,1],
+            "recoil_percent_change": -2,
+            "ergonomics_change": 4,
+            "flea_market?": true 
+          }
+        ],
         "foregrips": [],
         "light_&_laser_devices": {
           "flashlights": [],
