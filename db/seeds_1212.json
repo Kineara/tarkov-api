@@ -1835,37 +1835,37 @@
       "gear_components": [
         {
           "name": "AN/PVS-14 Night Vision Monocular",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.65,
           "flea_market?": true
         },
         {
           "name": "PNV-10T Night Vision Goggles",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 0.8,
           "flea_market?": true
         },
         {
           "name": "Armasight N-15 Night Vision Goggles",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 0.755,
           "flea_market?": true
         },
         {
           "name": "GPNVG-18 Night Vision Goggles",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 0.88,
           "flea_market?": false
         },
         {
           "name": "T-7 Thermal Goggles with a Night Vision Mount",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 0.92,
           "flea_market?": true
         },
         {
           "name": "Ops-Core FAST Visor",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 1,
           "material": "glass",
           "armor_class": 2,
@@ -1878,7 +1878,7 @@
         },
         {
           "name": "Galvion Caiman Fixed Arm Visor",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 1,
           "material": "glass",
           "armor_class": 2,
@@ -1890,7 +1890,7 @@
         },
         {
           "name": "Kolpak-1S Face Shield",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 1,
           "material": "glass",
           "armor_class": 2,
@@ -1903,11 +1903,11 @@
         },
         {
           "name": "Tac-Kek Heavy Trooper Mask for Ops-Core-Type Helmets",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "weight_kg": 0.4,
           "material": "aramid",
           "armor_class": 2,
-          "armor_areas": ["top","eyes", "jaws"],
+          "armor_areas": ["top", "eyes", "jaws"],
           "durability": 45,
           "richochet_chance": "high",
           "blindess_protection": 20,
@@ -1923,7 +1923,7 @@
         },
         {
           "name": "Ops-Core FAST Multi-Hit Ballistic Face Shield",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "weight_kg": 1,
           "material": "glass",
           "armor_class": 3,
@@ -1938,7 +1938,7 @@
         },
         {
           "name": "Kiver-M Face Shield",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 1.2,
           "material": "glass",
           "armor_class": 3,
@@ -1952,7 +1952,7 @@
         },
         {
           "name": "Team Wendy EXFIL Ballistic Face Shield",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 0.8,
           "material": "glass",
           "armor_class": 3,
@@ -1967,7 +1967,7 @@
         },
         {
           "name": "ZSh-1-2M Face Shield",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 1,
           "material": "glass",
           "armor_class": 3,
@@ -1981,7 +1981,7 @@
         },
         {
           "name": "LShZ-2DTM Face Shield",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 1,
           "material": "glass",
           "armor_class": 4,
@@ -1996,7 +1996,7 @@
         },
         {
           "name": "Vulkan-5 Face Shield",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 1.8,
           "material": "glass",
           "armor_class": 4,
@@ -2011,7 +2011,7 @@
         },
         {
           "name": "Altyn Face Shield",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 1.4,
           "material": "combined",
           "armor_class": 5,
@@ -2026,7 +2026,7 @@
         },
         {
           "name": "Rys-T Face Shield",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 1.2,
           "material": "combined",
           "armor_class": 5,
@@ -2041,7 +2041,7 @@
         },
         {
           "name": "Maska-1SCh Face Shield",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 1.1,
           "material": "armor steel",
           "armor_class": 6,
@@ -2054,7 +2054,7 @@
         },
         {
           "name": "Ops-Core FAST Gunsight Mandible",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "weight_kg": 1.2,
           "material": "aramid",
           "armor_class": 2,
@@ -2066,7 +2066,7 @@
         },
         {
           "name": "Galvion Caiman Hybrid Ballistic Mandible Guard",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "weight_kg": 1.1,
           "material": "aramid",
           "armor_class": 2,
@@ -2078,7 +2078,7 @@
         },
         {
           "name": "Ops-Core FAST Side Armor",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "weight_kg": 1.2,
           "material": "aluminium",
           "armor_class": 3,
@@ -2091,7 +2091,7 @@
         },
         {
           "name": "Crye Precision AirFrame Ears",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "weight_kg": 1.2,
           "material": "aluminium",
           "armor_class": 3,
@@ -2105,11 +2105,11 @@
           "blocks_headset?": true,
           "blocks_eyewear?": false,
           "blocks_face_cover?": false,
-          "flea_market?": true 
+          "flea_market?": true
         },
         {
           "name": "Team Wendy EXFIL Ear Covers",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "weight_kg": 0.172,
           "material": "aluminium",
           "armor_class": 3,
@@ -2127,7 +2127,7 @@
         },
         {
           "name": "Crye Precision AirFrame Chops",
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "weight_kg": 1.45,
           "material": "aluminium",
           "armor_class": 3,
@@ -2145,7 +2145,7 @@
         },
         {
           "name": "Galvion Caiman Hybrid Ballistic Applique",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 0.68,
           "material": "ultrahighweight polyethylene",
           "armor_class": 4,
@@ -2155,11 +2155,11 @@
           "movement_speed_percent_change": 0,
           "turning_speed_percent_change": -6,
           "ergonomics_percent_change": -12,
-          "flea_market?": true 
+          "flea_market?": true
         },
         {
           "name": "Ops-Core SLAAP Armor Helmet Plate (Tan)",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 1.3,
           "material": "ultrahighweight polyethylene",
           "armor_class": 5,
@@ -2169,11 +2169,11 @@
           "movement_speed_percent_change": 0,
           "turning_speed_percent_change": -8,
           "ergonomics_percent_change": -15,
-          "flea_market?": true 
+          "flea_market?": true
         },
         {
           "name": "LShZ-2DTM Aventail",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 1.2,
           "material": "combined",
           "armor_class": 5,
@@ -2182,11 +2182,11 @@
           "richochet_chance": "high",
           "turning_speed_percent_change": -15,
           "ergonomics_percent_change": -8,
-          "flea_market?": true 
+          "flea_market?": true
         },
         {
           "name": "Diamond Age Bastion Helmet Armor Plate",
-          "external_grid_size": [2,1],
+          "external_grid_size": [2, 1],
           "weight_kg": 0.99,
           "material": "ceramic",
           "armor_class": 6,
@@ -2200,47 +2200,47 @@
           "blocks_eyewear?": false,
           "blocks_face_cover?": false,
           "blocks_headwear?": false,
-          "flea_market?": true 
+          "flea_market?": true
         },
         {
           "name": "Norotos Titanium Advanced Tactical Mount",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.07,
           "flea_market?": true
         },
         {
           "name": "PNV-10T Dovetail Adapter",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.08,
           "flea_market?": true
         },
         {
           "name": "AN/PVS-14 Dual Dovetail Mount",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.07,
           "flea_market?": true
         },
         {
           "name": "Wilcox Interface for PVS-7",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.07,
           "flea_market?": true
         },
         {
           "name": "Ops-Core Picatinny Rail Adapter Mount",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.02,
           "flea_market?": true
         },
         {
           "name": "Ops-Core Single Clamp Rail Adapter Mount",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.02,
           "flea_market?": true
         },
         {
           "name": "LShZ-2DTM Cover (Black)",
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "weight_kg": 0.1,
           "flea_market?": true
         }
@@ -2289,7 +2289,7 @@
         {
           "name": "TSh-4m-L Soft Tank Crew Helmet",
           "weight_kg": 0.9,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "aramid",
           "armor_class": 1,
           "armor_areas": ["top", "ears", "nape"],
@@ -2306,7 +2306,7 @@
         {
           "name": "Kolpak-1S Riot Helmet",
           "weight_kg": 1.9,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "aramid",
           "armor_class": 2,
           "armor_areas": ["top"],
@@ -2323,7 +2323,7 @@
         {
           "name": "ShPM Firefighter Helmet",
           "weight_kg": 1.5,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "aramid",
           "armor_class": 2,
           "armor_areas": ["top", "nape", "ears"],
@@ -2340,7 +2340,7 @@
         {
           "name": "PSh-97 DJETA Riot Helmet",
           "weight_kg": 1.3,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "aramid",
           "armor_class": 2,
           "armor_areas": ["top", "nape", "ears"],
@@ -2357,7 +2357,7 @@
         {
           "name": "Jack-o-Lantern Tactical Pumpkin Helmet",
           "weight_kg": 1.2,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "ultrahighweight polyethylene",
           "armor_class": 2,
           "armor_areas": ["top", "nape", "ears", "eyes", "jaws"],
@@ -2374,7 +2374,7 @@
         {
           "name": "LShZ Light Helmet",
           "weight_kg": 0.95,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "aramid",
           "armor_class": 3,
           "armor_areas": ["top", "nape"],
@@ -2391,7 +2391,7 @@
         {
           "name": "SSh-68 Steel Helmet",
           "weight_kg": 1.5,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "armor steel",
           "armor_class": 3,
           "armor_areas": ["top", "nape"],
@@ -2408,7 +2408,7 @@
         {
           "name": "NFM \"HJELM\" Helmet",
           "weight_kg": 0.8,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined",
           "armor_class": 3,
           "armor_areas": ["top", "nape"],
@@ -2425,7 +2425,7 @@
         {
           "name": "UNTAR Helmet",
           "weight_kg": 2.2,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "aramid",
           "armor_class": 3,
           "armor_areas": ["top", "nape", "ears"],
@@ -2442,7 +2442,7 @@
         {
           "name": "6B47 Ratnik-BSh Helmet",
           "weight_kg": 1.3,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "aluminium",
           "armor_class": 3,
           "armor_areas": ["top", "nape", "ears"],
@@ -2459,7 +2459,7 @@
         {
           "name": "FORT Kiver-M Bulletproof Helmet",
           "weight_kg": 1.2,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "ultrahighweight polyethylene",
           "armor_class": 3,
           "armor_areas": ["top", "nape", "ears"],
@@ -2476,7 +2476,7 @@
         {
           "name": "SSSh-94 SFERA-S Helmet",
           "weight_kg": 3.5,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "armor steel",
           "armor_class": 3,
           "armor_areas": ["top", "nape", "ears"],
@@ -2493,7 +2493,7 @@
         {
           "name": "DevTac Ronin Ballistic Helmet",
           "weight_kg": 1.6,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "aramid",
           "armor_class": 3,
           "armor_areas": ["top", "nape", "ears", "eyes", "jaws"],
@@ -2510,7 +2510,7 @@
         {
           "name": "MSA ACH TC-2001 MICH Series Helmet",
           "weight_kg": 1.4,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined",
           "armor_class": 4,
           "armor_areas": ["top", "nape"],
@@ -2527,7 +2527,7 @@
         {
           "name": "MSA ACH TC-2002 MICH Series Helmet",
           "weight_kg": 1.45,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined",
           "armor_class": 4,
           "armor_areas": ["top", "nape"],
@@ -2544,7 +2544,7 @@
         {
           "name": "HighCom Striker ACHHC IIIA Helmet",
           "weight_kg": 1.5,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined steel",
           "armor_class": 4,
           "armor_areas": ["top", "nape"],
@@ -2561,7 +2561,7 @@
         {
           "name": "MSA Gallet TC 800 High Cut Combat Helmet",
           "weight_kg": 1.17,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined",
           "armor_class": 4,
           "armor_areas": ["top", "nape"],
@@ -2578,7 +2578,7 @@
         {
           "name": "Diamond Age Bastion Helmet",
           "weight_kg": 0.96,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined",
           "armor_class": 4,
           "armor_areas": ["top", "nape"],
@@ -2596,7 +2596,7 @@
         {
           "name": "Ops-Core FAST MT Super High Cut Helmet",
           "weight_kg": 0.9,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined",
           "armor_class": 4,
           "armor_areas": ["top", "nape"],
@@ -2613,7 +2613,7 @@
         {
           "name": "Crye Precision AirFrame Helmet (Tan)",
           "weight_kg": 0.88,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined",
           "armor_class": 4,
           "armor_areas": ["top", "nape"],
@@ -2630,7 +2630,7 @@
         {
           "name": "Team Wendy EXFIL Ballistic Helmet",
           "weight_kg": 1.18,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined",
           "armor_class": 4,
           "armor_areas": ["top", "nape"],
@@ -2647,7 +2647,7 @@
         {
           "name": "Galvion Caiman Hybrid Helmet",
           "weight_kg": 1.12,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined",
           "armor_class": 4,
           "armor_areas": ["top", "nape"],
@@ -2664,7 +2664,7 @@
         {
           "name": "ZSh-1-2M Helmet",
           "weight_kg": 3.7,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined",
           "armor_class": 4,
           "armor_areas": ["top", "nape", "ears"],
@@ -2681,7 +2681,7 @@
         {
           "name": "HighCom Striker ULACH IIIA Helmet",
           "weight_kg": 1.9,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "ultrahighweight polyethylene",
           "armor_class": 4,
           "armor_areas": ["top", "nape", "ears"],
@@ -2698,7 +2698,7 @@
         {
           "name": "BNTI LShZ-2DTM Helmet",
           "weight_kg": 3.4,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined",
           "armor_class": 4,
           "armor_areas": ["top", "nape", "ears"],
@@ -2715,7 +2715,7 @@
         {
           "name": "Maska-1SCh Bulletproof Helmet",
           "weight_kg": 2.6,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "armor steel",
           "armor_class": 4,
           "armor_areas": ["top", "nape", "ears"],
@@ -2732,7 +2732,7 @@
         {
           "name": "Altyn Bulletproof Helmet",
           "weight_kg": 4,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "armor steel",
           "armor_class": 5,
           "armor_areas": ["top", "nape", "ears"],
@@ -2749,7 +2749,7 @@
         {
           "name": "Rys-T Bulletproof Helmet",
           "weight_kg": 2.5,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "titan",
           "armor_class": 5,
           "armor_areas": ["top", "nape", "ears"],
@@ -2767,7 +2767,7 @@
         {
           "name": "Vulkan-5 (LShZ-5) Bulletproof Helmet",
           "weight_kg": 4.5,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "material": "combined",
           "armor_class": 6,
           "armor_areas": ["top", "nape", "ears"],
@@ -2785,7 +2785,7 @@
         {
           "name": "Jack Pyke Hunting LLCS Boonie Hat",
           "weight_kg": 0.18,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "blocks_headset?": true,
           "blocks_eyewear?": true,
           "blocks_face_cover?": true
@@ -2793,17 +2793,17 @@
         {
           "name": "Stich Profi Chimera Boonie Hat",
           "weight_kg": 0.15,
-          "external_grid_size": [2,2]
+          "external_grid_size": [2, 2]
         },
         {
           "name": "Kinda Cowboy Hat",
           "weight_kg": 0.2,
-          "external_grid_size": [2,2]
+          "external_grid_size": [2, 2]
         },
         {
           "name": "Ushanka Ear Flap Hat",
           "weight_kg": 0.1,
-          "external_grid_size": [2,2],
+          "external_grid_size": [2, 2],
           "blocks_headset?": false,
           "blocks_eyewear?": false,
           "blocks_face_cover?": false
@@ -2811,140 +2811,140 @@
         {
           "name": "MIL-TEC Boonie Hat",
           "weight_kg": 0.1,
-          "external_grid_size": [2,2]
+          "external_grid_size": [2, 2]
         },
         {
           "name": "Door Kicker Boonie Hat",
           "weight_kg": 0.1,
-          "external_grid_size": [2,2]
+          "external_grid_size": [2, 2]
         },
         {
           "name": "Beanie",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Kotton Beanie",
           "weight_kg": 0.2,
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "material": "ultrahighweight polyethylene"
         },
         {
           "name": "Army Cap",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Baseball Cap",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Ded Moroz Hat",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "material": "ultrahighweight polyethylene"
         },
         {
           "name": "Santa Hat",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1],
+          "external_grid_size": [1, 1],
           "material": "ultrahighweight polyethylene"
         },
         {
           "name": "Police Cap",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Tactical Fleece Beanie",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "UX PRO Beanie",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "USEC Baseball Cap (Tan)",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "USEC Baseball Cap (Black)",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "BEAR Baseball Cap (Green)",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "BEAR Baseball Cap (Black)",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "EMERCOM Cap",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Pompon Hat",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Bandana",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Ski Hat with Holes for Eyes",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Beret (Olive)",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Beret (Black)",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Beret (Blue)",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Leather Cap",
           "weight_kg": 0.15,
-          "external_grid_size": [2,1]
+          "external_grid_size": [2, 1]
         },
         {
           "name": "Rivals 2020 Beanie",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Rivals 2020 Cap",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "BOSS Cap",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         },
         {
           "name": "Big Pipe's Bandana",
           "weight_kg": 0.1,
-          "external_grid_size": [1,1]
+          "external_grid_size": [1, 1]
         }
       ],
       "headsets": [
@@ -3209,11 +3209,11 @@
         {
           "name": "6B5-16 Zh-86 Uley Armored Rig",
           "weight_kg": 7.1,
-          "external_grid_size": [3,4],
+          "external_grid_size": [3, 4],
           "inventory_slots": 10,
           "material": "titan",
           "armor_class": 3,
-          "armor_areas":  ["thorax", "stomach"],
+          "armor_areas": ["thorax", "stomach"],
           "durability": 80,
           "movement_speed_percent_change": -9,
           "turning_speed_percent_change": -5,
@@ -3223,7 +3223,7 @@
         {
           "name": "Eagle Industries \"MMAC\" Plate Carrier (Ranger Green)",
           "weight_kg": 7.2,
-          "external_grid_size": [3,3],
+          "external_grid_size": [3, 3],
           "inventory_slots": 14,
           "material": "ultrahighweight polyethylene",
           "armor_class": 4,
@@ -3238,11 +3238,11 @@
         {
           "name": "Ars Arma A18 Skanda Plate Carrier",
           "weight_kg": 8.2,
-          "external_grid_size": [4,3],
+          "external_grid_size": [4, 3],
           "inventory_slots": 25,
           "material": "combined",
           "armor_class": 4,
-          "armor_areas":  ["thorax"],
+          "armor_areas": ["thorax"],
           "durability": 80,
           "movement_speed_percent_change": -8,
           "turning_speed_percent_change": -4,
@@ -3253,11 +3253,11 @@
         {
           "name": "WARTECH TV-110 Plate Carrier Rig",
           "weight_kg": 10.3,
-          "external_grid_size": [4,3],
+          "external_grid_size": [4, 3],
           "inventory_slots": 23,
           "material": "armor steel",
           "armor_class": 4,
-          "armor_areas":  ["thorax"],
+          "armor_areas": ["thorax"],
           "durability": 85,
           "movement_speed_percent_change": -8,
           "turning_speed_percent_change": -4,
@@ -3268,11 +3268,11 @@
         {
           "name": "FirstSpear \"Strandhogg\" Plate Carrier Rig (Ranger Green)",
           "weight_kg": 6.5,
-          "external_grid_size": [3,4],
+          "external_grid_size": [3, 4],
           "inventory_slots": 17,
           "material": "aluminium",
           "armor_class": 4,
-          "armor_areas":  ["thorax", "stomach"],
+          "armor_areas": ["thorax", "stomach"],
           "durability": 45,
           "movement_speed_percent_change": -6,
           "turning_speed_percent_change": -4,
@@ -3283,11 +3283,11 @@
         {
           "name": "ECLiPSE RBAV-AF Plate Carrier (Ranger Green)",
           "weight_kg": 7.5,
-          "external_grid_size": [3,4],
+          "external_grid_size": [3, 4],
           "inventory_slots": 19,
           "material": "titan",
           "armor_class": 4,
-          "armor_areas":  ["thorax", "stomach"],
+          "armor_areas": ["thorax", "stomach"],
           "durability": 45,
           "movement_speed_percent_change": -8,
           "turning_speed_percent_change": -6,
@@ -3298,11 +3298,11 @@
         {
           "name": "CQC Osprey MK4A Plate Carrier (Assault, MTP)",
           "weight_kg": 10.7,
-          "external_grid_size": [4,3],
+          "external_grid_size": [4, 3],
           "inventory_slots": 25,
           "material": "aluminium",
           "armor_class": 4,
-          "armor_areas":  ["thorax", "arms"],
+          "armor_areas": ["thorax", "arms"],
           "durability": 60,
           "movement_speed_percent_change": -11,
           "turning_speed_percent_change": -11,
@@ -3313,11 +3313,11 @@
         {
           "name": "6B3TM-01M Armored Rig",
           "weight_kg": 9.2,
-          "external_grid_size": [3,4],
+          "external_grid_size": [3, 4],
           "inventory_slots": 12,
           "material": "titan",
           "armor_class": 4,
-          "armor_areas":  ["thorax", "stomach"],
+          "armor_areas": ["thorax", "stomach"],
           "durability": 40,
           "movement_speed_percent_change": -10,
           "turning_speed_percent_change": -5,
@@ -3327,11 +3327,11 @@
         {
           "name": "6B5-15 Zh-86 Uley Armored Rig",
           "weight_kg": 12.2,
-          "external_grid_size": [3,4],
+          "external_grid_size": [3, 4],
           "inventory_slots": 10,
           "material": "ceramic",
           "armor_class": 4,
-          "armor_areas":  ["thorax", "stomach"],
+          "armor_areas": ["thorax", "stomach"],
           "durability": 50,
           "movement_speed_percent_change": -14,
           "turning_speed_percent_change": -7,
@@ -3341,11 +3341,11 @@
         {
           "name": "ANA Tactical M2 Armored Rig",
           "weight_kg": 7,
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "inventory_slots": 18,
           "material": "titan",
           "armor_class": 4,
-          "armor_areas":  ["thorax", "stomach"],
+          "armor_areas": ["thorax", "stomach"],
           "durability": 60,
           "movement_speed_percent_change": -8,
           "turning_speed_percent_change": -5,
@@ -3355,11 +3355,11 @@
         {
           "name": "ANA Tactical M1 Armored Rig",
           "weight_kg": 8.3,
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "inventory_slots": 20,
           "material": "armor steel",
           "armor_class": 4,
-          "armor_areas":  ["thorax", "stomach"],
+          "armor_areas": ["thorax", "stomach"],
           "durability": 65,
           "movement_speed_percent_change": -10,
           "turning_speed_percent_change": -5,
@@ -3369,11 +3369,11 @@
         {
           "name": "Crye Precision AVS Plate Carrier",
           "weight_kg": 8.7,
-          "external_grid_size": [3,4],
+          "external_grid_size": [3, 4],
           "inventory_slots": 23,
           "material": "combined",
           "armor_class": 4,
-          "armor_areas":  ["thorax", "stomach"],
+          "armor_areas": ["thorax", "stomach"],
           "durability": 70,
           "movement_speed_percent_change": -10,
           "turning_speed_percent_change": -2,
@@ -3384,11 +3384,11 @@
         {
           "name": "5.11 Tactical TacTec Plate Carrier",
           "weight_kg": 9.5,
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "inventory_slots": 18,
           "material": "ultrahighweight polyethylene",
           "armor_class": 5,
-          "armor_areas":  ["thorax"],
+          "armor_areas": ["thorax"],
           "durability": 50,
           "movement_speed_percent_change": -7,
           "turning_speed_percent_change": -3,
@@ -3399,11 +3399,11 @@
         {
           "name": "Ars Arma CPC MOD.2 Plate Carrier",
           "weight_kg": 8.5,
-          "external_grid_size": [4,3],
+          "external_grid_size": [4, 3],
           "inventory_slots": 23,
           "material": "ultrahighweight polyethylene",
           "armor_class": 5,
-          "armor_areas":  ["thorax"],
+          "armor_areas": ["thorax"],
           "durability": 60,
           "movement_speed_percent_change": -6,
           "turning_speed_percent_change": -4,
@@ -3414,11 +3414,11 @@
         {
           "name": "Crye Precision CPC Plate Carrier (Goons Edition)",
           "weight_kg": 9.6,
-          "external_grid_size": [4,3],
+          "external_grid_size": [4, 3],
           "inventory_slots": 18,
           "material": "combined",
           "armor_class": 5,
-          "armor_areas":  ["thorax"],
+          "armor_areas": ["thorax"],
           "durability": 75,
           "movement_speed_percent_change": -8,
           "turning_speed_percent_change": -4,
@@ -3429,11 +3429,11 @@
         {
           "name": "S&S Precision PlateFrame Plate Carrier (Goons Edition)",
           "weight_kg": 6.4,
-          "external_grid_size": [3,3],
+          "external_grid_size": [3, 3],
           "inventory_slots": 10,
           "material": "ultrahighweight polyethylene",
           "armor_class": 5,
-          "armor_areas":  ["thorax"],
+          "armor_areas": ["thorax"],
           "durability": 85,
           "movement_speed_percent_change": -6,
           "turning_speed_percent_change": -5,
@@ -3444,11 +3444,11 @@
         {
           "name": "CQC Osprey MK4A Plate Carrier (Protection, MTP)",
           "weight_kg": 12.5,
-          "external_grid_size": [4,3],
+          "external_grid_size": [4, 3],
           "inventory_slots": 24,
           "material": "titan",
           "armor_class": 5,
-          "armor_areas":  ["thorax", "arms"],
+          "armor_areas": ["thorax", "arms"],
           "durability": 55,
           "movement_speed_percent_change": -16,
           "turning_speed_percent_change": -11,
@@ -3459,11 +3459,11 @@
         {
           "name": "NPP KIASS Bagariy Armored Rig",
           "weight_kg": 13,
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "inventory_slots": 25,
           "material": "armor steel",
           "armor_class": 5,
-          "armor_areas":  ["thorax", "stomach"],
+          "armor_areas": ["thorax", "stomach"],
           "durability": 55,
           "movement_speed_percent_change": -21,
           "turning_speed_percent_change": -14,
@@ -3474,11 +3474,11 @@
         {
           "name": "Tasmanian Tiger SK Plate Carrier (Multicam Black)",
           "weight_kg": 7.5,
-          "external_grid_size": [3,3],
+          "external_grid_size": [3, 3],
           "inventory_slots": 8,
           "material": "ceramic",
           "armor_class": 6,
-          "armor_areas":  ["thorax"],
+          "armor_areas": ["thorax"],
           "durability": 40,
           "movement_speed_percent_change": -5,
           "turning_speed_percent_change": -4,
@@ -3489,11 +3489,11 @@
         {
           "name": "Crye Precision AVS MVAV (Tagilla Edition)",
           "weight_kg": 7.8,
-          "external_grid_size": [3,3],
+          "external_grid_size": [3, 3],
           "inventory_slots": 12,
           "material": "titan",
           "armor_class": 6,
-          "armor_areas":  ["thorax"],
+          "armor_areas": ["thorax"],
           "durability": 60,
           "movement_speed_percent_change": -6,
           "turning_speed_percent_change": -5,
@@ -3504,7 +3504,7 @@
         {
           "name": "Scav Vest",
           "weight_kg": 0.4,
-          "external_grid_size": [2,3],
+          "external_grid_size": [2, 3],
           "blocks_armor?": false,
           "inventory_slots": 6,
           "flea_market?": true
@@ -3512,7 +3512,7 @@
         {
           "name": "Security Vest",
           "weight_kg": 0.51,
-          "external_grid_size": [2,3],
+          "external_grid_size": [2, 3],
           "blocks_armor?": false,
           "inventory_slots": 6,
           "flea_market?": true
@@ -3520,7 +3520,7 @@
         {
           "name": "DIY IDEA Chest Rig",
           "weight_kg": 0.22,
-          "external_grid_size": [3,2],
+          "external_grid_size": [3, 2],
           "blocks_armor?": false,
           "inventory_slots": 8,
           "flea_market?": true
@@ -3528,7 +3528,7 @@
         {
           "name": "Spiritus Systems Bank Robber Chest Rig",
           "weight_kg": 0.7,
-          "external_grid_size": [3,2],
+          "external_grid_size": [3, 2],
           "blocks_armor?": false,
           "inventory_slots": 8,
           "flea_market?": true
@@ -3536,7 +3536,7 @@
         {
           "name": "SOE Micro Rig",
           "weight_kg": 0.8,
-          "external_grid_size": [2,3],
+          "external_grid_size": [2, 3],
           "blocks_armor?": false,
           "inventory_slots": 8,
           "flea_market?": true
@@ -3544,7 +3544,7 @@
         {
           "name": "WARTECH TV-109 + TV-106 Chest Rig",
           "weight_kg": 1.8,
-          "external_grid_size": [3,3],
+          "external_grid_size": [3, 3],
           "blocks_armor?": false,
           "inventory_slots": 10,
           "flea_market?": true
@@ -3552,7 +3552,7 @@
         {
           "name": "CSA Chest Rig",
           "weight_kg": 0.75,
-          "external_grid_size": [2,3],
+          "external_grid_size": [2, 3],
           "blocks_armor?": false,
           "inventory_slots": 10,
           "flea_market?": true
@@ -3560,7 +3560,7 @@
         {
           "name": "UMTBS 6sh112 Scout-Sniper",
           "weight_kg": 1.7,
-          "external_grid_size": [4,3],
+          "external_grid_size": [4, 3],
           "blocks_armor?": false,
           "inventory_slots": 12,
           "flea_market?": true
@@ -3568,7 +3568,7 @@
         {
           "name": "Splav Tarzan M22 Chest Rig",
           "weight_kg": 1.45,
-          "external_grid_size": [4,3],
+          "external_grid_size": [4, 3],
           "blocks_armor?": false,
           "inventory_slots": 14,
           "flea_market?": true
@@ -3576,7 +3576,7 @@
         {
           "name": "Haley Strategic D3CRX Chest Harness",
           "weight_kg": 0.9,
-          "external_grid_size": [3,3],
+          "external_grid_size": [3, 3],
           "blocks_armor?": false,
           "inventory_slots": 16,
           "flea_market?": true
@@ -3584,7 +3584,7 @@
         {
           "name": "Dynaforce Triton M43-A Chest Harness",
           "weight_kg": 1.3,
-          "external_grid_size": [4,3],
+          "external_grid_size": [4, 3],
           "blocks_armor?": false,
           "inventory_slots": 16,
           "flea_market?": true
@@ -3592,7 +3592,7 @@
         {
           "name": "BlackHawk! Commando Chest Harness",
           "weight_kg": 1.35,
-          "external_grid_size": [4,3],
+          "external_grid_size": [4, 3],
           "blocks_armor?": false,
           "inventory_slots": 16,
           "flea_market?": true
@@ -3600,7 +3600,7 @@
         {
           "name": "Direct Action Thunderbold Compact Chest Rig",
           "weight_kg": 0.62,
-          "external_grid_size": [3,3],
+          "external_grid_size": [3, 3],
           "blocks_armor?": false,
           "inventory_slots": 16,
           "flea_market?": true
@@ -3608,7 +3608,7 @@
         {
           "name": "Gear Craft GC-BSS-MK1 Chest Rig",
           "weight_kg": 1,
-          "external_grid_size": [3,3],
+          "external_grid_size": [3, 3],
           "blocks_armor?": false,
           "inventory_slots": 16,
           "flea_market?": true
@@ -3616,7 +3616,7 @@
         {
           "name": "Umka M33-SET1 Hunter Vest",
           "weight_kg": 1.2,
-          "external_grid_size": [3,4],
+          "external_grid_size": [3, 4],
           "blocks_armor?": false,
           "inventory_slots": 16,
           "flea_market?": true
@@ -3624,7 +3624,7 @@
         {
           "name": "LBT-1961A Load Bearing Chest Rig",
           "weight_kg": 1.36,
-          "external_grid_size": [3,3],
+          "external_grid_size": [3, 3],
           "blocks_armor?": false,
           "inventory_slots": 18,
           "flea_market?": true
@@ -3632,7 +3632,7 @@
         {
           "name": "LBT-1961A Load Bearing Chest Rig (Goons Edition)",
           "weight_kg": 1.36,
-          "external_grid_size": [3,3],
+          "external_grid_size": [3, 3],
           "blocks_armor?": false,
           "inventory_slots": 18,
           "flea_market?": true
@@ -3640,7 +3640,7 @@
         {
           "name": "Stich Profi Chest Rig MK2 (Recon, A-TACS FG)",
           "weight_kg": 1.4,
-          "external_grid_size": [3,4],
+          "external_grid_size": [3, 4],
           "blocks_armor?": false,
           "inventory_slots": 18,
           "flea_market?": true
@@ -3648,7 +3648,7 @@
         {
           "name": "Stich Profi Chest Rig MK2 (Assault, A-TACS FG)",
           "weight_kg": 1.75,
-          "external_grid_size": [3,4],
+          "external_grid_size": [3, 4],
           "blocks_armor?": false,
           "inventory_slots": 18,
           "flea_market?": true
@@ -3656,7 +3656,7 @@
         {
           "name": "BlackRock Chest Rig",
           "weight_kg": 1.8,
-          "external_grid_size": [3,4],
+          "external_grid_size": [3, 4],
           "blocks_armor?": false,
           "inventory_slots": 20,
           "flea_market?": true
@@ -3664,7 +3664,7 @@
         {
           "name": "WARTECH MK3 TV-104 Chest Rig",
           "weight_kg": 1.65,
-          "external_grid_size": [3,4],
+          "external_grid_size": [3, 4],
           "blocks_armor?": false,
           "inventory_slots": 20,
           "flea_market?": true
@@ -3672,7 +3672,7 @@
         {
           "name": "ANA Tactical Alpha Chest Rig",
           "weight_kg": 1.7,
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "blocks_armor?": false,
           "inventory_slots": 20,
           "flea_market?": true
@@ -3680,7 +3680,7 @@
         {
           "name": "Azimut SS \"Zhuk\" Chest Harness",
           "weight_kg": 1.6,
-          "external_grid_size": [4,3],
+          "external_grid_size": [4, 3],
           "blocks_armor?": false,
           "inventory_slots": 20,
           "flea_market?": true
@@ -3688,7 +3688,7 @@
         {
           "name": "Velocity Systems MPPV Multi-Purpose Patrol Vest",
           "weight_kg": 1.6,
-          "external_grid_size": [4,3],
+          "external_grid_size": [4, 3],
           "blocks_armor?": false,
           "inventory_slots": 24,
           "flea_market?": true
@@ -3696,7 +3696,7 @@
         {
           "name": "Belt-A + Belt-B Gear Rig",
           "weight_kg": 1.7,
-          "external_grid_size": [4,4],
+          "external_grid_size": [4, 4],
           "blocks_armor?": false,
           "inventory_slots": 25,
           "flea_market?": true
@@ -3709,281 +3709,281 @@
           {
             "name": "HK G36 Hand Stop",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 1,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "MP-155 Ultima Underbarrel Mount",
             "weight_kg": 0.2,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 5,
             "heat_percent_change": -0.6,
             "cooling_percent_change": 0.8,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "MP-155 Ultima Pistol Grip Rubber Pad",
             "weight_kg": 0.05,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 5,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "FAB Defense Protection Cap for AGR-870",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 2,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "NSPU-M Scope Eyecup",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 6,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "Armasight Vulcan MG Scope Eyecup",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 6,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "Axion Kobra Sight Shade",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 3,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "PSO Scope Eyecup",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 5,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "Trijicon REAP-IR Scope Eyecup",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 6,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "SV-98 Anti-Heat Ribbon",
             "weight_kg": 0.053,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 2,
             "heat_percent_change": -20,
             "cooling_percent_change": 20,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "SV-98 Sound Suppressor Heat Shield",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 2,
             "heat_percent_change": -2,
             "cooling_percent_change": 6,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "Glock ZEV Tech Sight Mount Cap",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 2,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "NPZ USP-1 Scope Eyecup",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 5,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "KMZ 1P59 Scope Eyecup",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 5,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "KAC URX 3/3.1 Short Panel",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 2,
             "heat_percent_change": -1,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "KAC URX 3/3.1 Long Panel",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 3,
             "heat_percent_change": -2,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "KAC URX 3/3.1 Stopper Panel",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -1,
             "ergonomics_change": 4,
             "heat_percent_change": -1,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "M1911A1 Slide Stop",
             "weight_kg": 0.009,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 1,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "M1911A1 Hammer",
             "weight_kg": 0.018,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 0,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "M1911A1 Trigger",
             "weight_kg": 0.014,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 1,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "M1911A1 Wilson Extended Slide Stop",
             "weight_kg": 0.01,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 3,
             "durability_burn_percent_change": -1,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "M1911A1 Wilson Retro Commander Hammer",
             "weight_kg": 0.016,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 2,
             "durability_burn_percent_change": -3,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "M1911A1 STI HEX Hammer",
             "weight_kg": 0.018,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 3,
             "durability_burn_percent_change": -7,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "M1911A1 Wilson Ultralight Skeletonized Hammer",
             "weight_kg": 0.01,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 4,
             "durability_burn_percent_change": -5,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "M1911A1 Caspian Arms Trik Trigger",
             "weight_kg": 0.015,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 3,
             "durability_burn_percent_change": -3,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "M45A1 Trigger",
             "weight_kg": 0.013,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 2,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "M45A1 Hammer",
             "weight_kg": 0.017,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 2,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "M45A1 Slide Lock",
             "weight_kg": 0.008,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 2,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "STM-9 Magwell",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 5,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "HK USP Hammer",
             "weight_kg": 0.017,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 2,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "HK USP Slide Lock",
             "weight_kg": 0.008,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 2,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "HK USP Trigger",
             "weight_kg": 0.013,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 2,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "NPZ 1P78 Scope Eyecup",
             "weight_kg": 0.005,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "ergonomics_change": 5,
-            "flea_market?": true 
+            "flea_market?": true
           }
         ],
         "bipods": [
           {
             "name": "HK G36 Bipod",
             "weight_kg": 0.226,
-            "external_grid_size": [2,1],
+            "external_grid_size": [2, 1],
             "recoil_percent_change": -2,
             "ergonomics_change": 4,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "Harris HBR Bipod",
             "weight_kg": 0.277,
-            "external_grid_size": [2,1],
+            "external_grid_size": [2, 1],
             "recoil_percent_change": -5,
             "ergonomics_change": 10,
-            "flea_market?": true 
+            "flea_market?": true
           },
           {
             "name": "SV-98 Bipod",
             "weight_kg": 0.472,
-            "external_grid_size": [2,1],
+            "external_grid_size": [2, 1],
             "recoil_percent_change": -2,
             "ergonomics_change": 4,
-            "flea_market?": true 
+            "flea_market?": true
           }
         ],
         "foregrips": [
           {
             "name": "AI AXMC Padded Handguard Grip",
             "weight_kg": 0.09,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -1,
             "ergonomics_change": 5,
             "flea_market": true
@@ -3991,7 +3991,7 @@
           {
             "name": "HK Sturmgriff Foregrip",
             "weight_kg": 0.068,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": 0,
             "ergonomics_change": 7,
             "accuracy_change": 0,
@@ -4000,7 +4000,7 @@
           {
             "name": "Monstrum Tactical Vertical Fore Grip KeyMod",
             "weight_kg": 0.028,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -1,
             "ergonomics_change": 8,
             "flea_market": true
@@ -4008,7 +4008,7 @@
           {
             "name": "KAC Vertical Foregrip",
             "weight_kg": 0.072,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": 0,
             "ergonomics_change": 7,
             "flea_market": true
@@ -4016,7 +4016,7 @@
           {
             "name": "BCM GUNFIGHTER MOD 3 Vertical Foregrip",
             "weight_kg": 0.053,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -1,
             "ergonomics_change": 6,
             "flea_market": true
@@ -4024,7 +4024,7 @@
           {
             "name": "Strike Industries Cobra Tactical Foregrip",
             "weight_kg": 0.08,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -1,
             "ergonomics_change": 9,
             "flea_market": true
@@ -4032,7 +4032,7 @@
           {
             "name": "Magpul M-LOK AFG Tactical Foregrip",
             "weight_kg": 0.042,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -2,
             "ergonomics_change": 7,
             "flea_market": true
@@ -4040,7 +4040,7 @@
           {
             "name": "Hera Arms CQR Tactical Foregrip",
             "weight_kg": 0.167,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -3,
             "ergonomics_change": 4,
             "flea_market": true
@@ -4048,7 +4048,7 @@
           {
             "name": "Fortis Shift Tactical Foregrip",
             "weight_kg": 0.09,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -1.5,
             "ergonomics_change": 8,
             "flea_market": true
@@ -4056,7 +4056,7 @@
           {
             "name": "Magpul AFG Tactical Foregrip",
             "weight_kg": 0.082,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -2,
             "ergonomics_change": 6,
             "flea_market": true
@@ -4064,7 +4064,7 @@
           {
             "name": "Magpul RVG Foregrip",
             "weight_kg": 0.082,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -2,
             "ergonomics_change": 7,
             "flea_market": true
@@ -4072,7 +4072,7 @@
           {
             "name": "Stark SE-5 Express Forward Foregrip",
             "weight_kg": 0.09,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -2,
             "ergonomics_change": 8,
             "flea_market": true
@@ -4080,7 +4080,7 @@
           {
             "name": "TangoDown Stubby BGV-MK46K Foregrip",
             "weight_kg": 0.072,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -1,
             "ergonomics_change": 5,
             "flea_market": true
@@ -4088,7 +4088,7 @@
           {
             "name": "Viking Tactics UVG Tactical Foregrip",
             "weight_kg": 0.107,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -2,
             "ergonomics_change": 5,
             "flea_market": true
@@ -4096,15 +4096,15 @@
           {
             "name": "Zenit RK-0 Tactical Foregrip",
             "weight_kg": 0.138,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -2,
             "ergonomics_change": 3,
             "flea_market": true
           },
           {
             "name": "Zenit RK-1 Tactical Foregrip",
-            "weight_kg": 0.170,
-            "external_grid_size": [1,1],
+            "weight_kg": 0.17,
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -3,
             "ergonomics_change": 1,
             "flea_market": true
@@ -4112,7 +4112,7 @@
           {
             "name": "Zenit RK-1 Tactical Foregrip on B-25U Mount",
             "weight_kg": 0.18,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -3,
             "ergonomics_change": 2,
             "flea_market": true
@@ -4120,7 +4120,7 @@
           {
             "name": "Zenit RK-2 Tactical Foregrip",
             "weight_kg": 0.2,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -4,
             "ergonomics_change": -8,
             "flea_market": true
@@ -4128,7 +4128,7 @@
           {
             "name": "Zenit RK-4 Tactical Foregrip",
             "weight_kg": 0.127,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -2,
             "ergonomics_change": 4,
             "flea_market": true
@@ -4136,7 +4136,7 @@
           {
             "name": "Zenit RK-5 Tactical Foregrip",
             "weight_kg": 0.127,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -2,
             "ergonomics_change": 5,
             "flea_market": true
@@ -4144,7 +4144,7 @@
           {
             "name": "Zenit RK-6 Tactical Foregrip",
             "weight_kg": 0.1,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -1,
             "ergonomics_change": 5,
             "flea_market": true
@@ -4152,7 +4152,7 @@
           {
             "name": "ASh-12 Vertical Foregrip",
             "weight_kg": 0.08,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": 0,
             "ergonomics_change": 5,
             "flea_market": true
@@ -4160,7 +4160,7 @@
           {
             "name": "RTM Pillau Tactical Foregrip",
             "weight_kg": 0.065,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -1,
             "ergonomics_change": 5,
             "flea_market": true
@@ -4168,7 +4168,7 @@
           {
             "name": "MP9-N Vertical Foregrip",
             "weight_kg": 0.08,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": 0,
             "ergonomics_change": 6,
             "flea_market": true
@@ -4176,7 +4176,7 @@
           {
             "name": "ORSIS T-5000M Padded Handguard Grip",
             "weight_kg": 0.08,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -1,
             "ergonomics_change": 6,
             "flea_market": true
@@ -4184,7 +4184,7 @@
           {
             "name": "Tactical Dynamics Skeletonized Foregrip",
             "weight_kg": 0.133,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -2,
             "ergonomics_change": 6,
             "flea_market": true
@@ -4192,7 +4192,7 @@
           {
             "name": "A3 Tactical MVF001 KeyMod Vertical Foregrip (Black)",
             "weight_kg": 0.096,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": 0,
             "ergonomics_change": 10,
             "flea_market": true
@@ -4200,7 +4200,7 @@
           {
             "name": "SIG Sauer Vertical Foregrip KeyMod (Black)",
             "weight_kg": 0.055,
-            "external_grid_size": [1,1],
+            "external_grid_size": [1, 1],
             "recoil_percent_change": -2,
             "ergonomics_change": 5,
             "flea_market": true
@@ -4211,29 +4211,260 @@
             {
               "name": "Armytek Predator Pro v3 XHP35 HI Flashlight",
               "weight_kg": 0.12,
-              "external_grid_size": [1,1],
+              "external_grid_size": [1, 1],
               "ergonomics_change": -2,
               "is_laser?": true,
               "is_flashlight?": true,
               "is_ir_flashlight?": false,
               "is_ir_laser?": false,
-              "flea_market": true 
+              "flea_market?": true
             },
             {
               "name": "Ultrafire WF-501B Flashlight",
               "weight_kg": 0.12,
-              "external_grid_size": [1,1],
+              "external_grid_size": [1, 1],
               "ergonomics_change": -2,
               "is_laser?": true,
               "is_flashlight?": true,
               "is_ir_flashlight?": false,
               "is_ir_laser?": false,
-              "flea_market": true 
+              "flea_market?": true
             }
-            
           ],
-          "laser_target_designators": [],
-          "tactical_combo_devices": []
+          "laser_target_designators": [
+            {
+              "name": "NcSTAR Tactical Blue Laser LAM-Module",
+              "weight_kg": 0.05,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -1,
+              "is_laser?": true,
+              "is_flashlight?": false,
+              "is_ir_flashlight?": false,
+              "is_ir_laser?": false,
+              "is_rangefinder": false,
+              "laser_color": "blue",
+              "flea_market?": true
+            },
+            {
+              "name": "AN/PEQ-2 Tactical Device",
+              "weight_kg": 0.21,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -2,
+              "is_laser?": true,
+              "is_flashlight?": false,
+              "is_ir_flashlight?": true,
+              "is_ir_laser?": false,
+              "is_rangefinder": false,
+              "laser_color": "red",
+              "flea_market?": true
+            },
+            {
+              "name": "TT DLP Tactical Prevision LAM-Module",
+              "weight_kg": 0.086,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -1,
+              "is_laser?": true,
+              "is_flashlight?": false,
+              "is_ir_flashlight?": false,
+              "is_ir_laser?": false,
+              "is_rangefinder": false,
+              "laser_color": "red",
+              "flea_market?": true
+            }
+          ],
+          "tactical_combo_devices": [
+            {
+              "name": "Insight WMX200 Tactical Flashlight",
+              "weight_kg": 0.21,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -2,
+              "is_laser?": false,
+              "is_flashlight?": true,
+              "is_ir_flashlight?": true,
+              "is_ir_laser?": false,
+              "is_rangefinder?": false,
+              "flea_market?": true
+            },
+            {
+              "name": "Olight Baldr Pro Tactical Flashlight with Laser",
+              "weight_kg": 0.129,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -1,
+              "is_laser?": true,
+              "is_flashlight?": true,
+              "is_ir_flashlight?": false,
+              "is_ir_laser?": false,
+              "is_rangefinder?": false,
+              "laser_color": "red",
+              "flea_market?": true
+            },
+            {
+              "name": "Wilcox RAPTAR ES Tactical Rangefinder",
+              "weight_kg": 0.308,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -1,
+              "is_laser?": true,
+              "is_flashlight?": false,
+              "is_ir_flashlight?": true,
+              "is_ir_laser?": true,
+              "is_rangefinder?": true,
+              "laser_color": "red",
+              "flea_market?": true
+            },
+            {
+              "name": "Zenit Perst-3 Tactical Device",
+              "weight_kg": 0.3,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -2,
+              "is_laser?": true,
+              "is_flashlight?": false,
+              "is_ir_flashlight?": true,
+              "is_ir_laser?": true,
+              "is_rangefinder?": false,
+              "laser_color": "red",
+              "flea_market?": true
+            },
+            {
+              "name": "Zenit Klesch-2IKS IR Illuminator with Laser",
+              "weight_kg": 0.17,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -1,
+              "is_laser?": false,
+              "is_flashlight?": false,
+              "is_ir_flashlight?": true,
+              "is_ir_laser?": true,
+              "is_rangefinder?": false,
+              "laser_color": "red",
+              "flea_market?": true
+            },
+            {
+              "name": "Zenit Klesch-2P Flashlight with Laser",
+              "weight_kg": 0.17,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -1,
+              "is_laser?": true,
+              "is_flashlight?": true,
+              "is_ir_flashlight?": false,
+              "is_ir_laser?": false,
+              "is_rangefinder?": false,
+              "laser_color": "red",
+              "flea_market?": true
+            },
+            {
+              "name": "Zenit Klesch-2U Tactical Flashlight",
+              "weight_kg": 0.259,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -2,
+              "is_laser?": false,
+              "is_flashlight?": false,
+              "is_ir_flashlight?": true,
+              "is_ir_laser?": true,
+              "is_rangefinder?": false,
+              "flea_market?": true
+            },
+            {
+              "name": "AN/PEQ-15 Tactical Device",
+              "weight_kg": 0.21,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -1,
+              "is_laser?": true,
+              "is_flashlight?": false,
+              "is_ir_flashlight?": true,
+              "is_ir_laser?": true,
+              "is_rangefinder?": false,
+              "laser_color": "red",
+              "flea_market?": true
+            },
+            {
+              "name": "Glock GTL 21 Tactical Flashlight with Laser",
+              "weight_kg": 0.086,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -1,
+              "is_laser?": true,
+              "is_flashlight?": true,
+              "is_ir_flashlight?": false,
+              "is_ir_laser?": false,
+              "is_rangefinder?": false,
+              "laser_color": "red",
+              "flea_market?": true
+            },
+            {
+              "name": "Holosun LS321 Tactical Device",
+              "weight_kg": 0.19,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -2,
+              "is_laser?": true,
+              "is_flashlight?": false,
+              "is_ir_flashlight?": true,
+              "is_ir_laser?": true,
+              "is_rangefinder?": false,
+              "laser_color": "green",
+              "flea_market?": true
+            },
+            {
+              "name": "LA-5B/PEQ Tactical Device",
+              "weight_kg": 0.21,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -2,
+              "is_laser?": true,
+              "is_flashlight?": false,
+              "is_ir_flashlight?": true,
+              "is_ir_laser?": true,
+              "is_rangefinder?": false,
+              "laser_color": "red",
+              "flea_market?": true
+            },
+            {
+              "name": "Steiner LAS/TAC 2 Tactical Flashlight",
+              "weight_kg": 0.086,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -1,
+              "is_laser?": false,
+              "is_flashlight?": true,
+              "is_ir_flashlight?": false,
+              "is_ir_laser?": false,
+              "is_rangefinder?": false,
+              "flea_market?": true
+            },
+            {
+              "name": "SureFire XC1 Tactical Flashlight",
+              "weight_kg": 0.05,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -1,
+              "is_laser?": false,
+              "is_flashlight?": true,
+              "is_ir_flashlight?": false,
+              "is_ir_laser?": false,
+              "is_rangefinder?": false,
+              "flea_market?": true
+            },
+            {
+              "name": "SureFire X400 Ultra Tactical Flashlight with Laser",
+              "weight_kg": 0.138,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -1,
+              "is_laser?": true,
+              "is_flashlight?": true,
+              "is_ir_flashlight?": false,
+              "is_ir_laser?": false,
+              "is_rangefinder?": false,
+              "laser_color": "red",
+              "flea_market?": true
+            },
+            {
+              "name": "Steiner DBAL-PL Tactical Device",
+              "weight_kg": 0.153,
+              "external_grid_size": [1, 1],
+              "ergonomics_change": -1,
+              "is_laser?": true,
+              "is_flashlight?": true,
+              "is_ir_flashlight?": true,
+              "is_ir_laser?": true,
+              "is_rangefinder": false,
+              "laser_color": "green",
+              "flea_market?": true
+            }
+          ]
         },
         "muzzle_devices": {
           "flashhiders": [],
