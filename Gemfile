@@ -41,3 +41,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Active model serializer
 gem 'active_model_serializers', '~> 0.10.0'
+
+# Kimurai for scraping
+gem 'kimurai', '~> 1.4'
