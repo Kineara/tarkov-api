@@ -1,5 +1,3 @@
 class GameVersion < ApplicationRecord
-  has_one :handbook, dependent: :destroy 
-  has_one :hideout, dependent: :destroy
-  has_many :traders 
+  has_many :weapons, dependent: :destroy 
 end

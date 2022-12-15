@@ -1,0 +1,2 @@
+class WeaponMod < ApplicationRecord
+end

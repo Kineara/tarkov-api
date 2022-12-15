@@ -10,9 +10,52 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2022_12_15_211435) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "game_versions", force: :cascade do |t|
+    t.string "name"
+    t.boolean "current_version"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "weapon_mods", force: :cascade do |t|
+    t.string "type"
+    t.string "weight"
+    t.string "grid_size"
+    t.string "sold_by"
+    t.string "recoil_percent"
+    t.string "ergonomics"
+    t.string "accuracy_percent"
+    t.string "modes"
+    t.string "heat_percent"
+    t.string "cooling_percent"
+    t.string "durability_burn_percent"
+    t.string "muzzle_velocity"
+    t.string "sighting_range"
+    t.string "refresh_rate"
+    t.string "capacity"
+    t.string "failure_to_feed_chance"
+    t.string "loadunload_speed_modifier_percent"
+    t.string "improved_check_accuracy"
+    t.string "caliber"
+    t.string "accepted_ammunition"
+    t.string "loot_experience"
+    t.string "examine_experience"
+    t.string "check_speed_modifier_percent"
+    t.string "slot"
+    t.string "default_ammo"
+    t.string "accuracy_moa"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "weapons", force: :cascade do |t|
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
 end
