@@ -9,7 +9,7 @@ class CreateWeaponMods < ActiveRecord::Migration[6.1]
       t.string :sold_by
       t.string :recoil_percent
       t.string :ergonomics
-      t.string :mods
+      t.json :mods
       t.string :accuracy_percent
       t.string :modes
       t.string :heat_percent
