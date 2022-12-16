@@ -1,7 +1,5 @@
 require 'kimurai'
 
-#
-
 class TarkovSpider < Kimurai::Base
   @name = 'tarkov_spider'
   @engine = :mechanize
@@ -20,12 +18,10 @@ class TarkovSpider < Kimurai::Base
   @@exclude_list = %w[mechanic prapor therapist peacekeeper ragman skier fence jaeger]
 
   def parse(response, url:, data: {})
-
     # Add item category based on start_url page title
     items_category = response.css('h1#firstHeading').text.strip.downcase.gsub(/\W/, @@text_substitutions)
     links = getLinks(response)
     scrapeLinks(links, items_category)
-
   end
 
   def getLinks(response)
@@ -52,13 +48,20 @@ class TarkovSpider < Kimurai::Base
       item_hash.store('name', response.css('h1#firstHeading').text.strip.downcase)
       next if @@exclude_list.include?(item_hash['name'])
 
+      attribs << 'name'
+
       # Generate attributes from page info table
       response.css('table.va-infobox-group').css('tr').each do |table_row|
         # Skip table row if the va-infobox-label class isn't present on a child <td/> element
         next if table_row.css('td.va-infobox-label').length == 0
 
-        # Assign attribute name
-        attr_name = table_row.css('td.va-infobox-label')[0].text.strip.downcase.gsub(/\W/, @@text_substitutions)
+        # Assign attribute name, change 'type' attribute to avoid Rails conflicts
+        parsed_name = table_row.css('td.va-infobox-label')[0].text.strip.downcase.gsub(/\W/, @@text_substitutions)
+        attr_name = if parsed_name == 'type'
+                      'item_type'
+                    else
+                      parsed_name
+                    end
 
         # Check for list items in attribute value, and iterate through them to add to the attribute name as necessary
         if table_row.css('td.va-infobox-content').css('li').length > 0
@@ -94,15 +97,19 @@ class TarkovSpider < Kimurai::Base
         end
 
         item_hash.store('mods', mods)
+        attribs << 'mods'
       end
       # Check that the item hash has more keys than just "name" before saving
-      save_to "./scraper/#{category}.json", item_hash, format: :pretty_json, position: false unless item_hash.keys.length < 2
+      unless item_hash.keys.length < 2
+        save_to "./scraper/#{category}.json", item_hash, format: :pretty_json,
+                                                         position: false
+      end
     end
 
     # Save categorized attributes to their own json file
     attribs_hash = {}
     attribs_hash.store("#{category}_attributes", attribs.uniq)
-    save_to "attributes.json", attribs_hash, format: :pretty_json, position: false 
+    save_to './scraper/attributes.json', attribs_hash, format: :pretty_json, position: false
   end
 end
 

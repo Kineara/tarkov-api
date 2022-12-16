@@ -1,7 +1,7 @@
 [
   {
     "name": "adar 2-15 5.56x45 carbine",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "2.907 kg",
     "grid_size": "5x2",
@@ -117,7 +117,7 @@
   },
   {
     "name": "kalashnikov ak-101 5.56x45 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.605 kg",
     "grid_size": "5x2",
@@ -242,7 +242,7 @@
   },
   {
     "name": "kalashnikov ak-102 5.56x45 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.205 kg",
     "grid_size": "4x2",
@@ -363,7 +363,7 @@
   },
   {
     "name": "kalashnikov ak-103 7.62x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.605 kg",
     "grid_size": "5x2",
@@ -500,7 +500,7 @@
   },
   {
     "name": "kalashnikov ak-104 7.62x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.205 kg",
     "grid_size": "4x2",
@@ -633,7 +633,7 @@
   },
   {
     "name": "kalashnikov ak-105 5.45x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.205 kg",
     "grid_size": "4x2",
@@ -769,7 +769,7 @@
   },
   {
     "name": "kalashnikov ak-74 5.45x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.320 kg",
     "grid_size": "5x2",
@@ -903,7 +903,7 @@
   },
   {
     "name": "kalashnikov ak-74m 5.45x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.605 kg",
     "grid_size": "5x2",
@@ -1043,7 +1043,7 @@
   },
   {
     "name": "kalashnikov ak-74n 5.45x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.420 kg",
     "grid_size": "5x2",
@@ -1194,7 +1194,7 @@
   },
   {
     "name": "kalashnikov akm 7.62x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.495 kg",
     "grid_size": "5x2",
@@ -1331,7 +1331,7 @@
   },
   {
     "name": "kalashnikov akmn 7.62x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.555 kg",
     "grid_size": "5x2",
@@ -1485,7 +1485,7 @@
   },
   {
     "name": "kalashnikov akms 7.62x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.445 kg",
     "grid_size": "5x2",
@@ -1609,7 +1609,7 @@
   },
   {
     "name": "kalashnikov akmsn 7.62x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.445 kg",
     "grid_size": "5x2",
@@ -1748,7 +1748,7 @@
   },
   {
     "name": "kalashnikov aks-74 5.45x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.134 kg",
     "grid_size": "5x2",
@@ -1869,7 +1869,7 @@
   },
   {
     "name": "kalashnikov aks-74n 5.45x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.234 kg",
     "grid_size": "5x2",
@@ -2008,7 +2008,7 @@
   },
   {
     "name": "kalashnikov aks-74u 5.45x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "2.694 kg",
     "grid_size": "4x2",
@@ -2108,7 +2108,7 @@
   },
   {
     "name": "kalashnikov aks-74ub 5.45x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.341 kg",
     "grid_size": "5x2",
@@ -2224,7 +2224,7 @@
   },
   {
     "name": "kalashnikov aks-74un 5.45x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "2.735 kg",
     "grid_size": "4x2",
@@ -2341,7 +2341,7 @@
   },
   {
     "name": "ash-12 12.7x55 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "6.17 kg",
     "grid_size": "4x2",
@@ -2476,7 +2476,7 @@
   },
   {
     "name": "desert tech mdr 5.56x45 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.996 kg",
     "grid_size": "4x2",
@@ -2611,7 +2611,7 @@
   },
   {
     "name": "desert tech mdr 7.62x51 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "4.469 kg",
     "grid_size": "4x2",
@@ -2714,7 +2714,7 @@
   },
   {
     "name": "hk 416a5 5.56x45 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.819 kg",
     "grid_size": "5x2",
@@ -2819,7 +2819,7 @@
   },
   {
     "name": "hk g36 5.56x45 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.029 kg",
     "grid_size": "6x2",
@@ -2896,7 +2896,7 @@
   },
   {
     "name": "colt m4a1 5.56x45 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "2.935 kg",
     "grid_size": "5x2",
@@ -3012,7 +3012,7 @@
   },
   {
     "name": "sig mcx .300 blackout assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "2.718 kg",
     "grid_size": "5x2",
@@ -3102,7 +3102,7 @@
   },
   {
     "name": "cmmg mk47 mutant 7.62x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "2.322 kg",
     "grid_size": "4x2",
@@ -3198,7 +3198,7 @@
   },
   {
     "name": "rifle dynamics rd-704 7.62x39 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.889 kg",
     "grid_size": "5x2",
@@ -3348,7 +3348,7 @@
   },
   {
     "name": "ds arms sa-58 7.62x51 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.951 kg",
     "grid_size": "5x2",
@@ -3421,7 +3421,7 @@
   },
   {
     "name": "sag ak-545 5.45x39 carbine",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "4.488 kg",
     "grid_size": "5x2",
@@ -3514,7 +3514,7 @@
   },
   {
     "name": "sag ak-545 short 5.45x39 carbine",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "4.378",
     "grid_size": "4x2",
@@ -3607,7 +3607,7 @@
   },
   {
     "name": "fn scar-h 7.62x51 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.802 kg",
     "grid_size": "5x2",
@@ -3680,7 +3680,7 @@
   },
   {
     "name": "fn scar-l 5.56x45 assault rifle",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.289 kg",
     "grid_size": "5x2",
@@ -3773,7 +3773,7 @@
   },
   {
     "name": "lone star tx-15 dml 5.56x45 carbine",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.322 kg",
     "grid_size": "6x2",
@@ -3890,7 +3890,7 @@
   },
   {
     "name": "molot vpo-209 .366 tkm carbine",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.485 kg",
     "grid_size": "5x2",
@@ -4009,7 +4009,7 @@
   },
   {
     "name": "molot vpo-136 \"vepr-km\" 7.62x39 carbine",
-    "type": "assault rifle",
+    "item_type": "assault rifle",
     "slot": "primary",
     "weight": "3.495 kg",
     "grid_size": "5x2",
@@ -4144,7 +4144,7 @@
   },
   {
     "name": "as val 9x39 special assault rifle",
-    "type": "assault carbine",
+    "item_type": "assault carbine",
     "slot": "primary",
     "weight": "2.587 kg",
     "grid_size": "5x2",
@@ -4215,7 +4215,7 @@
   },
   {
     "name": "simonov op-sks 7.62x39 carbine (hunting rifle version)",
-    "type": "assault carbine",
+    "item_type": "assault carbine",
     "slot": "primary",
     "weight": "3.77 kg",
     "grid_size": "5x1",
@@ -4266,7 +4266,7 @@
   },
   {
     "name": "simonov sks 7.62x39 carbine",
-    "type": "assault carbine",
+    "item_type": "assault carbine",
     "slot": "primary",
     "weight": "3.75 kg",
     "grid_size": "5x1",
@@ -4314,7 +4314,7 @@
   },
   {
     "name": "molot vpo-101 \"vepr-hunter\" 7.62x51 carbine",
-    "type": "assault carbine",
+    "item_type": "assault carbine",
     "slot": "primary",
     "weight": "3.807 kg",
     "grid_size": "5x1",
@@ -4384,7 +4384,7 @@
   },
   {
     "name": "rpk-16 5.45x39 light machine gun",
-    "type": "light machine gun",
+    "item_type": "light machine gun",
     "slot": "primary",
     "weight": "3.822 kg",
     "grid_size": "5x2",
@@ -4473,7 +4473,7 @@
   },
   {
     "name": "hk mp5 9x19 submachine gun (navy 3 round burst)",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "2.481 kg",
     "grid_size": "4x2",
@@ -4516,7 +4516,7 @@
   },
   {
     "name": "hk mp5k 9x19 submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "1.871 kg",
     "grid_size": "2x1",
@@ -4558,7 +4558,7 @@
   },
   {
     "name": "hk mp7a1 4.6x30 submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "2.27 kg",
     "grid_size": "3x1",
@@ -4664,7 +4664,7 @@
   },
   {
     "name": "hk mp7a2 4.6x30 submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "2.23 kg",
     "grid_size": "3x1",
@@ -4796,7 +4796,7 @@
   },
   {
     "name": "b&t mp9 9x19 submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "1.29 kg",
     "grid_size": "3x1",
@@ -4849,7 +4849,7 @@
   },
   {
     "name": "b&t mp9-n 9x19 submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "1.41 kg",
     "grid_size": "3x1",
@@ -4901,7 +4901,7 @@
   },
   {
     "name": "sig mpx 9x19 submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "2.872 kg",
     "grid_size": "4x2",
@@ -4983,7 +4983,7 @@
   },
   {
     "name": "fn p90 5.7x28 submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "2.974 kg",
     "grid_size": "3x2",
@@ -5033,7 +5033,7 @@
   },
   {
     "name": "pp-19-01 \"vityaz\" 9x19 submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "2.858 kg",
     "grid_size": "3x2",
@@ -5135,7 +5135,7 @@
   },
   {
     "name": "pp-9 \"klin\" 9x18pmm submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "1.529 kg",
     "grid_size": "3x2",
@@ -5182,7 +5182,7 @@
   },
   {
     "name": "pp-91 \"kedr\" 9x18pm submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "1.529 kg",
     "grid_size": "3x2",
@@ -5229,7 +5229,7 @@
   },
   {
     "name": "pp-91-01 \"kedr-b\" 9x18pm submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "1.729 kg",
     "grid_size": "3x2",
@@ -5276,7 +5276,7 @@
   },
   {
     "name": "ppsh-41 7.62x25 submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "4.05 kg",
     "grid_size": "4x2",
@@ -5319,7 +5319,7 @@
   },
   {
     "name": "saiga-9 9x19 carbine",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "3.011 kg",
     "grid_size": "4x2",
@@ -5403,7 +5403,7 @@
   },
   {
     "name": "soyuz-tm stm-9 gen.2 9x19 carbine",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "2.036 kg",
     "grid_size": "4x2",
@@ -5497,7 +5497,7 @@
   },
   {
     "name": "hk ump .45 acp submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "2.219 kg",
     "grid_size": "3x2",
@@ -5583,7 +5583,7 @@
   },
   {
     "name": "tdi kriss vector gen.2 .45 acp submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "2.646 kg",
     "grid_size": "3x2",
@@ -5692,7 +5692,7 @@
   },
   {
     "name": "tdi kriss vector gen.2 9x19 submachine gun",
-    "type": "submachine gun",
+    "item_type": "submachine gun",
     "slot": "primary",
     "weight": "2.576 kg",
     "grid_size": "3x2",
@@ -5806,7 +5806,7 @@
   },
   {
     "name": "toz ks-23m 23x75mm pump-action shotgun",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "3.85 kg",
     "grid_size": "6x1",
@@ -5846,7 +5846,7 @@
   },
   {
     "name": "benelli m3 super 90 dual-mode 12ga shotgun",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "3.306 kg",
     "grid_size": "5x2",
@@ -5911,7 +5911,7 @@
   },
   {
     "name": "mossberg 590a1 12ga pump-action shotgun",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "3.482 kg",
     "grid_size": "5x1",
@@ -5969,7 +5969,7 @@
   },
   {
     "name": "mossberg 590a1 12ga pump-action shotgun",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "3.482 kg",
     "grid_size": "5x1",
@@ -6027,7 +6027,7 @@
   },
   {
     "name": "remington model 870 12ga pump-action shotgun",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "3.14 kg",
     "grid_size": "5x1",
@@ -6094,7 +6094,7 @@
   },
   {
     "name": "remington model 870 12ga pump-action shotgun",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "3.14 kg",
     "grid_size": "5x1",
@@ -6161,7 +6161,7 @@
   },
   {
     "name": "mp-133 12ga pump-action shotgun",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "3.54 kg",
     "grid_size": "5x1",
@@ -6237,7 +6237,7 @@
   },
   {
     "name": "mp-153 12ga semi-automatic shotgun",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "3.62 kg",
     "grid_size": "7x1",
@@ -6304,7 +6304,7 @@
   },
   {
     "name": "mp-155 12ga semi-automatic shotgun",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "3.464 kg",
     "grid_size": "5x1",
@@ -6368,7 +6368,7 @@
   },
   {
     "name": "mp-18 7.62x54r single-shot rifle",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "2.852 kg",
     "grid_size": "5x1",
@@ -6403,7 +6403,7 @@
   },
   {
     "name": "mp-43-1c 12ga double-barrel shotgun",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "5.82 kg",
     "grid_size": "6x1",
@@ -6449,7 +6449,7 @@
   },
   {
     "name": "mts-255-12 12ga shotgun",
-    "type": "revolver shotgun",
+    "item_type": "revolver shotgun",
     "slot": "primary",
     "weight": "4.25 kg",
     "grid_size": "6x1",
@@ -6499,7 +6499,7 @@
   },
   {
     "name": "saiga 12ga ver.10 12/76 semi-automatic shotgun",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "3.6 kg",
     "grid_size": "5x2",
@@ -6615,7 +6615,7 @@
   },
   {
     "name": "toz-106 20ga bolt-action shotgun",
-    "type": "shotgun",
+    "item_type": "shotgun",
     "slot": "primary",
     "weight": "2.715 kg",
     "grid_size": "4x1",
@@ -6659,7 +6659,7 @@
   },
   {
     "name": "hk g28 7.62x51 marksman rifle",
-    "type": "designated marksman rifle",
+    "item_type": "designated marksman rifle",
     "slot": "primary",
     "weight": "5.468 kg",
     "grid_size": "6x2",
@@ -6730,7 +6730,7 @@
   },
   {
     "name": "springfield armory m1a 7.62x51 rifle",
-    "type": "designated marksman rifle",
+    "item_type": "designated marksman rifle",
     "slot": "primary",
     "weight": "3.99 kg",
     "grid_size": "4x2",
@@ -6782,7 +6782,7 @@
   },
   {
     "name": "sword international mk-18 .338 lm marksman rifle",
-    "type": "designated marksman rifle",
+    "item_type": "designated marksman rifle",
     "slot": "primary",
     "weight": "6.502 kg",
     "grid_size": "6x2",
@@ -6855,7 +6855,7 @@
   },
   {
     "name": "kel-tec rfb 7.62x51 rifle",
-    "type": "designated marksman rifle",
+    "item_type": "designated marksman rifle",
     "slot": "primary",
     "weight": "3.606 kg",
     "grid_size": "4x2",
@@ -6901,7 +6901,7 @@
   },
   {
     "name": "remington r11 rsass 7.62x51 marksman rifle",
-    "type": "designated marksman rifle",
+    "item_type": "designated marksman rifle",
     "slot": "primary",
     "weight": "4.922 kg",
     "grid_size": "5x2",
@@ -7057,7 +7057,7 @@
   },
   {
     "name": "knight's armament company sr-25 7.62x51 marksman rifle",
-    "type": "designated marksman rifle",
+    "item_type": "designated marksman rifle",
     "slot": "primary",
     "weight": "3.86 kg",
     "grid_size": "5x2",
@@ -7135,7 +7135,7 @@
   },
   {
     "name": "svds 7.62x54r sniper rifle",
-    "type": "designated marksman rifle",
+    "item_type": "designated marksman rifle",
     "slot": "primary",
     "weight": "4.386 kg",
     "grid_size": "6x2",
@@ -7225,7 +7225,7 @@
   },
   {
     "name": "vss vintorez 9x39 special sniper rifle",
-    "type": "designated marksman rifle",
+    "item_type": "designated marksman rifle",
     "slot": "primary",
     "weight": "2.591 kg",
     "grid_size": "5x2",
@@ -7291,7 +7291,7 @@
   },
   {
     "name": "accuracy international axmc .338 lm bolt-action sniper rifle",
-    "type": "sniper rifle",
+    "item_type": "sniper rifle",
     "slot": "primary",
     "weight": "5.79 kg",
     "grid_size": "5x2",
@@ -7328,7 +7328,7 @@
   },
   {
     "name": "lobaev arms dvl-10 7.62x51 bolt-action sniper rifle",
-    "type": "sniper rifle",
+    "item_type": "sniper rifle",
     "slot": "primary",
     "weight": "5.068 kg",
     "grid_size": "5x2",
@@ -7421,7 +7421,7 @@
   },
   {
     "name": "remington model 700 7.62x51 bolt-action sniper rifle",
-    "type": "sniper rifle",
+    "item_type": "sniper rifle",
     "slot": "primary",
     "weight": "4.05 kg",
     "grid_size": "5x1",
@@ -7480,7 +7480,7 @@
   },
   {
     "name": "mosin 7.62x54r bolt-action rifle (infantry)",
-    "type": "sniper rifle",
+    "item_type": "sniper rifle",
     "slot": "primary",
     "weight": "4.89 kg",
     "grid_size": "6x1",
@@ -7529,7 +7529,7 @@
   },
   {
     "name": "mosin 7.62x54r bolt-action rifle (sniper)",
-    "type": "sniper rifle",
+    "item_type": "sniper rifle",
     "slot": "primary",
     "weight": "4.88 kg",
     "grid_size": "6x1",
@@ -7581,7 +7581,7 @@
   },
   {
     "name": "sv-98 7.62x54r bolt-action sniper rifle",
-    "type": "sniper rifle",
+    "item_type": "sniper rifle",
     "slot": "primary",
     "weight": "5.188 kg",
     "grid_size": "6x1",
@@ -7671,7 +7671,7 @@
   },
   {
     "name": "orsis t-5000m 7.62x51 bolt-action sniper rifle",
-    "type": "sniper rifle",
+    "item_type": "sniper rifle",
     "slot": "primary",
     "weight": "6.348 kg",
     "grid_size": "5x2",
@@ -7713,7 +7713,7 @@
   },
   {
     "name": "molot vpo-215 \"gornostay\" .366 tkm bolt-action rifle",
-    "type": "sniper rifle",
+    "item_type": "sniper rifle",
     "slot": "primary",
     "weight": "3.3 kg",
     "grid_size": "5x1",
@@ -7752,7 +7752,7 @@
   },
   {
     "name": "fn40gl mk2 grenade launcher",
-    "type": "grenade launcher",
+    "item_type": "grenade launcher",
     "slot": "primary",
     "weight": "3 kg",
     "grid_size": "3x2",
@@ -7863,7 +7863,7 @@
   },
   {
     "name": "m32a1 msgl 40mm grenade launcher",
-    "type": "revolver grenade launcher",
+    "item_type": "revolver grenade launcher",
     "slot": "primary",
     "weight": "5.475 kg",
     "grid_size": "4x2",
@@ -8006,7 +8006,7 @@
   },
   {
     "name": "apb 9x18pm silenced machine pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "1.611 kg",
     "grid_size": "4x1",
@@ -8062,7 +8062,7 @@
   },
   {
     "name": "stechkin aps 9x18pm machine pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "1.021 kg",
     "grid_size": "2x1",
@@ -8115,7 +8115,7 @@
   },
   {
     "name": "fn five-seven mk2 5.7x28 pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.662 kg",
     "grid_size": "2x1",
@@ -8166,7 +8166,7 @@
   },
   {
     "name": "glock 17 9x19 pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.877 kg",
     "grid_size": "2x1",
@@ -8243,7 +8243,7 @@
   },
   {
     "name": "glock 18c 9x19 machine pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.842 kg",
     "grid_size": "2x1",
@@ -8306,7 +8306,7 @@
   },
   {
     "name": "colt m1911a1 .45 acp pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "1.214 kg",
     "grid_size": "2x1",
@@ -8374,7 +8374,7 @@
   },
   {
     "name": "colt m45a1 .45 acp pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "1.188 kg",
     "grid_size": "2x1",
@@ -8445,7 +8445,7 @@
   },
   {
     "name": "beretta m9a3 9x19 pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.818 kg",
     "grid_size": "2x1",
@@ -8500,7 +8500,7 @@
   },
   {
     "name": "yarygin mp-443 \"grach\" 9x19 pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.95 kg",
     "grid_size": "2x1",
@@ -8540,7 +8540,7 @@
   },
   {
     "name": "sig p226r 9x19 pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.802 kg",
     "grid_size": "2x1",
@@ -8606,7 +8606,7 @@
   },
   {
     "name": "pb 9x18pm silenced pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.951 kg",
     "grid_size": "2x1",
@@ -8653,7 +8653,7 @@
   },
   {
     "name": "lebedev pl-15 9x19 pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.94 kg",
     "grid_size": "2x1",
@@ -8702,7 +8702,7 @@
   },
   {
     "name": "makarov pm (t) 9x18pm pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.734 kg",
     "grid_size": "2x1",
@@ -8749,7 +8749,7 @@
   },
   {
     "name": "makarov pm 9x18pm pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.73 kg",
     "grid_size": "2x1",
@@ -8790,7 +8790,7 @@
   },
   {
     "name": "serdyukov sr-1mp gyurza 9x21 pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.895 kg",
     "grid_size": "2x1",
@@ -8824,7 +8824,7 @@
   },
   {
     "name": "tt-33 7.62x25 tt pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.874 kg",
     "grid_size": "2x1",
@@ -8875,7 +8875,7 @@
   },
   {
     "name": "tt-33 7.62x25 tt pistol (golden)",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.874 kg",
     "grid_size": "2x1",
@@ -8925,7 +8925,7 @@
   },
   {
     "name": "hk usp .45 acp pistol",
-    "type": "pistol",
+    "item_type": "pistol",
     "slot": "secondary",
     "weight": "0.888 kg",
     "grid_size": "2x1",
@@ -8985,7 +8985,7 @@
   },
   {
     "name": "chiappa rhino 200ds 9x19 revolver",
-    "type": "revolver",
+    "item_type": "revolver",
     "slot": "secondary",
     "weight": "0.713 kg",
     "grid_size": "1x1",
@@ -9026,7 +9026,7 @@
   },
   {
     "name": "chiappa rhino 50ds .357 revolver",
-    "type": "revolver",
+    "item_type": "revolver",
     "slot": "secondary",
     "weight": "0.902 kg",
     "grid_size": "2x1",
@@ -9077,7 +9077,7 @@
   },
   {
     "name": "zid sp-81 26x75 signal pistol",
-    "type": "signal pistol",
+    "item_type": "signal pistol",
     "slot": "secondary",
     "weight": "0.6 kg",
     "grid_size": "2x1",
@@ -9100,7 +9100,7 @@
   },
   {
     "name": "rsp-30 reactive signal cartridge (green)",
-    "type": "handheld flare",
+    "item_type": "handheld flare",
     "weight": "0.6 kg",
     "grid_size": "1x2",
     "projectile_speed": "80 m/s",
@@ -9110,7 +9110,7 @@
   },
   {
     "name": "rsp-30 reactive signal cartridge (red)",
-    "type": "handheld flare",
+    "item_type": "handheld flare",
     "weight": "0.6 kg",
     "grid_size": "1x2",
     "projectile_speed": "80 m/s",
@@ -9120,7 +9120,7 @@
   },
   {
     "name": "rop-30 reactive flare cartridge (white)",
-    "type": "handheld flare",
+    "item_type": "handheld flare",
     "weight": "0.6 kg",
     "grid_size": "1x2",
     "projectile_speed": "80 m/s",
@@ -9130,7 +9130,7 @@
   },
   {
     "name": "rsp-30 reactive signal cartridge (yellow)",
-    "type": "handheld flare",
+    "item_type": "handheld flare",
     "weight": "0.6 kg",
     "grid_size": "1x2",
     "projectile_speed": "80 m/s",
@@ -9140,7 +9140,7 @@
   },
   {
     "name": "nsv \"utyos\" 12.7x108 heavy machine gun",
-    "type": "stationary heavy machine gun",
+    "item_type": "stationary heavy machine gun",
     "firing_modes": "full auto",
     "caliber": "12.7x108mm",
     "default_mag": "belt",
@@ -9151,7 +9151,7 @@
   },
   {
     "name": "ags-30 30x29mm automatic grenade launcher",
-    "type": "stationary automatic grenade launcher",
+    "item_type": "stationary automatic grenade launcher",
     "firing_modes": "full auto",
     "caliber": "30x29mm",
     "default_ammo": "30x29mm vog-30",
@@ -9160,7 +9160,7 @@
   },
   {
     "name": "ags-30 30x29mm automatic grenade launcher",
-    "type": "stationary automatic grenade launcher",
+    "item_type": "stationary automatic grenade launcher",
     "firing_modes": "full auto",
     "caliber": "30x29mm",
     "default_ammo": "30x29mm vog-30",
@@ -9169,7 +9169,7 @@
   },
   {
     "name": "6kh5 bayonet",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "0.223 kg",
     "grid_size": "2x1",
@@ -9178,7 +9178,7 @@
   },
   {
     "name": "antique axe",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "1.1 kg",
     "grid_size": "1x2",
@@ -9187,7 +9187,7 @@
   },
   {
     "name": "bars a-2607 95h18 knife",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "0.28 kg",
     "grid_size": "2x1",
@@ -9196,7 +9196,7 @@
   },
   {
     "name": "bars a-2607 damascus knife",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "0.28 kg",
     "grid_size": "2x1",
@@ -9205,7 +9205,7 @@
   },
   {
     "name": "camper axe",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "0.64 kg",
     "grid_size": "1x3",
@@ -9214,7 +9214,7 @@
   },
   {
     "name": "crash axe",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "1.4 kg",
     "grid_size": "1x3",
@@ -9223,7 +9223,7 @@
   },
   {
     "name": "cultist knife",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "0.28 kg",
     "grid_size": "2x1",
@@ -9232,7 +9232,7 @@
   },
   {
     "name": "er fulcrum bayonet",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "0.45 kg",
     "grid_size": "2x1",
@@ -9241,7 +9241,7 @@
   },
   {
     "name": "freeman crowbar",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "1.9 kg",
     "grid_size": "1x3",
@@ -9250,7 +9250,7 @@
   },
   {
     "name": "kiba arms tactical tomahawk",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "1.861 kg",
     "grid_size": "1x3",
@@ -9259,7 +9259,7 @@
   },
   {
     "name": "miller bros. blades m-2 tactical sword",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "1.3 kg",
     "grid_size": "1x3",
@@ -9268,7 +9268,7 @@
   },
   {
     "name": "mpl-50 entrenching tool",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "0.8 kg",
     "grid_size": "1x3",
@@ -9277,7 +9277,7 @@
   },
   {
     "name": "old hand scythe",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "1.4 kg",
     "grid_size": "1x3",
@@ -9286,7 +9286,7 @@
   },
   {
     "name": "red rebel ice pick",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "0.65 kg",
     "grid_size": "1x3",
@@ -9295,7 +9295,7 @@
   },
   {
     "name": "sp-8 survival machete",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "0.635 kg",
     "grid_size": "1x3",
@@ -9304,7 +9304,7 @@
   },
   {
     "name": "superfors db 2020 dead blow hammer",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "1.4 kg",
     "grid_size": "1x3",
@@ -9313,7 +9313,7 @@
   },
   {
     "name": "uvsr taiga-1 survival machete",
-    "type": "melee weapon",
+    "item_type": "melee weapon",
     "slot": "melee",
     "weight": "0.64 kg",
     "grid_size": "1x3",
@@ -9322,7 +9322,7 @@
   },
   {
     "name": "f-1 hand grenade",
-    "type": "fragmentation grenade",
+    "item_type": "fragmentation grenade",
     "weight": "0.6 kg",
     "grid_size": "1x1",
     "sold_by": "prapor ll2",
@@ -9336,7 +9336,7 @@
   },
   {
     "name": "m67 hand grenade",
-    "type": "fragmentation grenade",
+    "item_type": "fragmentation grenade",
     "weight": "0.396 kg",
     "grid_size": "1x1",
     "sold_by": "peacekeeper ll3 after completing his task spa tour - part 2",
@@ -9350,7 +9350,7 @@
   },
   {
     "name": "rgd-5 hand grenade",
-    "type": "fragmentation grenade",
+    "item_type": "fragmentation grenade",
     "weight": "0.31 kg",
     "grid_size": "1x1",
     "sold_by": "prapor ll3",
@@ -9364,7 +9364,7 @@
   },
   {
     "name": "rgn hand grenade",
-    "type": "fragmentation grenade",
+    "item_type": "fragmentation grenade",
     "weight": "0.31 kg",
     "grid_size": "1x1",
     "explosion_delay": "0.3s on impact (3.5s if impact fuze not triggered)",
@@ -9375,7 +9375,7 @@
   },
   {
     "name": "rgo hand grenade",
-    "type": "fragmentation grenade",
+    "item_type": "fragmentation grenade",
     "weight": "0.53 kg",
     "grid_size": "1x1",
     "explosion_delay": "0.3s on impact (3.5s if impact fuze not triggered)",
@@ -9386,7 +9386,7 @@
   },
   {
     "name": "vog-17 khattabka improvised hand grenade",
-    "type": "fragmentation grenade",
+    "item_type": "fragmentation grenade",
     "weight": "0.28 kg",
     "grid_size": "1x1",
     "explosion_delay": "3s",
@@ -9399,7 +9399,7 @@
   },
   {
     "name": "vog-25 khattabka improvised hand grenade",
-    "type": "fragmentation grenade",
+    "item_type": "fragmentation grenade",
     "weight": "0.25 kg",
     "grid_size": "1x1",
     "explosion_delay": "2s",
@@ -9412,7 +9412,7 @@
   },
   {
     "name": "m18 smoke grenade (green)",
-    "type": "smoke grenade",
+    "item_type": "smoke grenade",
     "weight": "0.539 kg",
     "grid_size": "1x1",
     "sold_by": "peacekeeper ll2",
@@ -9421,7 +9421,7 @@
   },
   {
     "name": "rdg-2b smoke grenade",
-    "type": "smoke grenade",
+    "item_type": "smoke grenade",
     "weight": "0.6 kg",
     "grid_size": "1x2",
     "sold_by": "prapor ll1",
@@ -9431,7 +9431,7 @@
   },
   {
     "name": "model 7290 flash bang grenade",
-    "type": "stun grenade",
+    "item_type": "stun grenade",
     "weight": "0.42 kg",
     "grid_size": "1x1",
     "sold_by": "peacekeeper ll3",
@@ -9440,7 +9440,7 @@
   },
   {
     "name": "\"zarya\" stun grenade",
-    "type": "stun grenade",
+    "item_type": "stun grenade",
     "weight": "0.175 kg",
     "grid_size": "1x1",
     "sold_by": "prapor ll2",
@@ -9451,7 +9451,7 @@
   },
   {
     "name": "9x39 sr3m.130 30-round magazine",
-    "type": "magazine",
+    "item_type": "magazine",
     "weight": "0.45 kg",
     "grid_size": "1x2",
     "sold_by": "prapor ll4",
@@ -9472,7 +9472,7 @@
   },
   {
     "name": "gp-34 underbarrel grenade launcher",
-    "type": "underbarrel grenade launcher",
+    "item_type": "underbarrel grenade launcher",
     "weight": "1.4 kg",
     "grid_size": "1x1",
     "recoil_percent": "-1",
@@ -9502,7 +9502,7 @@
   },
   {
     "name": "glock .45 acp 13-round magazine",
-    "type": "magazine",
+    "item_type": "magazine",
     "weight": "0.096 kg",
     "grid_size": "1x1",
     "capacity": "13",

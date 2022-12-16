@@ -1,7 +1,9 @@
 class CreateWeapons < ActiveRecord::Migration[6.1]
   def change
     create_table :weapons do |t|
-      t.string :type
+      t.belongs_to :game_version, foreign_key: true 
+      t.string :name
+      t.string :item_type
       t.string :slot
       t.string :weight
       t.string :grid_size
@@ -18,6 +20,7 @@ class CreateWeapons < ActiveRecord::Migration[6.1]
       t.string :muzzle_velocity
       t.string :default_mag
       t.string :accepted_ammunition
+      t.string :mods
       t.string :recoil_percent
       t.string :projectile_speed
       t.string :damage

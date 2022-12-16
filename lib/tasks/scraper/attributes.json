@@ -1,7 +1,8 @@
 [
   {
     "weapons_attributes": [
-      "type",
+      "name",
+      "item_type",
       "slot",
       "weight",
       "grid_size",
@@ -18,6 +19,7 @@
       "muzzle_velocity",
       "default_mag",
       "accepted_ammunition",
+      "mods",
       "recoil_percent",
       "projectile_speed",
       "damage",
@@ -40,12 +42,14 @@
   },
   {
     "weapon_mods_attributes": [
-      "type",
+      "name",
+      "item_type",
       "weight",
       "grid_size",
       "sold_by",
       "recoil_percent",
       "ergonomics",
+      "mods",
       "accuracy_percent",
       "modes",
       "heat_percent",

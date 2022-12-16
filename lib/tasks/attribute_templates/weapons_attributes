@@ -1,4 +1,5 @@
-t.string :type
+t.string :name
+t.string :item_type
 t.string :slot
 t.string :weight
 t.string :grid_size
@@ -15,6 +16,7 @@ t.string :default_ammo
 t.string :muzzle_velocity
 t.string :default_mag
 t.string :accepted_ammunition
+t.string :mods
 t.string :recoil_percent
 t.string :projectile_speed
 t.string :damage
