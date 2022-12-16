@@ -76,8 +76,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_211435) do
     t.string "default_ammo"
     t.string "muzzle_velocity"
     t.string "default_mag"
-    t.string "accepted_ammunition"
-    t.string "mods"
+    t.string "accepted_ammunition", default: [], array: true
+    t.json "mods", default: {}, null: false
     t.string "recoil_percent"
     t.string "projectile_speed"
     t.string "damage"

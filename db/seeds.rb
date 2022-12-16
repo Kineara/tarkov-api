@@ -6,22 +6,33 @@ def createItems(version)
   files.delete('./lib/tasks/scraper/weapon_mods.json')
 
   files.each do |file|
-    json = JSON.parse(File.read(file))
+    json_array = JSON.parse(File.read(file))
+
+    for hash in json_array do
+      # Create item 
+      new_item = version.weapons.new()
+      
+      hash.each do |k,v|
+        new_item[k.to_sym] = v 
+      end
+
+      new_item.save 
+    end
 
     # Create item
-    case file
-    when './lib/tasks/scraper/weapons.json'
+    # case file
+    # when './lib/tasks/scraper/weapons.json'
       
-      json.each do |item_hash|
-        item = version.weapons.create()
-        item_hash.each_key do |k,v|
+    #   json.each do |item_hash|
+    #     item = version.weapons.create()
+    #     item_hash.each_key do |k,v|
            
           
-        end
-      end
-    else
-      puts 'oops'
-    end
+    #     end
+    #   end
+    # else
+    #   puts 'oops'
+    # end
     
   end
 end
