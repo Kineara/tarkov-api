@@ -30,7 +30,7 @@
       "5.56x45mm ssa ap",
       "5.56x45mm warmageddon"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 adar 2-15 wooden stock",
         "ar-15 hera arms cqr pistol grip/buttstock",
@@ -146,7 +146,7 @@
       "5.56x45mm ssa ap",
       "5.56x45mm warmageddon"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -271,7 +271,7 @@
       "5.56x45mm ssa ap",
       "5.56x45mm warmageddon"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak-74 gas tube (6p20 sb.1-2)",
         "akm gas tube (6p1 sb.1-2)",
@@ -387,7 +387,7 @@
       "7.62x39mm t-45m1 gzh",
       "7.62x39mm us gzh"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -524,7 +524,7 @@
       "7.62x39mm t-45m1 gzh",
       "7.62x39mm us gzh"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak-74 gas tube (6p20 sb.1-2)",
         "akm gas tube (6p1 sb.1-2)",
@@ -664,7 +664,7 @@
       "5.45x39mm t gs",
       "5.45x39mm us gs"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak-74 gas tube (6p20 sb.1-2)",
         "akm gas tube (6p1 sb.1-2)",
@@ -800,7 +800,7 @@
       "5.45x39mm t gs",
       "5.45x39mm us gs"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -934,7 +934,7 @@
       "5.45x39mm t gs",
       "5.45x39mm us gs"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -1074,7 +1074,7 @@
       "5.45x39mm t gs",
       "5.45x39mm us gs"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -1218,7 +1218,7 @@
       "7.62x39mm t-45m1 gzh",
       "7.62x39mm us gzh"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -1355,7 +1355,7 @@
       "7.62x39mm t-45m1 gzh",
       "7.62x39mm us gzh"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -1509,7 +1509,7 @@
       "7.62x39mm t-45m1 gzh",
       "7.62x39mm us gzh"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -1633,7 +1633,7 @@
       "7.62x39mm t-45m1 gzh",
       "7.62x39mm us gzh"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -1778,7 +1778,7 @@
       "5.45x39mm t gs",
       "5.45x39mm us gs"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -1900,7 +1900,7 @@
       "5.45x39mm t gs",
       "5.45x39mm us gs"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -2039,7 +2039,7 @@
       "5.45x39mm t gs",
       "5.45x39mm us gs"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "aks-74u gas tube (6p26 sb.1-2)"
       ],
@@ -2139,7 +2139,7 @@
       "5.45x39mm t gs",
       "5.45x39mm us gs"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "aks-74u gas tube (6p26 sb.1-2)"
       ],
@@ -2255,7 +2255,7 @@
       "5.45x39mm t gs",
       "5.45x39mm us gs"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "aks-74u gas tube (6p26 sb.1-2)"
       ],
@@ -2361,7 +2361,7 @@
       "12.7x55mm ps12a",
       "12.7x55mm ps12b"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "ash-12 12.7x55 muzzle brake-compensator",
         "ash-12 12.7x55 sound suppressor"
@@ -2505,7 +2505,7 @@
       "5.56x45mm ssa ap",
       "5.56x45mm warmageddon"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "mdr 5.56x45 16 inch barrel"
       ],
@@ -2636,7 +2636,7 @@
       "7.62x51mm tcw sp",
       "7.62x51mm ultra nosler"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "mdr 7.62x51 16 inch barrel"
       ],
@@ -2743,7 +2743,7 @@
       "5.56x45mm ssa ap",
       "5.56x45mm warmageddon"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 colt a2 pistol grip",
         "ar-15 damage industries ecs pistol grip (fde)",
@@ -2848,7 +2848,7 @@
       "5.56x45mm ssa ap",
       "5.56x45mm warmageddon"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "hk g36 5.56x45 228mm barrel",
         "hk g36 5.56x45 318mm barrel",
@@ -2925,7 +2925,7 @@
       "5.56x45mm ssa ap",
       "5.56x45mm warmageddon"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 adar 2-15 wooden stock",
         "ar-15 hera arms cqr pistol grip/buttstock",
@@ -3035,7 +3035,7 @@
       ".300 blackout v-max",
       ".300 whisper"
     ],
-    "mods": {
+    "mods_str": {
       "receiver": [
         "mcx gen1 .300 blk upper receiver"
       ],
@@ -3126,7 +3126,7 @@
       "7.62x39mm t-45m1 gzh",
       "7.62x39mm us gzh"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 colt a2 pistol grip",
         "ar-15 damage industries ecs pistol grip (fde)",
@@ -3222,7 +3222,7 @@
       "7.62x39mm t-45m1 gzh",
       "7.62x39mm us gzh"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "ar-10 2a armanent x3 7.62x51 compensator",
         "ar-10 aac blackout 51t 7.62x51 flash hider",
@@ -3373,7 +3373,7 @@
       "7.62x51mm tcw sp",
       "7.62x51mm ultra nosler"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "sa-58 7.62x51 11 inch barrel",
         "sa-58 7.62x51 16 inch barrel",
@@ -3452,7 +3452,7 @@
       "5.45x39mm t gs",
       "5.45x39mm us gs"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak-545 sag mk. 2.1 gas tube"
       ],
@@ -3545,7 +3545,7 @@
       "5.45x39mm t gs",
       "5.45x39mm us gs"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak-545 sag mk. 2.1 gas tube"
       ],
@@ -3632,7 +3632,7 @@
       "7.62x51mm tcw sp",
       "7.62x51mm ultra nosler"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 colt a2 pistol grip",
         "ar-15 damage industries ecs pistol grip (fde)",
@@ -3709,7 +3709,7 @@
       "5.56x45mm ssa ap",
       "5.56x45mm warmageddon"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 colt a2 pistol grip",
         "ar-15 damage industries ecs pistol grip (fde)",
@@ -3802,7 +3802,7 @@
       "5.56x45mm ssa ap",
       "5.56x45mm warmageddon"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 adar 2-15 wooden stock",
         "ar-15 hera arms cqr pistol grip/buttstock",
@@ -3912,7 +3912,7 @@
       ".366 tkm fmj",
       ".366 tkm geksa"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -4033,7 +4033,7 @@
       "7.62x39mm t-45m1 gzh",
       "7.62x39mm us gzh"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "ak kiba arms vdm cs gas tube",
         "ak-74 gas tube (6p20 sb.1-2)",
@@ -4167,7 +4167,7 @@
       "9x39mm sp-6 gs",
       "9x39mm spp gs"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "as val 9x39 integral barrel-suppressor",
         "vss 9x39 integral barrel-suppressor"
@@ -4239,7 +4239,7 @@
       "7.62x39mm t-45m1 gzh",
       "7.62x39mm us gzh"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "sks weapon tuning 7.62x39 thread adapter",
         "sks hexagon 7.62x39 sound suppressor"
@@ -4290,7 +4290,7 @@
       "7.62x39mm t-45m1 gzh",
       "7.62x39mm us gzh"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "sks weapon tuning 7.62x39 thread adapter",
         "sks hexagon 7.62x39 sound suppressor"
@@ -4339,7 +4339,7 @@
       "7.62x51mm tcw sp",
       "7.62x51mm ultra nosler"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "vpo-101 \"vepr-hunter\" gas tube"
       ],
@@ -4415,7 +4415,7 @@
       "5.45x39mm t gs",
       "5.45x39mm us gs"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "rpk-16 5.45x39 15 inch barrel",
         "rpk-16 5.45x39 22 inch barrel"
@@ -4499,7 +4499,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "receiver": [
         "hk mp5 9x19 upper receiver",
         "hk mp5sd 9x19 upper receiver"
@@ -4542,7 +4542,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "magazine": [
         "hk mp5 9x19 20-round magazine",
         "hk mp5 9x19 30-round magazine",
@@ -4580,7 +4580,7 @@
       "4.6x30mm fmj sx",
       "4.6x30mm subsonic sx"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "hk mp7a1 4.6x30 flash hider"
       ],
@@ -4685,7 +4685,7 @@
       "4.6x30mm fmj sx",
       "4.6x30mm subsonic sx"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "hk mp7a1 4.6x30 flash hider"
       ],
@@ -4822,7 +4822,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "mp9 9x19 sound suppressor mount"
       ],
@@ -4874,7 +4874,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "mp9 9x19 sound suppressor mount"
       ],
@@ -4927,7 +4927,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 colt a2 pistol grip",
         "ar-15 damage industries ecs pistol grip (fde)",
@@ -5008,7 +5008,7 @@
       "5.7x28mm ss197sr",
       "5.7x28mm ss198lf"
     ],
-    "mods": {
+    "mods_str": {
       "magazine": [
         "fn p90 5.7x28 50-round magazine"
       ],
@@ -5059,7 +5059,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "pp-19-01 \"vityaz\" gas tube"
       ],
@@ -5167,7 +5167,7 @@
       "9x18mm pm sp8 gzh",
       "9x18mm pmm pstm gzh"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "pp-91 \"kedr\" polymer pistol grip"
       ],
@@ -5214,7 +5214,7 @@
       "9x18mm pm sp8 gzh",
       "9x18mm pmm pstm gzh"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "pp-91 \"kedr\" polymer pistol grip"
       ],
@@ -5261,7 +5261,7 @@
       "9x18mm pm sp8 gzh",
       "9x18mm pmm pstm gzh"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "pp-91-01 \"kedr-b\" threaded suppressor adapter"
       ],
@@ -5301,7 +5301,7 @@
       "7.62x25mm tt pst gzh",
       "7.62x25mm tt pt gzh"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "ppsh-41 7.62x25 10.6 inch barrel"
       ],
@@ -5345,7 +5345,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "gas_block": [
         "pp-19-01 \"vityaz\" gas tube"
       ],
@@ -5429,7 +5429,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 adar 2-15 wooden stock",
         "ar-15 hera arms cqr pistol grip/buttstock",
@@ -5520,7 +5520,7 @@
       ".45 acp match fmj",
       ".45 acp rip"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "hk ump .45 acp 8 inch barrel",
         "hk ump .45 acp 8 inch threaded barrel"
@@ -5606,7 +5606,7 @@
       ".45 acp match fmj",
       ".45 acp rip"
     ],
-    "mods": {
+    "mods_str": {
       "magazine": [
         "glock .45 acp 13-round magazine",
         "glock .45 acp kriss g30 magex 30-round magazine"
@@ -5718,7 +5718,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "magazine": [
         "glock 9x19 \"big stick\" 33-round magazine",
         "glock 9x19 17-round magazine",
@@ -5827,7 +5827,7 @@
       "23x75mm \"shrapnel-25\" buckshot",
       "23x75mm \"zvezda\" flashbang round"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "ks-23 23x75 510mm barrel",
         "ks-23 23x75 700mm barrel"
@@ -5880,7 +5880,7 @@
       "12/70 rip",
       "12/70 superformance hp slug"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "benelli m3 super 90 12ga 500mm barrel"
       ],
@@ -5945,7 +5945,7 @@
       "12/70 rip",
       "12/70 superformance hp slug"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "mossberg 590a1 12ga 20 inch barrel"
       ],
@@ -6003,7 +6003,7 @@
       "12/70 rip",
       "12/70 superformance hp slug"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "mossberg 590a1 12ga 20 inch barrel"
       ],
@@ -6061,7 +6061,7 @@
       "12/70 rip",
       "12/70 superformance hp slug"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "m870 12ga sawn-off 325mm barrel",
         "m870 12ga 355mm barrel",
@@ -6128,7 +6128,7 @@
       "12/70 rip",
       "12/70 superformance hp slug"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "m870 12ga sawn-off 325mm barrel",
         "m870 12ga 355mm barrel",
@@ -6195,7 +6195,7 @@
       "12/70 rip",
       "12/70 superformance hp slug"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "mp-133 12ga 510mm barrel",
         "mp-133 12ga 510mm barrel with rib",
@@ -6271,7 +6271,7 @@
       "12/70 rip",
       "12/70 superformance hp slug"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "mp-153 12ga 610mm barrel",
         "mp-153 12ga 660mm barrel",
@@ -6338,7 +6338,7 @@
       "12/70 rip",
       "12/70 superformance hp slug"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "mp-155 510mm barrel"
       ],
@@ -6391,7 +6391,7 @@
       "7.62x54mm r snb gzh",
       "7.62x54mm r t-46m gzh"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "mp-18 7.62x54r 600mm barrel"
       ],
@@ -6436,7 +6436,7 @@
       "12/70 rip",
       "12/70 superformance hp slug"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "mp-43-1c 12ga 510mm barrel",
         "mp-43-1c 12ga 725mm barrel",
@@ -6482,7 +6482,7 @@
       "12/70 rip",
       "12/70 superformance hp slug"
     ],
-    "mods": {
+    "mods_str": {
       "magazine": [
         "mts-255-12 12ga cylinder"
       ],
@@ -6533,7 +6533,7 @@
       "12/70 rip",
       "12/70 superformance hp slug"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "gk-02 12ga muzzle brake",
         "tromix monster claw 12ga muzzle brake",
@@ -6641,7 +6641,7 @@
       "20/70 devastator slug",
       "20/70 star slug"
     ],
-    "mods": {
+    "mods_str": {
       "stock": [
         "toz-106 custom cut mosin stock",
         "mts 20-01 stock",
@@ -6684,7 +6684,7 @@
       "7.62x51mm tcw sp",
       "7.62x51mm ultra nosler"
     ],
-    "mods": {
+    "mods_str": {
       "receiver": [
         "hk g28 7.62x51 upper receiver"
       ],
@@ -6755,7 +6755,7 @@
       "7.62x51mm tcw sp",
       "7.62x51mm ultra nosler"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "m1a 7.62x51 16 inch barrel",
         "m1a 7.62x51 22 inch barrel"
@@ -6804,7 +6804,7 @@
       ".338 lapua magnum tac-x",
       ".338 lapua magnum ucw"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 colt a2 pistol grip",
         "ar-15 damage industries ecs pistol grip (fde)",
@@ -6880,7 +6880,7 @@
       "7.62x51mm tcw sp",
       "7.62x51mm ultra nosler"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "rfb 7.62x51 18 inch barrel"
       ],
@@ -6926,7 +6926,7 @@
       "7.62x51mm tcw sp",
       "7.62x51mm ultra nosler"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "ar-10 7.62x51 18 inch barrel",
         "ar-10 7.62x51 22 inch barrel"
@@ -7082,7 +7082,7 @@
       "7.62x51mm tcw sp",
       "7.62x51mm ultra nosler"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 colt a2 pistol grip",
         "ar-15 damage industries ecs pistol grip (fde)",
@@ -7159,7 +7159,7 @@
       "7.62x54mm r snb gzh",
       "7.62x54mm r t-46m gzh"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "svds 7.62x54r 22 inch barrel"
       ],
@@ -7247,7 +7247,7 @@
       "9x39mm sp-6 gs",
       "9x39mm spp gs"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "as val 9x39 integral barrel-suppressor",
         "vss 9x39 integral barrel-suppressor"
@@ -7313,7 +7313,7 @@
       ".338 lapua magnum tac-x",
       ".338 lapua magnum ucw"
     ],
-    "mods": {
+    "mods_str": {
       "magazine": [
         "ai axmc .338 lm 10-round magazine"
       ],
@@ -7353,7 +7353,7 @@
       "7.62x51mm tcw sp",
       "7.62x51mm ultra nosler"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "dvl-10 7.62x51 500mm barrel",
         "dvl-10 m2 7.62x51 660mm barrel"
@@ -7446,7 +7446,7 @@
       "7.62x51mm tcw sp",
       "7.62x51mm ultra nosler"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "m700 7.62x51 20 inch stainless steel threaded barrel",
         "m700 7.62x51 26 inch barrel",
@@ -7504,7 +7504,7 @@
       "7.62x54mm r snb gzh",
       "7.62x54mm r t-46m gzh"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "mosin carbine 7.62x54r 514mm barrel",
         "mosin rifle 7.62x54r sawn-off 220mm threaded barrel",
@@ -7553,7 +7553,7 @@
       "7.62x54mm r snb gzh",
       "7.62x54mm r t-46m gzh"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "mosin rifle 7.62x54r sawn-off 200mm barrel",
         "mosin rifle 7.62x54r sawn-off 220mm threaded barrel",
@@ -7605,7 +7605,7 @@
       "7.62x54mm r snb gzh",
       "7.62x54mm r t-46m gzh"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "sv-98 srvv mk.2.0 7.62x54r muzzle brake-compensator",
         "sv-98 7.62x54r muzzle device",
@@ -7696,7 +7696,7 @@
       "7.62x51mm tcw sp",
       "7.62x51mm ultra nosler"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "t-5000m 7.62x51 660mm barrel"
       ],
@@ -7735,7 +7735,7 @@
       ".366 tkm fmj",
       ".366 tkm geksa"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "vpo-215 \"gornostay\" .366tkm 23 inch barrel"
       ],
@@ -7774,7 +7774,7 @@
       "40x46mm m441 (he) grenade",
       "40x46mm m576 (mp-apers) grenade"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 colt a2 pistol grip",
         "ar-15 damage industries ecs pistol grip (fde)",
@@ -7886,7 +7886,7 @@
       "40x46mm m441 (he) grenade",
       "40x46mm m576 (mp-apers) grenade"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "ar-15 colt a2 pistol grip",
         "ar-15 damage industries ecs pistol grip (fde)",
@@ -8038,7 +8038,7 @@
       "9x18mm pm sp8 gzh",
       "9x18mm pmm pstm gzh"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "apb 9x18pm sound suppressor"
       ],
@@ -8094,7 +8094,7 @@
       "9x18mm pm sp8 gzh",
       "9x18mm pmm pstm gzh"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "aps bakelite side-pieces"
       ],
@@ -8140,7 +8140,7 @@
       "5.7x28mm ss197sr",
       "5.7x28mm ss198lf"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "fn five-seven 5.7x28 barrel",
         "fn five-seven 5.7x28 threaded barrel"
@@ -8192,7 +8192,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "glock 9x19 lone wolf alphawolf threaded barrel",
         "glock 9x19 double diamond threaded barrel",
@@ -8269,7 +8269,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "glock 18c 9x19 barrel with a compensator"
       ],
@@ -8329,7 +8329,7 @@
       ".45 acp match fmj",
       ".45 acp rip"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "m1911a1 .45 acp 127mm barrel",
         "m1911a1 .45 acp national match barrel",
@@ -8396,7 +8396,7 @@
       ".45 acp match fmj",
       ".45 acp rip"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "m1911a1 .45 acp 127mm barrel",
         "m1911a1 .45 acp national match barrel",
@@ -8471,7 +8471,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "m9a3 9x19 threaded barrel"
       ],
@@ -8526,7 +8526,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "pistol_grip": [
         "mp-443 \"grach\" polymer pistol grip"
       ],
@@ -8566,7 +8566,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "p226 9x19 112mm barrel",
         "p226 9x19 threaded barrel"
@@ -8638,7 +8638,7 @@
       "9x18mm pm sp8 gzh",
       "9x18mm pmm pstm gzh"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "pb 9x18pm sound suppressor"
       ],
@@ -8679,7 +8679,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "pl-15 9x19 barrel",
         "pl-15 9x19 threaded barrel"
@@ -8733,7 +8733,7 @@
       "9x18mm pm sp8 gzh",
       "9x18mm pmm pstm gzh"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "aac illusion 9 9x19 sound suppressor",
         "alpha dog alpha 9 9x19 sound suppressor",
@@ -8781,7 +8781,7 @@
       "9x18mm pm sp8 gzh",
       "9x18mm pmm pstm gzh"
     ],
-    "mods": {
+    "mods_str": {
       "magazine": [
         "pm 9x18pm 90-93 8-round magazine",
         "pm 9x18pm 84-round makeshift drum magazine"
@@ -8812,7 +8812,7 @@
       "9x21mm pe gzh",
       "9x21mm ps gzh"
     ],
-    "mods": {
+    "mods_str": {
       "magazine": [
         "sr-1mp 9x21 18-round magazine"
       ],
@@ -8849,7 +8849,7 @@
       "7.62x25mm tt pst gzh",
       "7.62x25mm tt pt gzh"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "tt pm-laser dtk-tt muzzle brake-compensator"
       ],
@@ -8899,7 +8899,7 @@
       "7.62x25mm tt pst gzh",
       "7.62x25mm tt pt gzh"
     ],
-    "mods": {
+    "mods_str": {
       "muzzle": [
         "tt pm-laser dtk-tt muzzle brake-compensator"
       ],
@@ -8948,7 +8948,7 @@
       ".45 acp match fmj",
       ".45 acp rip"
     ],
-    "mods": {
+    "mods_str": {
       "barrel": [
         "hk usp .45 acp standard barrel",
         "hk usp tactical .45 acp threaded barrel",
@@ -9010,7 +9010,7 @@
       "9x19mm quakemaker",
       "9x19mm rip"
     ],
-    "mods": {
+    "mods_str": {
       "magazine": [
         "chiappa rhino 9x19 6-round cylinder"
       ],
@@ -9047,7 +9047,7 @@
       ".357 magnum jhp",
       ".357 magnum soft point"
     ],
-    "mods": {
+    "mods_str": {
       "magazine": [
         "chiappa rhino .357 6-round cylinder"
       ],
@@ -9482,7 +9482,7 @@
     "accepted_ammunition": [
       "40mm vog-25"
     ],
-    "mods": {
+    "mods_str": {
       "compatibility": [
         "kalashnikov ak-101 5.56x45 assault rifle",
         "kalashnikov ak-103 7.62x39 assault rifle",

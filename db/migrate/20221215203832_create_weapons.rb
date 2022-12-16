@@ -19,8 +19,8 @@ class CreateWeapons < ActiveRecord::Migration[6.1]
       t.string :default_ammo
       t.string :muzzle_velocity
       t.string :default_mag
-      t.string :accepted_ammunition, array: true, default: [] 
-      t.json :mods, default: {}, null: false  
+      t.json :accepted_ammunition
+      t.json :mods_str
       t.string :recoil_percent
       t.string :projectile_speed
       t.string :damage

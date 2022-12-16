@@ -80,7 +80,7 @@ class TarkovSpider < Kimurai::Base
 
       # Check for mod categories
       if response.css('div.wds-tabs__wrapper').length == 1
-        mods = {}
+        mods_str = {}
 
         # Get mod category name
         response.css('div.wds-tabs__wrapper').css('li').each_with_index do |tab, i|
@@ -93,15 +93,15 @@ class TarkovSpider < Kimurai::Base
             mod_names << mod_name.text.strip.downcase
           end
 
-          mods.store(mod_category, mod_names)
+          mods_str.store(mod_category, mod_names)
         end
 
-        item_hash.store('mods', mods)
-        attribs << 'mods'
+        item_hash.store('mods_str', mods_str)
+        attribs << 'mods_str'
       end
       # Check that the item hash has more keys than just "name" before saving
       unless item_hash.keys.length < 2
-        save_to "./scraper/#{category}.json", item_hash, format: :pretty_json,
+        save_to "./scraper/data/#{category}.json", item_hash, format: :pretty_json,
                                                          position: false
       end
     end

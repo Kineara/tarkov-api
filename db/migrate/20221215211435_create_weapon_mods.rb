@@ -9,7 +9,7 @@ class CreateWeaponMods < ActiveRecord::Migration[6.1]
       t.string :sold_by
       t.string :recoil_percent
       t.string :ergonomics
-      t.json :mods
+      t.json :mods_str
       t.string :accuracy_percent
       t.string :modes
       t.string :heat_percent
@@ -23,7 +23,7 @@ class CreateWeaponMods < ActiveRecord::Migration[6.1]
       t.string :loadunload_speed_modifier_percent
       t.string :improved_check_accuracy
       t.string :caliber
-      t.string :accepted_ammunition
+      t.json :accepted_ammunition
       t.string :loot_experience
       t.string :examine_experience
       t.string :check_speed_modifier_percent

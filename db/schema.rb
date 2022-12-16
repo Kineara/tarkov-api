@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2022_12_15_211435) do
     t.string "sold_by"
     t.string "recoil_percent"
     t.string "ergonomics"
-    t.json "mods"
+    t.json "mods_str"
     t.string "accuracy_percent"
     t.string "modes"
     t.string "heat_percent"
@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 2022_12_15_211435) do
     t.string "loadunload_speed_modifier_percent"
     t.string "improved_check_accuracy"
     t.string "caliber"
-    t.string "accepted_ammunition"
+    t.json "accepted_ammunition"
     t.string "loot_experience"
     t.string "examine_experience"
     t.string "check_speed_modifier_percent"
@@ -76,8 +76,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_211435) do
     t.string "default_ammo"
     t.string "muzzle_velocity"
     t.string "default_mag"
-    t.string "accepted_ammunition", default: [], array: true
-    t.json "mods", default: {}, null: false
+    t.json "accepted_ammunition"
+    t.json "mods_str"
     t.string "recoil_percent"
     t.string "projectile_speed"
     t.string "damage"
