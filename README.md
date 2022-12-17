@@ -34,6 +34,7 @@ A RESTful Postgresql database for Escape from Tarkov
   # Scrape the wiki for item info
   ## Returns lists of json data in lib/tasks/scraper/data/
   ## Generates a master list of attributes for each site scraped at lib/tasks/scraper/attributes.json
+  ## Currently supports Weapons and Weapon Mods
   rake scraper
 
   # Generate model attribute lists
