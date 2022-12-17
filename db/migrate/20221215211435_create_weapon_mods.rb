@@ -1,7 +1,6 @@
 class CreateWeaponMods < ActiveRecord::Migration[6.1]
   def change
     create_table :weapon_mods do |t|
-      t.belongs_to :game_version, foreign_key: true 
       t.string :name
       t.string :item_type
       t.string :weight

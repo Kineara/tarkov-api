@@ -1,7 +1,6 @@
 class CreateWeapons < ActiveRecord::Migration[6.1]
   def change
-    create_table :weapons do |t|
-      t.belongs_to :game_version, foreign_key: true 
+    create_table :weapons do |t| 
       t.string :name
       t.string :item_type
       t.string :slot

@@ -15,15 +15,7 @@ ActiveRecord::Schema.define(version: 2022_12_15_211435) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "game_versions", force: :cascade do |t|
-    t.string "name"
-    t.boolean "current_version"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "weapon_mods", force: :cascade do |t|
-    t.bigint "game_version_id"
     t.string "name"
     t.string "item_type"
     t.string "weight"
@@ -54,11 +46,9 @@ ActiveRecord::Schema.define(version: 2022_12_15_211435) do
     t.string "accuracy_moa"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["game_version_id"], name: "index_weapon_mods_on_game_version_id"
   end
 
   create_table "weapons", force: :cascade do |t|
-    t.bigint "game_version_id"
     t.string "name"
     t.string "item_type"
     t.string "slot"
@@ -98,9 +88,6 @@ ActiveRecord::Schema.define(version: 2022_12_15_211435) do
     t.string "check_speed_modifier_percent"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["game_version_id"], name: "index_weapons_on_game_version_id"
   end
 
-  add_foreign_key "weapon_mods", "game_versions"
-  add_foreign_key "weapons", "game_versions"
 end
