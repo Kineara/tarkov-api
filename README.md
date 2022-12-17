@@ -47,17 +47,17 @@ A RESTful Postgresql database for Escape from Tarkov
 Run the following commands from the repository's root
 
 ```ruby
-# Scrape data
 rake scraper
+# Scrape data from the EFT Wiki
 
-# Generate attributes
 rake generate_attributes
+# Generate attributes
 
 # Create migrations as necessary to add/remove attributes from tables based on attribute lists
 
-# Migrate the database
 rails db:migrate
+# Migrate the database
 
-# Seed the database with the scraped info
 rails db:seed
+# Seed the database with the scraped info
 ```
