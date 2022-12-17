@@ -33,8 +33,8 @@ A RESTful Postgresql database for Escape from Tarkov
 ```ruby
 rake scraper
 # Scrape the wiki for item info
-## Returns lists of json data in lib/tasks/scraper/data/
-## Generates a master list of attributes for each site scraped at lib/tasks/scraper/attributes.json
+## Returns lists of json data in lib/tasks/scraper/[game_version]/data/
+## Generates a master list of attributes for each site scraped at lib/tasks/scraper/[game_version]/attributes.json
 ## Currently supports Weapons and Weapon Mods
 
 
@@ -49,6 +49,11 @@ rake generate_attributes
 Run the following commands from the repository's root
 
 ```ruby
+# Set the current game version string in lib/tasks/tarkov_spider.rb in @@game_version
+# Set the current game version string in lib/tasks/generate_attributes.rb in game_version
+# Create a new folder with the same name in lib/tasks/scraper/
+# Create a subfolder titled 'data' in lib/tasks/scraper/data
+
 rake scraper
 # Scrape data from the EFT Wiki
 
@@ -63,3 +68,9 @@ rails db:migrate
 rails db:seed
 # Seed the database with the scraped info
 ```
+
+## Known Issues
+
+- tarkov_spider.rb needs refactored for more readability and general support for other wiki pages
+- tarkov_spider.rb doesn't yet automatically create the subdirectories for the game version
+- tarkov_spider.rb and generate_attributes.rb rake tasks need the game_version variables set independently

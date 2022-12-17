@@ -1,6 +1,8 @@
 require 'json'
 
-attribs = JSON.parse(File.read('./scraper/attributes.json'))
+game_version = 12.12
+
+attribs = JSON.parse(File.read("./scraper/#{game_version}/attributes.json"))
 
 json_list = ['mods_str', 'accepted_ammunition']
 

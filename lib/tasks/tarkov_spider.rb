@@ -8,6 +8,8 @@ class TarkovSpider < Kimurai::Base
     retry_request_errors: [{ error: RuntimeError, skip_on_failure: false }]
   }
 
+  @@game_version = '12.12'
+
   # Add any characters that need changed in attribute names for better clarity in the json output
   @@text_substitutions = {
     '%' => 'percent',
@@ -101,7 +103,7 @@ class TarkovSpider < Kimurai::Base
       end
       # Check that the item hash has more keys than just "name" before saving
       unless item_hash.keys.length < 2
-        save_to "./scraper/data/#{category}.json", item_hash, format: :pretty_json,
+        save_to "./scraper/#{@@game_version}/data/#{category}.json", item_hash, format: :pretty_json,
                                                          position: false
       end
     end
@@ -109,7 +111,7 @@ class TarkovSpider < Kimurai::Base
     # Save categorized attributes to their own json file
     attribs_hash = {}
     attribs_hash.store("#{category}_attributes", attribs.uniq)
-    save_to './scraper/attributes.json', attribs_hash, format: :pretty_json, position: false
+    save_to "./scraper/#{@@game_version}/attributes.json", attribs_hash, format: :pretty_json, position: false
   end
 end
 
