@@ -10,10 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_15_211435) do
+ActiveRecord::Schema.define(version: 2022_12_17_200547) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "weapon_mod_categories", force: :cascade do |t|
+    t.string "name"
+    t.bigint "weapon_id", null: false
+    t.bigint "weapon_mod_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["weapon_id"], name: "index_weapon_mod_categories_on_weapon_id"
+    t.index ["weapon_mod_id"], name: "index_weapon_mod_categories_on_weapon_mod_id"
+  end
 
   create_table "weapon_mods", force: :cascade do |t|
     t.string "name"
@@ -90,4 +100,6 @@ ActiveRecord::Schema.define(version: 2022_12_15_211435) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "weapon_mod_categories", "weapon_mods"
+  add_foreign_key "weapon_mod_categories", "weapons"
 end

@@ -31,6 +31,9 @@ rake generate_attributes
 # Generate model attribute lists
 ## Returns a list of attributes for each model in lib/tasks/attribute_templates
 
+rake build_associations
+# Connect Weapons to WeaponMods through join tables
+## If unable to automatically build the association, error info will be output to lib/tasks/build_associations/errors.log
 ```
 
 ## Updating the database
@@ -49,8 +52,11 @@ rails db:migrate
 rails db:seed
   # or
 rails db:reset
+
+rake build_associations
 ```
 
 ## Known Issues
 
 - tarkov_spider.rb needs refactored for more readability and general support for other wiki pages
+- Colors in item names are causing errors with rake build_associations 

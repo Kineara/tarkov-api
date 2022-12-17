@@ -1,7 +1,7 @@
 class WeaponsController < ApplicationController
   def index 
     weapons = Weapon.all 
-    render json: weapons 
+    render json: weapons, include: :weapon_mod_categories 
   end
 
   def show 
