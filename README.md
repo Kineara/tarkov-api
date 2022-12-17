@@ -5,11 +5,17 @@ A RESTful Postgresql database for Escape from Tarkov
 ## Endpoints
 
 ```ruby
-'/game_versions/:id/weapons'
+'/weapons'
 # Return a list of all weapons
 
-'/game_versions/:id/weapon_mods'
+'/weapons/:id'
+# Return a specific weapon by ID
+
+'/weapon_mods'
 # Return a list of all weapon mods
+
+'/weapon_mods/:id'
+# Return a specific weapon mod by ID
 ```
 
 ## Rake Tasks
