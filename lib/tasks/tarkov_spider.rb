@@ -8,7 +8,7 @@ class TarkovSpider < Kimurai::Base
     retry_request_errors: [{ error: RuntimeError, skip_on_failure: false }]
   }
 
-  @@game_version = File.read('lib/tasks/game_version')
+  @@game_version = File.read("./game_version")
 
   # Add any characters that need changed in attribute names for better clarity in the json output
   @@text_substitutions = {

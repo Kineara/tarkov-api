@@ -65,10 +65,11 @@ rake generate_attributes
 rails db:migrate
 
 rails db:seed
+  # or
+rails db:reset
 ```
 
 ## Known Issues
 
 - tarkov_spider.rb needs refactored for more readability and general support for other wiki pages
-- tarkov_spider.rb doesn't yet automatically create the subdirectories for the game version
-- tarkov_spider.rb and generate_attributes.rb rake tasks need the game_version variables set independently
+- db:seed only supports one active game version, will be refactored for multi-version support
