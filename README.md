@@ -7,7 +7,7 @@ A RESTful Postgresql database for Escape from Tarkov
 ```ruby
 '/game_versions/'
 
-# return list of all game versions in the database 
+# Return list of all game versions in the database 
 ```
 
 ```ruby
