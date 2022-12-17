@@ -7,7 +7,7 @@ A RESTful Postgresql database for Escape from Tarkov
 ```ruby
 '/game_versions/'
 
-# Return list of all game versions in the database 
+# Return list of all game versions in the database
 ```
 
 ```ruby
@@ -23,7 +23,7 @@ A RESTful Postgresql database for Escape from Tarkov
 ```
 
 ```ruby
-`/game_versions/:id/weapon_mods 
+`/game_versions/:id/weapon_mods
 
 #Return a list of all weapon mods
 ```
@@ -31,15 +31,17 @@ A RESTful Postgresql database for Escape from Tarkov
 ## Rake Tasks
 
 ```ruby
-  # Scrape the wiki for item info
-  ## Returns lists of json data in lib/tasks/scraper/data/
-  ## Generates a master list of attributes for each site scraped at lib/tasks/scraper/attributes.json
-  ## Currently supports Weapons and Weapon Mods
-  rake scraper
+rake scraper
+# Scrape the wiki for item info
+## Returns lists of json data in lib/tasks/scraper/data/
+## Generates a master list of attributes for each site scraped at lib/tasks/scraper/attributes.json
+## Currently supports Weapons and Weapon Mods
 
-  # Generate model attribute lists
-  ## Returns a list of attributes for each model in lib/tasks/attribute_templates
-  rake generate_attributes
+
+rake generate_attributes
+# Generate model attribute lists
+## Returns a list of attributes for each model in lib/tasks/attribute_templates
+
 ```
 
 ## Updating the database
