@@ -1,6 +1,6 @@
 require 'json'
 
-game_version = 12.12
+game_version = File.read(Rails.root.join('lib', 'game_version'))
 
 attribs = JSON.parse(File.read("./scraper/#{game_version}/attributes.json"))
 

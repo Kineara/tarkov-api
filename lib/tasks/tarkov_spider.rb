@@ -8,7 +8,7 @@ class TarkovSpider < Kimurai::Base
     retry_request_errors: [{ error: RuntimeError, skip_on_failure: false }]
   }
 
-  @@game_version = '12.12'
+  @@game_version = File.read(Rails.root.join('lib', 'game_version'))
 
   # Add any characters that need changed in attribute names for better clarity in the json output
   @@text_substitutions = {

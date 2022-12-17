@@ -1,8 +1,10 @@
 require 'json'
 
+game_version = File.read(Rails.root.join('lib', 'game_version'))
+
 def createItems(version)
-  files = Dir['./lib/tasks/scraper/data/*.json']
-  files.delete('./lib/tasks/scraper/attributes.json')
+  files = Dir["./lib/tasks/scraper/#{game_version}/data/*.json"]
+  files.delete("./lib/tasks/scraper/#{game_version}/attributes.json")
 
   files.each do |file|
     json_array = JSON.parse(File.read(file))
