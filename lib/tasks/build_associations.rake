@@ -1,52 +1,38 @@
+# Check for mods_str attribute on instance
+# If not found, abort
+# If found, search for the mod name in WeaponMods
+## If not found, search by successive iterations on the name
+## If still not found, abort and write error info 
+# If found, create a join table
+
 desc 'Create associations between models'
 
 task build_associations: :environment do
-  weapon_errors = File.open(Rails.root.join('lib', 'tasks', 'build_associations', 'weapon_errors.log'), 'w')
+  puts "On it. Grab some coffee and give me a sec."
+  
+  log_file = File.open(Rails.root.join('lib', 'tasks', 'build_associations', 'log.txt'), 'w')
 
-  # Weapons
   Weapon.all.each do |weapon|
+    next unless weapon.mods_str 
+    weapon.mods_str.keys.each do |category_name|
+      weapon.mods_str[category_name].each do |mod|
+        search_string = mod 
+        found_mod = WeaponMod.where('name ILIKE ?', mod)[0]
 
-    def find_mod(mod_names)
-      found_mod = nil 
-      mod_names.each do |mod_name|
-        if mod_name != nil 
-          found_mod = WeaponMod.where('name ILIKE ?', mod_name)
-          next unless found_mod != nil 
-          break 
+        while found_mod == nil && search_string.length > mod.length/2
+          search_string = "%#{search_string.split(" ")[1..-2].join(" ").gsub('"plum"', "")}%"
+          found_mod = WeaponMod.where('name ILIKE ?', search_string)[0]
+        end
+
+        if found_mod 
+          weapon.weapon_mod_categories.create(name: category_name, weapon_mod: found_mod)
+          log_file.write("Found mod! Weapon: #{weapon.name} | Category: #{category_name} | Mod Name: #{found_mod.name} | Searched using: #{search_string}\n")
+        else  
+          log_file.write("Mod #{mod} for #{weapon.name} not found! Searched using: #{search_string}\n")
         end
       end
-      found_mod[0]
     end
 
-    def create_join_table(category_name, weapon_instance, mod_name, error_file)
-      colors_regex = /\(ddc\)|\(banana\)|\(tan\)|\(.*green.*\)|\(fde\)|\(.*gr[ae]y.*\)|\(ral 8000\)|\(black\)|\(ghillie.*\)|\(anodized.*\)|\(white\)|\(olive.*\)/
-      
-      join = weapon_instance.weapon_mod_categories.new
-      join[:name] = category_name
-      test_mod_names = [mod_name, mod_name.gsub(colors_regex, ''), mod_name.match(/\(.*\)/), mod_name.match(/\b[0-9][a-z][0-9][0-9]\b/)]
-
-      mod = find_mod(test_mod_names)
-
-      if mod.nil? 
-          puts "#{mod_name} not found in WeaponMods!"
-          error_file.write("Weapon: '#{weapon_instance[:name]}' - Mod Category: '#{category_name}' - Mod Name: '#{mod_name}'\n")
-          join.delete
-      else
-        puts mod.class  
-        join.weapon_mod = mod 
-        join.save 
-      end
-    end
-
-    if weapon.mods_str
-      weapon.mods_str.keys.each do |mod_category|
-        weapon.mods_str[mod_category].each do |mod|
-          create_join_table(mod_category, weapon, mod, weapon_errors)
-        end
-      end
-    else
-      puts "No mods in db for #{weapon.name}."
-    end
   end
-  weapon_errors.close
+  log_file.close 
 end
