@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_17_200547) do
+ActiveRecord::Schema.define(version: 2022_12_20_001322) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,11 +18,18 @@ ActiveRecord::Schema.define(version: 2022_12_17_200547) do
   create_table "weapon_mod_categories", force: :cascade do |t|
     t.string "name"
     t.bigint "weapon_id", null: false
-    t.bigint "weapon_mod_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["weapon_id"], name: "index_weapon_mod_categories_on_weapon_id"
-    t.index ["weapon_mod_id"], name: "index_weapon_mod_categories_on_weapon_mod_id"
+  end
+
+  create_table "weapon_mod_category_mods", force: :cascade do |t|
+    t.bigint "weapon_mod_category_id", null: false
+    t.bigint "weapon_mod_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["weapon_mod_category_id"], name: "index_weapon_mod_category_mods_on_weapon_mod_category_id"
+    t.index ["weapon_mod_id"], name: "index_weapon_mod_category_mods_on_weapon_mod_id"
   end
 
   create_table "weapon_mods", force: :cascade do |t|
@@ -100,6 +107,7 @@ ActiveRecord::Schema.define(version: 2022_12_17_200547) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "weapon_mod_categories", "weapon_mods"
   add_foreign_key "weapon_mod_categories", "weapons"
+  add_foreign_key "weapon_mod_category_mods", "weapon_mod_categories"
+  add_foreign_key "weapon_mod_category_mods", "weapon_mods"
 end

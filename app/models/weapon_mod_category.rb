@@ -1,4 +1,5 @@
 class WeaponModCategory < ApplicationRecord
   belongs_to :weapon
-  belongs_to :weapon_mod
+  has_many :weapon_mod_category_mods 
+  has_many :weapon_mods, through: :weapon_mod_category_mods 
 end

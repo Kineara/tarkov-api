@@ -15,6 +15,8 @@ task build_associations: :environment do
   Weapon.all.each do |weapon|
     next unless weapon.mods_str 
     weapon.mods_str.keys.each do |category_name|
+      category_instance = weapon.weapon_mod_categories.create(name: category_name)
+
       weapon.mods_str[category_name].each do |mod|
         search_string = mod 
         found_mod = WeaponMod.where('name ILIKE ?', mod)[0]
@@ -25,7 +27,8 @@ task build_associations: :environment do
         end
 
         if found_mod 
-          weapon.weapon_mod_categories.create(name: category_name, weapon_mod: found_mod)
+          category_instance.weapon_mod_category_mods.create(weapon_mod: found_mod) 
+
           log_file.write("Found mod! Weapon: #{weapon.name} | Category: #{category_name} | Mod Name: #{found_mod.name} | Searched using: #{search_string}\n")
         else  
           log_file.write("Mod #{mod} for #{weapon.name} not found! Searched using: #{search_string}\n")

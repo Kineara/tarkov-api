@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  weapon_mod_category: one
+  weapon_mod: one
+
+two:
+  weapon_mod_category: two
+  weapon_mod: two
